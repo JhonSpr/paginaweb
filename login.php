@@ -1,32 +1,32 @@
 <?php
-    error_reporting(0);
-    $conn2 = new mysqli('localhost','id19171005_jhon','jhonreyes2017HD@','id19171005_paginaweb');
+//     error_reporting(0);
+//     $conn2 = new mysqli('localhost','id19171005_jhon','jhonreyes2017HD@','id19171005_paginaweb');
 
-  if($conn2 -> connect_errno)
-   {
-     echo "no hay conexion: (".$conn2->connect_errno.")".$conn2->connect_error;
-   }
+//   if($conn2 -> connect_errno)
+//    {
+//      echo "no hay conexion: (".$conn2->connect_errno.")".$conn2->connect_error;
+//    }
 
-  $usuario = $_POST['usuario'];
-  $contraseña = $_POST['contraseña'];
+//   $usuario = $_POST['usuario'];
+//   $contraseña = $_POST['contraseña'];
   
 
-  if(isset($_POST['botonLogin']))
-  {
-    $queryusuario = mysqli_query($conn2, "SELECT * FROM usuarios WHERE usuario  = '$usuario'");
-    $nr  = mysqli_num_rows($queryusuario);
-    $buscarContraseña = mysqli_fetch_array($queryusuario);
+//   if(isset($_POST['botonLogin']))
+//   {
+//     $queryusuario = mysqli_query($conn2, "SELECT * FROM usuarios WHERE usuario  = '$usuario'");
+//     $nr  = mysqli_num_rows($queryusuario);
+//     $buscarContraseña = mysqli_fetch_array($queryusuario);
 
 
-    if (($nr == 1) && (password_verify($contraseña,$buscarContraseña['password'])))
-    {
-      echo "<script>alert('Haz Iniciado Sesion Correctamente');window.location='index.html'</script>";
-    }
-    else
-    {
-      echo "<script>alert('Usuario o contraseña incorrectos');window.location='login.php'</script>";
-    }
-    }
+//     if (($nr == 1) && (password_verify($contraseña,$buscarContraseña['password'])))
+//     {
+//       echo "<script>alert('Haz Iniciado Sesion Correctamente');window.location='index.html'</script>";
+//     }
+//     else
+//     {
+//       echo "<script>alert('Usuario o contraseña incorrectos');window.location='login.php'</script>";
+//     }
+//     }
 
 ?>
 
