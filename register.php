@@ -1,29 +1,29 @@
 <?php
     
-  error_reporting(0);
+//   error_reporting(0);
 
     
-  $email = $_POST['email'];
-  $usuario = $_POST['usuario'];
-  $contraseÃ±a = $_POST['contraseña'];
-  $conn = new mysqli('localhost','id19171005_jhon','jhonreyes2017HD@','id19171005_paginaweb');
+//   $email = $_POST['email'];
+//   $usuario = $_POST['usuario'];
+//   $contraseÃ±a = $_POST['contraseña'];
+//   $conn = new mysqli('localhost','id19171005_jhon','jhonreyes2017HD@','id19171005_paginaweb');
 
-  if($conn -> connect_errno)
-  {
-    echo "no hay conexion: (".$conn->connect_errno.")".$conn->connect_error;
-  }
+//   if($conn -> connect_errno)
+//   {
+//     echo "no hay conexion: (".$conn->connect_errno.")".$conn->connect_error;
+//   }
   
-  if(isset($_POST['botonRegister']))
-  {
-    $pass_fuerte = password_hash($contraseña,PASSWORD_DEFAULT);
-    $queryregistrar = "INSERT INTO usuarios(email,password,usuario) values ('$email','$pass_fuerte','$usuario')";
+//   if(isset($_POST['botonRegister']))
+//   {
+//     $pass_fuerte = password_hash($contraseña,PASSWORD_DEFAULT);
+//     $queryregistrar = "INSERT INTO usuarios(email,password,usuario) values ('$email','$pass_fuerte','$usuario')";
   
-  if(mysqli_query($conn,$queryregistrar));
-  {
-    echo "<script> alert('El Usuario $usuario Se Ha Registro Correctamente'); window.location='index.html'</script>";
-  }
+//   if(mysqli_query($conn,$queryregistrar));
+//   {
+//     echo "<script> alert('El Usuario $usuario Se Ha Registro Correctamente'); window.location='index.html'</script>";
+//   }
  
-  }
+//   }
 
 
 
