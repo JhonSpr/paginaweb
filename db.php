@@ -3,9 +3,9 @@
 <?php
 
 $server = 'localhost';
-$username = 'id19171005_jhon';
-$password = 'jhonreyes2017HD@';
-$database = 'id19171005_paginaweb';
+$username = '';
+$password = '';
+$database = '';
 
 try {
   $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);
