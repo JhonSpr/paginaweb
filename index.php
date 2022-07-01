@@ -44,10 +44,10 @@
                         <a href="">ANIMES</a>
                     </li>
                     <li>
-                        <a href="register.php">REGISTRARSE</a>
+                        <a href="">REGISTRARSE</a>
                     </li>
                     <li>
-                        <a href="login.php">LOGIN</a>
+                        <a href="">LOGIN</a>
                     </li>
                 </ul>   
                 </nav>
