@@ -1,4 +1,4 @@
-# sistema-login-php-mysql-jquery
+#pagina web
 Si quieres ver el video de esta app, (https://youtu.be/pp3_91FzLb8) donde realizamos un sistema para registro y login de usuarios. 
 Aprende a realizar un Sistema de Login y Registro con PHP (pdo), mySql y jQuery (ajax), 
 de manera rápida y sencilla. 
