@@ -9,13 +9,24 @@ html{
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+    background:#fa0;
+    border-radius:40px;
+}
+
+
 body{
-    background: url();
     height: 100%;
     color: #000;
-    background:#ccc;
+    background:#000;
 }
 
 a{
@@ -25,8 +36,8 @@ a{
 }
 
 a:hover{
-    background: #c47005;
-    transition: all 300ms;
+    background: #CA0000;
+    transition: all 100ms;
 }
 
 
@@ -61,7 +72,6 @@ img{
     padding: 20px;
     display: flex;
     margin-top: 150px;
-    margin-bottom: 150px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
@@ -77,36 +87,43 @@ img{
 }
 
 .menu_items li:hover, li.active{
-    background-color: #ff7c00;
-    color: #000;
+    background-color: #534E44;
+    color: #fff;
     transition: .4s;
 
 }
-
-
-
-
 
 .btn_menu{
     color: #000;
     font-size: 30px;
     z-index: 6;
-    
     cursor: pointer;
     display: none;
-
-    
 }
 .menu_items.show{
-    top: 0px;
+    left: 0px;
 }
 
 @media screen and (max-width:1030px){
     .menu_items  li a{
         font-weight: 900;
-        padding: 30px;
-        font-size: 40px;
+        color:#fff;
+        font-size: 14px;
+        margin:1px 0;
+        padding:10px 0;
     }
+    .menu_items  li{
+         padding:10px 0px;
+         display:block;
+         width:80%;
+         margin-bottom:4px;
+         border-radius:6px;
+         height:auto;
+         margin-left:10px;
+         background:#c47005;
+         margin-right:10px;
+         border: 2px solid #000;
+     }
 }
 
 @media screen and (max-width:1030px){
@@ -132,7 +149,8 @@ img{
         width: 100%;
         height:calc(400px - 65px);
         background: #fa0;
-        top: -100%;
+        left: -100%;
+        padding:30px;
         margin-top: 40px;
         text-align: center;
         align-items: center;
@@ -144,9 +162,9 @@ img{
         line-height: 30px;
     }
     .menu_items li a:hover{
-        color: #000;
-        background: #c47005;
-        font-weight: bold;
+        color: #fff;
+        font-size:14px;
+        background: #000;
     }
 }
 @media screen and (max-width:858px) and (orientation:landscape) {
@@ -165,20 +183,6 @@ img{
         opacity: 0;
     }
 }
-@media screen and (max-width:1440px){
-    .menu_items{
-        display:none;
-        opacity:0;
-    }
-}
-
-@media screen and (max-width:2560px){
-    .menu_items{
-        display:none;
-        opacity:0;
-    }
-}
-
 
 .wrapper-general{
     display: flex;
@@ -189,12 +193,12 @@ img{
 
 .wrapper-general header{
  
-    background-color: #fa0;
+    background: rgb(61,61,60);
+    background: linear-gradient(90deg, rgba(61,61,60,1) 0%, rgba(245,97,4,1) 50%, rgba(255,252,0,1) 100%);
     height: auto;
 }
 
 .wrapper-general header .menu{
-    border-bottom: 5px #000 solid;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -494,7 +498,7 @@ header
     .widget-emision
     .title-emision{
         border-bottom: 1px solid #f3f3f3;
-        color: #000;
+        color: #c37005;
         padding: 15px;
         position: relative;
     }
@@ -547,7 +551,7 @@ header
         -ms-text-overflow: ellipsis;
         text-overflow: ellipsis;
         overflow: hidden;
-        color: #3b4248;
+        color: #fff;
     }
 
 
@@ -564,8 +568,8 @@ header
     }
 
     .tv{
-        background-color: #000;
-        border-color: #000;
+        background-color: #001;
+        border-color: #fa0;
     }
 
     .type-anime{
@@ -600,7 +604,7 @@ header
 .wrapper-general .container-principal .container-body main .title,
 .page{
     position: relative;
-    color: #3b4248;
+    color: #C69001;
     padding:  20px 10px 0;
 }
 
@@ -646,7 +650,7 @@ header
     line-height: 30px;
     padding: 5px 0;
     margin-bottom: 0;
-    color: #3b4248;
+    color: #C69001;
 }
 
 @media (min-width: 1020px){
@@ -696,6 +700,8 @@ header
 .order 
 > a.active{
     background-color: #ff7c00;
+    margin-bottom:20px;
+    margin-right:20px;
     position: relative;
 }
 
@@ -907,6 +913,49 @@ img{
 
     }
 
+.wrapper-general
+    .container-principal
+    .container-body
+    main
+    .lastEpisodios
+    li
+    a
+    .nCapi2 {
+        line-height: 18px;
+        background: #fa0;
+        border-radius: 32px;
+        padding: 0 8px;
+        margin-bottom: 1px;
+        font-size: 10px;
+        font-weight: 700;
+        position: absolute;
+        left: 10px;
+        bottom: 30px;
+        z-index: 3;
+
+    }
+
+.wrapper-general
+    .container-principal
+    .container-body
+    main
+    .lastEpisodios
+    li
+    a
+    .Capi {
+        line-height: 18px;
+        background: #fa0;
+        border-radius: 32px;
+        padding: 0 8px;
+        margin-bottom: 1px;
+        font-size: 10px;
+        font-weight: 700;
+        position: absolute;
+        left: 10px;
+        bottom: 30px;
+        z-index: 3;
+
+    }
     .wrapper-general 
     .container-principal
     .container-body
@@ -927,4 +976,3 @@ img{
         white-space: nowrap;
         color: inherit;
     }
-
