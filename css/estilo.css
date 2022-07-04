@@ -47,6 +47,12 @@ a:hover{
     background:#ccc;
 }
 
+.border:hover{
+    transform: scale(1.12);
+    background: transparent;
+    transition: all 100ms;
+}
+
 
 
 ul{
