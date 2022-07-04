@@ -112,7 +112,7 @@ img{
         margin:1px 0;
         padding:10px 0;
     }
-    .menu_items  li{
+    .menu_items  a{
          padding:10px 0px;
          display:block;
          width:80%;
