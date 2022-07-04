@@ -21,13 +21,13 @@
                         <a href="index.php">INICIO</a>
                     </li>
                     <li>
-                        <a href="animes.html">ANIMES</a>
+                        <a href="animes.php">ANIMES</a>
                     </li>
                     <li>
                         <a href="logout.php">CERRAR SESION</a>
                     </li>
                 </ul>   
-                </nav>
+                </nav> 
                 
                 
                 
