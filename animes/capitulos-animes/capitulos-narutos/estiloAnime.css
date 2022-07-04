@@ -661,6 +661,19 @@ img{
     border-top:4px #fa0 solid;
     border-bottom:4px #fa0 solid;
 }
+@media screen and (max-width:1600px){
+    .contenedor_capitulo{
+        display:flex;
+        margin-left:50px;
+        margin-right:50px;
+        
+    }
+    
+    .capitulo{
+        height:600px;
+        width:80%;
+    }
+}
 
 
 @media screen and (max-width:1024px){
