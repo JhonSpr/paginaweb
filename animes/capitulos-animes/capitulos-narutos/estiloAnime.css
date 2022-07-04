@@ -688,6 +688,7 @@ img{
     .capitulo{
         height:500px;
         width:100%;
+        border: 40px #fa0 solid;
     }
 }
 
