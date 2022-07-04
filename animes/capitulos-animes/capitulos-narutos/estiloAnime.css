@@ -626,8 +626,7 @@ img{
 .order 
 > a.active{
     background-color: #ff7c00;
-    float: right;
-    margin-left: 30px;
+    margin-right:700px;
     color:#fff;
     font-weight:bold;
     position: relative;
