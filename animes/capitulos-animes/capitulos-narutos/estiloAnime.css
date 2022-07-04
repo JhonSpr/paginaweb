@@ -674,7 +674,20 @@ img{
         margin-right:300px;
         border: 4px #fa0 solid;
         height:600px;
-        width:80%;
+        width:100%;
+    }
+}
+@media screen and (max-width:1600px){
+    .contenedor_capitulo{
+        display:flex;
+        margin-left:0;
+        margin-right:0;
+        
+    }
+    
+    .capitulo{
+        height:500px;
+        width:100%;
     }
 }
 
