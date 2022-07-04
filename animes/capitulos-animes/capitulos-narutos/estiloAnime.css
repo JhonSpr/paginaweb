@@ -676,6 +676,9 @@ img{
         height:600px;
         width:80%;
     }
+    .contendor_botones{
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width:1610px){
