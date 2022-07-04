@@ -40,6 +40,11 @@ a:hover{
     transition: all 100ms;
 }
 
+.fa-play:hover{
+    width:100%;
+    background:#ccc;
+}
+
 
 
 ul{
@@ -166,6 +171,7 @@ img{
         font-size:14px;
         background: #000;
     }
+
 }
 @media screen and (max-width:858px) and (orientation:landscape) {
     .menu_items li{
@@ -175,6 +181,7 @@ img{
         overflow: scroll;
         height: calc(100%-65px);
     }
+
 }
 
 @media (min-width:100vh){
@@ -650,7 +657,8 @@ header
     line-height: 30px;
     padding: 5px 0;
     margin-bottom: 0;
-    color: #C69001;
+    color: rgb(231,236,7);
+    color: linear-gradient(90deg, rgba(231,236,7,1) 0%, rgba(245,97,4,1) 50%, rgba(255,252,0,1) 100%);
 }
 
 @media (min-width: 1020px){
@@ -746,7 +754,7 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     -webkit-flex:none;
     -ms-flex: none;
     flex: none;
-    max-width: 100%;
+    max-width: 80%;
 }
 
 .wrapper-general .container-principal .container-body main .lastEpisodios li,
@@ -814,7 +822,6 @@ li
 a
 .imagen-mask{
     border-radius: 5px;
-    overflow: hidden;
     z-index: 1;
     display: block;
 
@@ -869,6 +876,7 @@ img{
     height: 100%;
     border-radius: 5px;
     z-index: 1;
+    
     transition: 0.2s;
     transform: scale(1);
 
@@ -883,11 +891,11 @@ img{
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 5px;
     z-index: 1;
     transition: .2s;
-    transform: scale(1.12);
+    transform: scale(1.10);
 }
 
 .wrapper-general
@@ -967,7 +975,7 @@ img{
         position: absolute;
         left: 10px;
         bottom: 10px;
-        right: 10px;
+        right: 100px;
         z-index: 3;
         -ms-text-overflow: ellipsis;
         text-overflow: ellipsis;
