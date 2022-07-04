@@ -37,7 +37,7 @@ a{
 }
 
 a:hover{
-    transform: scale(1);
+    transform: scale(1.12);
     background: transparent;
     transition: all 100ms;
 }
@@ -111,6 +111,11 @@ img{
          border-radius:2px;
          border: 2px solid #000;
      }
+    a:hover{
+        transform: scale(1);
+        background: transparent;
+        transition: all 100ms;
+    }
 
     .login-button{
         display: none;
