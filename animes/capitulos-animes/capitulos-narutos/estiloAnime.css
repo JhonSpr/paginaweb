@@ -677,6 +677,7 @@ img{
         width:80%;
     }
 }
+
 @media screen and (max-width:1610px){
     .contenedor_capitulo{
         display:flex;
@@ -709,6 +710,7 @@ img{
         width:80%;
     }
 }
+>>>>>>> 81247daa86005cd008c2e2c0f37019f0e15da08d
 
 
 @media screen and (max-width:1024px){
