@@ -36,8 +36,9 @@ a{
 }
 
 a:hover{
-    background: #c47005;
-    transition: all 300ms;
+    background: #000;
+    color: #ff7c00;
+    transition: all 100ms;
 }
 
 
