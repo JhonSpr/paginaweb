@@ -86,8 +86,8 @@ img{
     margin-right: 30px;
 }
 
-.menu_items li:hover, li.active{
-    background-color: #534E44;
+.menu_items a:hover, a.active{
+    background-color: #c40000;
     color: #fff;
     transition: .4s;
 
