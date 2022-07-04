@@ -671,7 +671,7 @@ img{
     
     .capitulo{
         margin-left:100px;
-        margin-right:300px;
+        margin-right:200px;
         border: 2px #fa0 solid;
         height:600px;
         width:80%;
@@ -686,9 +686,11 @@ img{
     }
     
     .capitulo{
-        height:500px;
-        width:100%;
+        margin-left:100px;
+        margin-right:200px;
         border: 2px #fa0 solid;
+        height:600px;
+        width:80%;
     }
 }
 @media screen and (max-width:1445px){
@@ -700,9 +702,11 @@ img{
     }
     
     .capitulo{
+        margin-left:100px;
+        margin-right:200px;
         border: 2px #fa0 solid;
-        height:500px;
-        width:100%;
+        height:600px;
+        width:80%;
     }
 }
 
@@ -716,8 +720,11 @@ img{
     }
     
     .capitulo{
-        height:500px;
-        width:100%;
+        margin-left:100px;
+        margin-right:200px;
+        border: 2px #fa0 solid;
+        height:600px;
+        width:80%;
     }
 }
 
