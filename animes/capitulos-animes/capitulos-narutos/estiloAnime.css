@@ -753,6 +753,10 @@ img{
         margin-left: 10px;
         margin-bottom: 50px;
     }
+    .contendor_botones{
+        align-items: center;
+        display: block;
+    }
 }
 
 @media screen and (max-width:500px){
