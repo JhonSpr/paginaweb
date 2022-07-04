@@ -120,7 +120,7 @@ img{
          border-radius:6px;
          height:auto;
          margin-left:10px;
-         background:linear-gradient(255,155,100);
+         background:#c47005;
          margin-right:10px;
          border: 2px solid #000;
      }
@@ -193,7 +193,7 @@ img{
 
 .wrapper-general header{
  
-    background-color: #fa0;
+    background:linear-gradient(255,255,155,55);
     height: auto;
 }
 
