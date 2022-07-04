@@ -35,7 +35,7 @@ a{
     outline: none;
 }
 
-a:hover{
+li:hover{
     background: #c47005;
     transition: all 300ms;
 }
