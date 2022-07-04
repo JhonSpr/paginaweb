@@ -42,11 +42,6 @@ a:hover{
     transition: all 100ms;
 }
 
-.fa-play:hover{
-    width:100%;
-    background:#ccc;
-}
-
 .a:hover{
     transform: scale(1.0);
     background: transparent;
