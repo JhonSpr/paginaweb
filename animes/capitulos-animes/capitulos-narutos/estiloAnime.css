@@ -672,7 +672,7 @@ img{
     .capitulo{
         margin-left:100px;
         margin-right:300px;
-        border: 4px #fa0 solid;
+        border: 2px #fa0 solid;
         height:600px;
         width:80%;
     }
@@ -688,7 +688,21 @@ img{
     .capitulo{
         height:500px;
         width:100%;
-        border: 40px #fa0 solid;
+        border: 2px #fa0 solid;
+    }
+}
+@media screen and (max-width:1445px){
+    .contenedor_capitulo{
+        display:flex;
+        margin-left:0;
+        margin-right:0;
+        
+    }
+    
+    .capitulo{
+        border: 2px #fa0 solid;
+        height:500px;
+        width:100%;
     }
 }
 
