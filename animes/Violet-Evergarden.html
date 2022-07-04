@@ -1,304 +1,424 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <script src="../js/main.js"></script>
+    <script src="https://kit.fontawesome.com/9d2ffd2695.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilophp.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estiloViolet.css">
-    <link rel="stylesheet" href="Anime.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <title>Violet Evergarden</title>
 </head>
-<body style="background-color: #000;">
-    
-    <div class="contenedor">
+<body>
+    <div class="wrapper-general">
+        <header>
+            <nav class="menu menu-responsive">  
+                <nav class="menu-responsive2">
+                <ul class="menu_items">
+                    <li>
+                        <a href="../index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="">ANIMES</a>
+                    </li>
+                    <li>
+                        <a href="logout.php">CERRAR SESION</a>
+                    </li>
+                </ul>   
+                </nav>
+                
+                
+                
+                <div class="navbar-nav">            
+                    <div class="logo">
+                            <img src="../Mi proyecto.png" alt="logo">
+                    </div>
+                    <div class="navigation">  
+                        <div class="nav-options">       
+                            <ul class="menu-navigation">
+                                <li class="obj">
+                                    <a href="../index.html" class="bordes menu-responsive">INICIO</a>
+                                </li>
+                                <li class="obj">
+                                    <a href="../animes.html" class="bordes menu-responsive">ANIMES</a>
+                                </li>      
+                            </ul>
+                            <div class="search">
+                                <form action="" method="get">
+                                    <input type="text" name="q" id="" placeholder="Buscar">
+                                    <button>
+                                        <i class="fas fa-search"></i>
 
-    <header >
-        <div>
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <a href="#" class="enlace">
-                <img src="imagenes/Mi proyecto.png" alt="" class="logo">
-            </a>
-            <ul>
-                <li>
-                    <a href="#" class="borde">Inicio</a>
-                </li>
-                <li>
-                    <a href="#" class="borde">Anime</a>
-                </li>
-                <li>
-                    <a href="#" class="borde">Peliculas</a>
-                </li>
-                <li>
-                    <a href="#" class="borde">Ovas</a>
-                </li>
-                <li>
-                    <a href="#" class="borde">Mangas</a>
-                </li>
-                <li>
-                    <a href="logout.php" class="borde">
-                      Cerrar Sesion
-                    </a>
-                </li>
-            </ul>
+                                    </button>
+                                </form>
+                            </div>
 
+                            <span class="btn_menu">
+                                <i class="fa fa-bars"></i>
+                            </span>
+                        </div>
+                    </div>
 
-        </nav>
-        </div>
-    </header>
+                </div>
+                
+                
+            </nav>
+        </header>
 
-
-
-
-
-    <div class="contenedor_imagen">
-        <img src="imagenes/violet.webp" alt="" class="Imagen_anime texto_alineado"> 
-
-        <p class="descripcion">
-            DESCRIPCION DEL ANIME <br>
-            <br>
-            La historia se centra alrededor de las llamadas "Auto Memory Dolls"; muñecas inicialmente creadas por un científico para asistir a su esposa ciega a escribir sus novelas y, luego, rentarlas a personas que necesitan de sus servicios. Mientras que la función inicial de las Auto Memory Dolls es solo generar las voces a texto, un segundo grupo de personas creó una compañía que renta hermosas y talentosas mujeres quienes, teniendo las mismas funciones que una Auto Memory Doll original, también pueden realizar tareas relacionadas con la milicia o el ejército.
-        </p>
-        
-    </div>
-
-    <div class="titulo_anime">
-        <h2 class="Violet">Violet Evergarden</h2>
-    </div>
-    <aside>
-        <section>
-            <div>
-                <h3>
-                    CAPITULOS
-                </h3>
-            </div>
-        </section>
-    </aside>
-
-    <aside class="aside2">
-        <section>
-            <div>
-
-            </div>
-        </section>
-    </aside>
- <section class="scroll">
-        <div class="top">
-            <h3 style="color:#fa0; padding:20px; text-align:center;font-height: 800; font-size: 24px;">Lista De Episodios</h3>
-            <ul class="capitulos" id="lista_capitulos"  style="width:570px; height:600px; padding: 0px 0px; overflow: scroll;">
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo1.html" class="capitulo1">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="logo" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 1
-                        </h3>
-                    </a> 
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo2.html" capitulo1>
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 2
-                        </h3>
-                    </a> 
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo3.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 3
-                        </h3>
-                    </a> 
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo4.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 4
-                        </h3>
-                    </a> 
-                </li> 
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo5.html" capitulo1>
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>           
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 5
-                        </h3>
-                    </a>
+        <section class="container-principal">
+            <div class="container-body margin-container">
+                <aside class="sidebar MC__fixed">
+                <div class="widget-emision">
+                        <div class="title-emision fa-play">
+                            <strong>Naruto Shippuden</strong>
+                        </div>
+                        <div class="animes-emision">
+                            <ul>
+                                                            <li>
+                                    <a href="#"  class="fa-play-circle">Naruto Shippuden
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Dororo
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Burn the Witch
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Boogiepop wa Warawanai 
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Egao no Daika
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">BAKI: dai reitaisai-hen
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">BAKI: dai reitaisai-hen
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Fukigen na Mononokean Tsuzuki
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Mob Psycho 100 
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Mob Psycho 100 II
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Watashi ni Tenshi ga Maiorita!
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Yakusoku no Neverland
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Girly Air Force
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Mahou Shoujo Tokushusen Asuka
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle" >Violet Evergarden
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="fa-play-circle">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
+                                        <span class="type-anime tv">ANIME</span>
+                                    </a>
+                                </li>
+                        </ul>
+                        </div>
+                     </div>
+                </aside>
+                <main>
+                    <div class="title">
+                        <h2>Dororo</h2>
                     
-                </li>
+                        <div class="order">
+                        <a href="#" class="active">Episodios</a>
+                    </div>
+                    </div>
+                    <ul class="lastEpisodios">
+                        <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap1.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 1</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                               <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap2.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-everviolet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 2</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap3.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 3</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap4.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 4</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                   <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap5.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 5</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap6.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 6</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap7.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 7</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap8.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 8</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap9.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 9</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap10.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 10</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap11.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 11</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap12.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 12</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap13.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 13</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                   <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap14.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 14</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap15.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 15</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap16.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 16</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                   <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap17.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 17</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                    <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap18.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 18</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                   <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap19.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 19</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                   <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap20.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 20</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                  <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap21.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 21</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                   <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap22.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 22</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                       <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap23.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 23</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
+                                                         <li>
+                        <a href="capitulos-animes/capitulos-narutos/dororo/temp1/cap24.html" class="fa-play">
+                            <span class="imagen-mask">
+                                <img src="imagenes-animes/violet-evergarden.jpg" alt="miniatura">
+                            </span>
+                            <span class="nCapi">Capitulo 24</span>
+                            <strong class="title-cap-miniatura">Dororo</strong>
+                        </a>
+                        </li>
 
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo6.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3> 
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 6
-                        </h3>
-                    </a>         
-                </li>
+                 
+                            
+                            
 
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo7.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>                      
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 7
-                        </h3>
-                    </a>           
-                </li>
+                    </ul>
+                    
+                </main>
+            </div>
+        </section>
+        <footer>
 
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo8.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>  
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 8
-                        </h3>   
-                    </a>  
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo9.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>                       
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" class="imagenCapitulo">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 9
-                        </h3>
-                    </a>                  
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo10.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>                      
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" style="display: block;">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 10
-                        </h3>
-                    </a>                
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo11.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" style="display: block;">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 11
-                        </h3>
-                    </a>  
-                </li>
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo12.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" style="display: block;">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 12
-                        </h3>
-                    </a>
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo13.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" style="display: block;">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 13
-                        </h3>
-                    </a>
-                </li>
-
-                <li class="contenedorList">
-                    <a href="capitulos animes/violet evergarden/capitulo14.html">
-                        <h3 class="title">
-                            Violet Evergarden
-                        </h3>
-                        <figure>
-                            <img src="capitulos animes/violet evergarden/logo/violet-evergarden.jpg" alt="" style="display: block;">
-                        </figure>
-                        <h3 class="title2"> 
-                            Capitulo 14
-                        </h3>
-                    </a>
-                </li>
-            </ul> 
-        </div>
-   
- </section>
+        </footer>
+    </div>
     
-
-    <div>
-        <!-- capitulos -->
-    </div>
-
-    <div>
-        
-    </div>
-    
-    </div>
 </body>
 </html>
