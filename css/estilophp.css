@@ -193,8 +193,8 @@ img{
 
 .wrapper-general header{
  
-    background: rgb(219,168,25);
-    background: linear-gradient(90deg, rgba(219,168,25,1) 0%, rgba(245,4,77,1) 35%, rgba(255,239,0,1) 100%);
+    background: rgb(61,61,60);
+    background: linear-gradient(90deg, rgba(61,61,60,1) 0%, rgba(245,97,4,1) 50%, rgba(255,252,0,1) 100%);
     height: auto;
 }
 
