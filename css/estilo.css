@@ -654,7 +654,6 @@ header
 @media (min-width: 1020px){
     .wrapper-general .container-principal .container-body main .title .order {
         position: absolute;
-        right:0;
         top: 10px;
     }
 }
