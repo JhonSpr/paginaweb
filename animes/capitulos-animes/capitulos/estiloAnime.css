@@ -620,8 +620,10 @@ img{
 }
 
 .contendor_botones i{
-    display:inline-block;
+    display:inline-block; 
     font-size:30px;
+    width:auto;
+    background:transparent;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -631,4 +633,5 @@ img{
 }
 .contendor_botones{
     padding-left:50px;
+  
 }
