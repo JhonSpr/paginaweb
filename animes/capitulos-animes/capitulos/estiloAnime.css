@@ -555,6 +555,7 @@ img{
         margin-left:100px;
         margin-right:200px;
         border: 2px #fa0 solid;
+        border-radius: 20px;
         height:600px;
         width:80%;
     }
