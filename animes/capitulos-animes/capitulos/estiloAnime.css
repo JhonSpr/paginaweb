@@ -676,7 +676,6 @@ img{
     background:#333;
     border-radius:20px 20px 0 0 ;
     border-top:1px solid #fa0;
-    border: 1px solid #fa0;
     border-bottom:1px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
