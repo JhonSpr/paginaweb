@@ -647,8 +647,6 @@ header
     line-height: 30px;
     padding: 5px 0;
     margin-bottom: 0;
-    color: rgb(231,236,7);
-    color: linear-gradient(90deg, rgba(231,236,7,1) 0%, rgba(245,97,4,1) 50%, rgba(255,252,0,1) 100%);
 }
 
 @media (min-width: 1020px){
