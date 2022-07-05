@@ -400,116 +400,6 @@ img{
     padding: 20px 10px 0;
 }
 
-.wrapper-general .container-principal .container-body .sidebar a img {
-    margin-bottom: 20px;
-}
-
-.wrapper-general .container-principal .container-body .search -widget-emision {
-    background: #fff;
-    border-radius: 3px;
-}
-
-.wrapper-general
-    .container-principal
-    .container-body
-    .sidebar
-    .widget-emision
-    .title-emision{
-        border-bottom: 1px solid #f3f3f3;
-        color: #c37005;
-        padding: 15px;
-        position: relative;
-    }
-
-.wrapper-general
-    .container-principal
-    .container-body
-    .sidebar
-    .widget-emision
-    .title-emision[class*="fa-"]::before {
-        color: #ff7c00;
-        position: absolute;
-        height: 50px;
-        line-height: 50px;
-        right: 0;
-        top: 0;
-        font-size: 20px;
-        margin-right:10px;
-
-    }
-
-.wrapper-general
-    .container-principal
-    .container-body
-    .sidebar
-    .widget-emision
-    .animes-emision{
-        padding: 15px 0;
-        position: relative;
-        overflow: hidden;
-        height: 100%;
-        max-width: 100%;
-        outline: 0;
-        direction: ltr;
-    }
-
-.wrapper-general
-    .container-principal
-    .container-body
-    .sidebar
-    .widget-emision
-    .animes-emision 
-    ul
-    > li
-    a{
-        display: block;
-        padding: 10px 85px 10px 15px;
-        position: relative;
-        white-space: nowrap;
-        -ms-text-overflow: ellipsis;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        color: #fff;
-    }
-
-
-.wrapper-general
-    .container-principal
-    .container-body
-    .sidebar
-    .widget-emision
-    .animes-emision
-    ul
-    > li
-    a[class*="fa-"]::before{
-        margin-right: 10px;
-    }
-
-    .tv{
-        background-color: #001;
-        border-color: #fa0;
-    }
-
-    .type-anime{
-        transition: all .2s;
-        position: absolute;
-        top:0;
-        bottom: 0;
-        margin: auto;
-        right: 16px;
-        font-size: 12px; 
-        font-weight: 700;
-        line-height: 16px;
-        width: 60px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #fa0;
-        display: inline-block;
-        height: 20px;
-        border-radius: 8px;
-    }
-
-
 @media(min-width:767px){
     .wrapper-general .container-principal  main {
         -webkit-flex:1;
@@ -525,50 +415,6 @@ img{
     color: #C69001;
 }
 
-.wrapper-general .container-principal  main .fa-star{
-    padding-left:55px;
-}
-
-.wrapper-general .container-principal  main .fa-star::before{
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    color: rgba(0, 0, 0, 0.2);
-    position: absolute;
-    left: 10px;
-    top: 20px;
-    border-radius: 20px;
-    background: #ffba00;
-    background: #000;
-    background: -moz-linear-gradient(
-        top,
-        rgba(255,186,0,1)0%
-        rgba(255,128,0,1) 100%
-    );
-
-    background: -webkit-linear-gradient(
-        top,
-        rgba(255,186,0,1)0%
-        rgba(255,128,0,1) 100%
-    );
-
-    background: linear-gradient(
-        to bottom,
-        rgba(255,186,0,1)0%
-        rgba(255,128,0,1) 100%
-    );
-}
-
-
-.wrapper-general .container-principal  main .title h2 {
-    font-size: 25px;
-    font-weight: 300;
-    line-height: 30px;
-    padding: 5px 0;
-    margin-bottom: 0;
-    color: #C69001;
-}
 
 @media (min-width: 1020px){
     .wrapper-general .container-principal  main .title .order {
@@ -579,7 +425,7 @@ img{
 }
 
 .wrapper-general .container-principal  main .title .order{
-    padding-top: 15px;
+    padding-top: 50px;
     font-size: 0;
 }
 
@@ -624,29 +470,8 @@ img{
 }
 
 
-.wrapper-general .container-principal .container-body main .title .order>a {
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #3b4248;
-    line-height: 30px;
-    min-width: 65px;
-    padding: 0 15px;
-    height: 30px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-}
-
-
-.contenedor-episodio{
-    margin:50px 40px;
-    margin-right:0;
-    width:760px;
-}
-
 .capitulo{
-    width:100%;
+    width:10%;
     margin-top:100px;
     height:700px;
     border-top:4px #fa0 solid;
@@ -809,5 +634,3 @@ img{
     display:block;
     
 }
-
-
