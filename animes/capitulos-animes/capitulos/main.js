@@ -11,22 +11,3 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-
-
-document.addEventListener("keyup", e=>{
-
-    if (e.target.matches("#buscador")){
-  
-        if (e.key ==="Escape")e.target.value = ""
-  
-        document.querySelectorAll(".anime").forEach(animes =>{
-  
-            animes.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-              ?animes.classList.remove("filtro")
-              :animes.classList.add("filtro")
-        })
-  
-    }
-  
-  
-  })
