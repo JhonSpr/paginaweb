@@ -302,11 +302,6 @@ img{
 
 }
 
-.wrapper-general header .menu .navbar-nav .navigation .nav-options .search  input::placeholder{
-
-    color: #fa0;
-}
-
 
 .wrapper-general header .menu .navbar-nav .navigation .nav-options  .search button{
     background-color: transparent;
