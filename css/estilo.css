@@ -285,25 +285,27 @@ img{
 }
 
 
-.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search form{
+.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search{
     position: relative;
 
 }
 
-.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search form input{
-    background-color: #262a2e;
-    border-radius: 20px;
-    border: 0px;
+.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search button{
+    background-color: transparent;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding:0;
+    right:0;
+    top: 10px;
     margin-bottom: 0;
-    margin-top: 12px;
-    height:40px;
-    display:block;
-    padding:5px 15px;
-    width: 100%;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    color:inherit;
-    font: inherit;
+    color: aliceblue;
+    border: 0;
+    cursor: pointer;
+    box-shadow: none;
+    display:inline-block;
+    border-radius: 5px;
+    font-weight: 700;
     outline: none;
 
 }
