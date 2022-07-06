@@ -9,3 +9,24 @@ addEventListener('DOMContentLoaded', () => {
     }
 
 })
+
+
+
+
+document.addEventListener("keyup", e=>{
+
+    if (e.target.matches("#buscador")){
+  
+        if (e.key ==="Escape")e.target.value = ""
+  
+        document.querySelectorAll(".imagen-mask").forEach(anime =>{
+  
+            anime.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+              ?anime.classList.remove("filtro")
+              :anime.classList.add("filtro")
+        })
+  
+    }
+  
+  
+  })
