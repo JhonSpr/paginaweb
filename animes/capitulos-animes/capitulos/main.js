@@ -19,11 +19,11 @@ document.addEventListener("keyup", e=>{
   
         if (e.key ==="Escape")e.target.value = ""
   
-        document.querySelectorAll(".anime").forEach(anime =>{
+        document.querySelectorAll(".anime").forEach(animes =>{
   
-            anime.textContent.toLowerCase().includes(e.target.value.toLowerCase())
-              ?anime.classList.remove("filtro")
-              :anime.classList.add("filtro")
+            animes.textContent.toLowerCase().includes(e.target.value.toLowerCase())
+              ?animes.classList.remove("filtro")
+              :animes.classList.add("filtro")
         })
   
     }
