@@ -278,12 +278,12 @@ img{
 }
 
 
-.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search form{
+.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search{
     position: relative;
 
 }
 
-.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search form input{
+.wrapper-general header .menu .navbar-nav .navigation .nav-options  .search input{
     background-color: #262a2e;
     border-radius: 20px;
     border: 0px;
