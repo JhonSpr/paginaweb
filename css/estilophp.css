@@ -12,6 +12,10 @@ html{
     
 }
 
+.filtro{
+    display: none;
+}
+
 body::-webkit-scrollbar {
     width: 10px;
     
@@ -165,6 +169,7 @@ img{
         height: calc(100%-65px);
     }
 }
+
 
 @media (min-width:100vh){
     .menu_items{
