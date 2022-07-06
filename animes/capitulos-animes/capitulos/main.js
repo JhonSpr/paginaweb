@@ -19,7 +19,7 @@ document.addEventListener("keyup", e=>{
   
         if (e.key ==="Escape")e.target.value = ""
   
-        document.querySelectorAll(".imagen-mask").forEach(anime =>{
+        document.querySelectorAll(".articulo").forEach(anime =>{
   
             anime.textContent.toLowerCase().includes(e.target.value.toLowerCase())
               ?anime.classList.remove("filtro")
