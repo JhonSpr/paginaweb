@@ -30,8 +30,7 @@ body::-webkit-scrollbar-thumb{
 body{
     height: 100%;
     color: #000;
-    background: rgb(14,14,13);
-    background: linear-gradient(90deg, rgba(14,14,13,1) 0%, rgba(48,41,37,1) 50%, rgba(59,59,57,1) 100%);
+    background: #252020;
 }
 
 
