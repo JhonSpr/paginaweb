@@ -91,12 +91,16 @@ img{
     cursor: pointer;
     display: none;
 }
+
+.check {
+    display: none;
+}
+
 .menu_items.show{
     margin-top: 33px;
     margin-left: -20px;
     width: auto;
     height:auto;
-    border-radius:0 30px 30px 0;
     left: 0px;
     background: #fa0;
 }
