@@ -1286,7 +1286,7 @@ respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
   }
 
   .respmenu .fa-bars, .respmenu .fa-times {
-    font-size: 48px;
+    display: none;
     pointer-events: none;
   }
 
