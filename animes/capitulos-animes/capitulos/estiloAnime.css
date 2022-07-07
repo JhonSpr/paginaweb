@@ -719,6 +719,7 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -734,6 +735,7 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -842,6 +844,7 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     border-radius:10px;
     color: rgb(226,128,0);
@@ -858,6 +861,7 @@ img{
     width:auto;
     padding:0;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -967,6 +971,7 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -983,6 +988,7 @@ img{
     padding:0;
     background:#333;
     border: 2px solid #fa0;
+    border-radius:10px;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1091,6 +1097,7 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1106,6 +1113,7 @@ img{
     width:auto;
     padding:0;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1214,6 +1222,7 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1229,6 +1238,7 @@ img{
     width:auto;
     padding:0;
     background:#333;
+    border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
