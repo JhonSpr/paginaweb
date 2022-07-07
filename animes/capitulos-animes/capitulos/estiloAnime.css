@@ -112,6 +112,7 @@ img{
 .menu-mobile.show{
     background: #000;
     opacity: .3;
+    left: 0;
 
 }
 
@@ -155,8 +156,9 @@ img{
     }
 
     .menu-mobile{
-        z-index: 6 ;
+        z-index:6 ;
         position: absolute;
+        left: -100%;
         
     }
     
@@ -183,15 +185,7 @@ img{
     }
 
 }
-@media screen and (max-width:858px) and (orientation:landscape) {
-    .menu_items li{
-        margin: 5px 0 0 0;
-    }
-    .menu_items{
-        overflow: scroll;
-        height: calc(100%-65px);
-    }
-}
+
 
 @media (min-width:100vh){
     .menu_items{
