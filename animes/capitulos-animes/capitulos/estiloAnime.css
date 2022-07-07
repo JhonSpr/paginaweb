@@ -100,6 +100,7 @@ img{
     width: 300px;
     height:100%;
     left: 0px;
+    position: absolute;
     background: #fa0;
 }
 .menu-mobile.show{
