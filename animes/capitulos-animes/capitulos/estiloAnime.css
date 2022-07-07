@@ -119,13 +119,12 @@ img{
         padding:4px 0;
     }
     .menu-mobile{
-        display: block;
+        display: none;
         z-index: 7;
         height: 100%;
         width: 100%;
         background: #000;
         opacity: .3;
-        overflow: hidden;
     }
     .menu_items  a{
          display:inline-block;
