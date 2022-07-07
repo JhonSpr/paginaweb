@@ -103,18 +103,8 @@ img{
     position: absolute;
     background: #fa0;
 }
-.menu-mobile.show{
-    left: 0;
-    opacity: .3;
-    background: #000;
-}
 
 
-
-
-.fa-times{
-    display: none;
-}
 
 @media screen and (max-width:1030px){
     .menu_items  li a{
@@ -123,13 +113,6 @@ img{
         font-size: 14px;
         margin:1px 10px;
         padding:4px 0;
-    }
-    .menu-mobile{
-        z-index: 7;
-        background: transparent;
-        height: 100%;     
-        width: 100%;
-        left: -100%;
     }
     .menu_items  a{
          display:inline-block;
