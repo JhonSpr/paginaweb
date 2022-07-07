@@ -105,7 +105,7 @@ img{
     background: #fa0;
 }
 
-respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+menu-mobile input[type="checkbox"], .menu-mobile .fa-bars, .menu-mobile .fa-times {
     position: absolute;
     box-sizing: border-box;
     margin: 0;
@@ -116,24 +116,24 @@ respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
     height: 48px;
   }
 
-  .navbar-nav .btn_menu .fa-times {
+  .menu-mobile .fa-bars, .menu-mobile .fa-times {
     display: none;
     pointer-events: none;
   }
 
-  respmenu input[type="checkbox"] {
+  .menu-mobile input[type="checkbox"] {
     opacity: 0;
   }
 
-  .respmenu input:checked ~ nav {
+  .menu-mobile input:checked ~ .menu-responsive2 {
     display: block;
   }
   
-  .respmenu input:checked ~ .fa-bars {
+  .menu-mobile input:checked ~ .fa-bars {
     display: none;
   }
   
-  .respmenu input:not(:checked) ~ .fa-times {
+  .menu-mobile input:not(:checked) ~ .fa-times {
     display: none;
   }
 
