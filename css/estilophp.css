@@ -67,7 +67,11 @@ img{
     vertical-align: middle;
 }
 
-
+main{
+    margin-left:50px;
+    width: 100%;
+    height: auto;
+}
 
 
 
