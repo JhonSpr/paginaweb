@@ -745,6 +745,28 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     max-width: 80%;
 }
 
+@media (min-width:423px){
+    .wrapper-general .container-principal .container-body main .lastEpisodios li,
+    .wrapper-general .container-principal .container-body main .last-animes li{
+        width: 130px;
+        padding: 20px 5px 0;
+    }
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex:none;
+    margin-left: -50px;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+}
+}
+
 .wrapper-general .container-principal .container-body main .lastEpisodios li,
 .wrapper-general .container-principal .container-body main .last-animes li {
     width: 50%;
