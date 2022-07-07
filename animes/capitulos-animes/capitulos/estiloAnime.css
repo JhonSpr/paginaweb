@@ -158,6 +158,8 @@ img{
     .menu-mobile{
         z-index:6 ;
         position: absolute;
+        width: 100%;
+        height: 100%;
         left: -100%;
         
     }
