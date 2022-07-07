@@ -103,7 +103,7 @@ img{
     background: #fa0;
 }
 
-menu-mobile input[type="checkbox"], .menu-mobile .fa-bars, .menu-mobile .fa-times {
+.menu-mobile input[type="checkbox"], .menu-mobile .fa-bars, .menu-mobile .fa-times {
     position: absolute;
     box-sizing: border-box;
     margin: 0;
