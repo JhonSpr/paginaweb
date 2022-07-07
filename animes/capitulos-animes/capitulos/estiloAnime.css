@@ -547,6 +547,7 @@ img{
     }
 }
 
+/* capitulo */
 
 
 @media screen and (max-width:1024px){
@@ -614,6 +615,9 @@ img{
     }
 }
 
+
+/* botones */
+
 @media screen and (max-width:500px){
     .contenedor_capitulo{
         display:flex;
@@ -665,9 +669,9 @@ img{
     padding:10px ;
     background:#333;
     border-radius:20px 0 0 20px ;
-    border-top:1px solid #fa0;
-    border: 1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -682,9 +686,9 @@ img{
     padding:10px ;
     background:#333;
     border-radius:0 20px 20px 0 ;
-    border-top:1px solid #fa0;
-    border-right: 1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-right: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -700,9 +704,9 @@ img{
     padding:10px ;
     background:#333;
     border-left:0;
-    border-bottom:1px solid #fa0;
-    border-right:1px solid #fa0;
-    border-top:1px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-right:2px solid #fa0;
+    border-top:2px solid #fa0;
     border-radius:2px 20px 20px 0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1010,9 +1014,9 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
-    border-top:1px solid #fa0;
-    border-bottom:1px solid #fa0;
-    border-left:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-left:2px solid #fa0;
     border-radius:20px 0 0 20px;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1027,8 +1031,8 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
-    border-top:1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1043,9 +1047,9 @@ img{
     padding:10px ;
     background:#333;
     border-radius:20px 0 0 20px ;
-    border-top:1px solid #fa0;
-    border: 1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1060,9 +1064,9 @@ img{
     padding:10px ;
     background:#333;
     border-radius:0 20px 20px 0 ;
-    border-top:1px solid #fa0;
-    border-right: 1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-right: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1078,9 +1082,9 @@ img{
     padding:10px ;
     background:#333;
     border-left:0;
-    border-bottom:1px solid #fa0;
-    border-right:1px solid #fa0;
-    border-top:1px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-right:2px solid #fa0;
+    border-top:2px solid #fa0;
     border-radius:2px 20px 20px 0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1135,9 +1139,9 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
-    border-top:1px solid #fa0;
-    border-bottom:1px solid #fa0;
-    border-left:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-left:2px solid #fa0;
     border-radius:20px 0 0 20px;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1152,8 +1156,8 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
-    border-top:1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1168,9 +1172,9 @@ img{
     padding:10px ;
     background:#333;
     border-radius:20px 0 0 20px ;
-    border-top:1px solid #fa0;
-    border: 1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1185,9 +1189,9 @@ img{
     padding:10px ;
     background:#333;
     border-radius:0 20px 20px 0 ;
-    border-top:1px solid #fa0;
-    border-right: 1px solid #fa0;
-    border-bottom:1px solid #fa0;
+    border-top:2px solid #fa0;
+    border-right: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1203,9 +1207,9 @@ img{
     padding:10px ;
     background:#333;
     border-left:0;
-    border-bottom:1px solid #fa0;
-    border-right:1px solid #fa0;
-    border-top:1px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-right:2px solid #fa0;
+    border-top:2px solid #fa0;
     border-radius:2px 20px 20px 0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
