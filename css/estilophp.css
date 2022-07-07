@@ -784,9 +784,23 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
 @media (min-width:1020px){
     .wrapper-general .container-principal .container-body main .lastEpisodios li,
     .wrapper-general .container-principal .container-body main .last-animes li{
-        width: 33.333333333%;
+        width: 200px;
         padding: 20px 10px 0;
     }
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex:none;
+    margin-left: -50px;
+    -ms-flex: none;
+    flex: none;
+    max-width:1000%;
+}
     }
 
 
@@ -795,8 +809,22 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
 @media (min-width:1200px){
 .wrapper-general .container-principal .container-body main .lastEpisodios li,
 .wrapper-general .container-principal .container-body main .last-animes li{
-    width: 25%;
+    width: 200px;
     padding: 20px 10px 0;
+}
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex:none;
+    margin-left: -50px;
+    -ms-flex: none;
+    flex: none;
+    max-width:1000%;
 }
 }
 
