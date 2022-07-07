@@ -119,7 +119,6 @@ img{
         padding:4px 0;
     }
     .menu-mobile{
-        display: none;
         z-index: 0;
         height: 100%;
         width: 100%;
