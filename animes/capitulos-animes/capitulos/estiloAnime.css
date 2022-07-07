@@ -159,6 +159,8 @@ img{
         z-index:6 ;
         position: absolute;
         width: 100%;
+        background: #000;
+        opacity: .2;
         height: 100%;
         left: -100%;
         
