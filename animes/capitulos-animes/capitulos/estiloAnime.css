@@ -117,7 +117,7 @@ img{
     .menu_items  a{
          display:inline-block;
          width:230px;
-         border-radius:2px;
+         border-radius:6px;
          border: 2px solid #000;
      }
     a:hover{
