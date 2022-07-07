@@ -74,6 +74,11 @@ img{
     vertical-align: middle;
 }
 
+main{
+    width: 100%;
+    height: auto;
+}
+
 
 
 /* navegacion */
@@ -107,7 +112,7 @@ img{
     left: 0px;
     position: absolute;
     border-radius: 0 0 7px 0;
-    background: #fa0;
+    background: #FC9705;
 }
 
 
@@ -191,7 +196,7 @@ img{
 
 .wrapper-general header{
  
-    background: #fa0;
+    background: #FC9705;
     height: auto;
 }
 
