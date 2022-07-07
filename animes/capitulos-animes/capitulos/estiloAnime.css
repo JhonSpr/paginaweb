@@ -125,8 +125,7 @@ img{
     }
     .menu-mobile{
         z-index: 7;
-        height: 100%;    
-        position: absolute;   
+        height: 100%;     
         width: 100%;
         left: -100%;
     }
