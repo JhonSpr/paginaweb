@@ -851,6 +851,9 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
         flex: none;
         max-width: 100%;
     }
+    container-body margin-container{
+        margin:0;
+    }
     }
 
 .wrapper-general .container-principal .container-body main .lastEpisodios li a {
