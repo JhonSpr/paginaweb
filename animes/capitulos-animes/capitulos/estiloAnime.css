@@ -103,6 +103,7 @@ img{
     background: #fa0;
 }
 .menu-mobile.show{
+    left: 0;
     opacity: .3;
     background: #000;
 }
@@ -127,6 +128,7 @@ img{
         height: 100%;    
         position: absolute;   
         width: 100%;
+        left: -100%;
     }
     .menu_items  a{
          display:inline-block;
@@ -157,8 +159,6 @@ img{
         display: inline-block;
     }
     
-    
-
     .menu_items{
         position:absolute;
         z-index: 6;
