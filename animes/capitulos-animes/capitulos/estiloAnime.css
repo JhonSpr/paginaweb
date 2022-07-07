@@ -115,8 +115,8 @@ img{
         padding:4px 0;
     }
     .menu_items  a{
-         display:block;
-         width:100%;
+         display:inline-block;
+         width:230px;
          border-radius:2px;
          border: 2px solid #000;
      }
