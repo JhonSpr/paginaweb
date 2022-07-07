@@ -777,7 +777,7 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     -webkit-flex:none;
-    margin: 30px auto;
+    margin-left: -30px;
     -ms-flex: none;
     flex: none;
     max-width: 100%;
