@@ -125,6 +125,7 @@ img{
     }
     .menu-mobile{
         z-index: 7;
+        background: transparent;
         height: 100%;     
         width: 100%;
         left: -100%;
