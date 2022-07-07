@@ -104,6 +104,9 @@ img{
 }
 
 
+.fa-times{
+    display: none;
+}
 
 @media screen and (max-width:1030px){
     .menu_items  li a{
@@ -141,9 +144,7 @@ img{
         color: #fff;
         display: inline-block;
     }
-    .fa-times{
-        display: none;
-    }
+
     .menu_items{
         position:absolute;
         z-index: 6;
