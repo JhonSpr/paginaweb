@@ -859,7 +859,7 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:0;
+    padding:10px;
     background:#333;
     border-radius:10px;
     border: 2px solid #fa0;
@@ -985,7 +985,7 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:0;
+    padding:10px;
     background:#333;
     border: 2px solid #fa0;
     border-radius:10px;
@@ -1111,9 +1111,9 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:0;
+    padding:10px;
     background:#333;
-    border-radius:10px;
+    border-radius:5px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1236,7 +1236,7 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:0;
+    padding:10px;
     background:#333;
     border-radius:10px;
     border: 2px solid #fa0;
