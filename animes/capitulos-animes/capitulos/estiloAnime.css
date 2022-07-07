@@ -103,38 +103,6 @@ img{
     background: #fa0;
 }
 
-.menu-mobile input[type="checkbox"], .menu-mobile .fa-bars, .menu-mobile .fa-times {
-    position: absolute;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    width: 48px;
-    height: 48px;
-  }
-
-  .menu-mobile .fa-bars, .menu-mobile .fa-times {
-    display: none;
-    pointer-events: none;
-  }
-
-  .menu-mobile input[type="checkbox"] {
-    opacity: 0;
-  }
-
-  .menu-mobile input:checked ~ .menu-responsive2 {
-    display: block;
-  }
-  
-  .menu-mobile input:checked ~ .fa-bars {
-    display: none;
-  }
-  
-  .menu-mobile input:not(:checked) ~ .fa-times {
-    display: none;
-  }
-
 
 
 @media screen and (max-width:1030px){
