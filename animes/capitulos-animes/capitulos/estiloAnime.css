@@ -1284,3 +1284,24 @@ respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
     width: 48px;
     height: 48px;
   }
+
+  .respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 48px;
+    pointer-events: none;
+  }
+
+  respmenu input[type="checkbox"] {
+    opacity: 0;
+  }
+
+  .respmenu input:checked ~ nav {
+    display: block;
+  }
+  
+  .respmenu input:checked ~ .fa-bars {
+    display: none;
+  }
+  
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  }
