@@ -106,7 +106,7 @@ img{
 
 
 
-@media screen and (max-width:1030px){
+@media screen and (max-width:768px){
     .menu_items  li a{
         font-weight: 900;
         color:#fff;
