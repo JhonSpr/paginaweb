@@ -120,7 +120,7 @@ img{
     }
     .menu-mobile{
         display: block;
-        z-index: 5;
+        z-index: 7;
         height: 100%;
         width: 100%;
         background: #000;
