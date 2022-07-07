@@ -119,11 +119,10 @@ img{
         padding:4px 0;
     }
     .menu-mobile{
-        z-index: 0;
-        height: 100%;
+        z-index: 5;
+        height: 100%;    
+        position: absolute;   
         width: 100%;
-        background: #000;
-        opacity: .3;
     }
     .menu_items  a{
          display:inline-block;
@@ -200,6 +199,9 @@ img{
 @media (min-width:100vh){
     .menu_items{
         display: none;
+        opacity: 0;
+    }
+    .menu-mobile{
         opacity: 0;
     }
 }
