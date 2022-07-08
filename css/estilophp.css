@@ -589,6 +589,18 @@ header
 
 
 @media(min-width:767px){
+    .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
     .wrapper-general .container-principal .container-body main {
         -webkit-flex:1;
         -ms-flex: 1;
@@ -650,6 +662,18 @@ header
 }
 
 @media (min-width: 1020px){
+    .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
     .wrapper-general .container-principal .container-body main .title .order {
         position: absolute;
         right:0;
@@ -751,6 +775,18 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
         width: 130px;
         padding: 20px 5px 0;
     }
+    .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
     .wrapper-general .container-principal .container-body main .lastEpisodios,
     .wrapper-general .container-principal .container-body main .last-animes {
     display: -webkit-flex;
@@ -786,6 +822,18 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     .wrapper-general .container-principal .container-body main .last-animes li{
         width: 200px;
         padding: 20px 10px 0;
+    }
+    .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
     }
     .wrapper-general .container-principal .container-body main .lastEpisodios,
     .wrapper-general .container-principal .container-body main .last-animes {
