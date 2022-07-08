@@ -1022,6 +1022,20 @@ img{
         white-space: nowrap;
         color: inherit;
     }
+    @media screen and (max-width:768px){
+        .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
+    }
 
     @media screen and (max-width:425px){
         .container-principal .container-body p{
