@@ -1083,6 +1083,9 @@ img{
         border-radius:15px;
         font-size:17px;
     }
+    .sidebar{
+        display: none;
+     }
 }
 
 @media screen and (max-width:720px){
@@ -1117,6 +1120,9 @@ img{
         border-radius:15px;
         font-size:17px;
     }
+    .sidebar{
+        display: none;
+     }
 }
     
     
