@@ -1035,7 +1035,7 @@ img{
         border-radius:15px;
         font-size:17px;
     }
-    }
+}
 
     @media screen and (max-width:425px){
         .container-principal .container-body p{
@@ -1050,7 +1050,7 @@ img{
         border-radius:15px;
         font-size:17px;
     }
-    }
+}
     
     
     .container-principal .container-body p{
