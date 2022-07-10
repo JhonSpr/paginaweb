@@ -759,7 +759,7 @@ img{
     display:inline-block; 
     font-size:30px;
     width:auto;
-    padding:10px 0 10px 20px ;
+    padding:10px 10px 10px 20px ;
     background:#333;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -826,7 +826,7 @@ img{
     display:inline-block; 
     font-size:30px;
     width:auto;
-    padding:10px 20px 10px 0;
+    padding:10px 20px 10px 10px;
     background:#333;
     border-left:0;
     border-bottom:2px solid #fa0;
@@ -886,7 +886,7 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:10px 0 10px 20px;
+    padding:10px 10px 10px 20px;
     background:#333;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -953,7 +953,7 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:10px 20px 10px 0;
+    padding:10px 20px 10px 10px;
     background:#333;
     border-left:0;
     border-bottom:2px solid #fa0;
@@ -1012,7 +1012,7 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:10px 0 10px 20px;
+    padding:10px 10px 10px 20px;
     background:#333;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -1078,7 +1078,7 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:10px 20px 10px 0;
+    padding:10px 20px 10px 10px;
     background:#333;
     border-left:0;
     border-bottom:2px solid #fa0;
