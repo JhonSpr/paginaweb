@@ -703,7 +703,7 @@ img{
     font-size:25px;
     width:auto;
     padding:10px 20px 10px 20px;
-    background:#333;
+    background:#000;
     border-left:2px solid #fa0;
     border-bottom:2px solid #fa0;
     border-right:2px solid #fa0;
@@ -722,7 +722,7 @@ img{
     font-size:25px;
     width:auto;
     padding:10px ;
-    background:#333;
+    background:#000;
     border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
@@ -738,7 +738,7 @@ img{
     font-size:25px;
     width:auto;
     padding:10px ;
-    background:#333;
+    background:#000;
     border-radius:10px;
     border: 2px solid #fa0;
     color: rgb(226,128,0);
@@ -755,13 +755,13 @@ img{
 }
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1440px){
     .contendor_botones  i.anterior{
     display:inline-block; 
-    font-size:30px;
+    font-size:25px;
     width:auto;
     padding:10px 20px 10px 20px ;
-    background:#333;
+    background:#000;
     border-right: 2px solid #fa0;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -776,10 +776,10 @@ img{
 }
 .contendor_botones  i.capitulos{
     display:inline-block; 
-    font-size:30px;
+    font-size:25px;
     width:auto;
     padding:10px ;
-    background:#333;
+    background:#000;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
@@ -791,24 +791,25 @@ img{
 }
 .contendor_botones  i.capitulos_pag1{
     display:inline-block; 
-    font-size:30px;
+    font-size:25px;
     width:auto;
-    padding:10px ;
-    background:#333;
-    border-radius:20px 0 0 20px ;
+    padding:10px 10px 10px 20px ;
+    background:#000;
+    border-radius: 20px 0 0 20px ;
     border-top:2px solid #fa0;
     border-left: 2px solid #fa0;
     border-bottom:2px solid #fa0;
+    border-right:1px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
     margin-right:-7px;
-    margin-left:-20px;
+    margin-left:-10px;
     margin-bottom:100px;
 }
 .contendor_botones  i.capitulos_ult{
     display:inline-block; 
-    font-size:30px;
+    font-size:25px;
     width:auto;
     padding:10px ;
     background:#333;
@@ -826,11 +827,11 @@ img{
 
 .contendor_botones  i.siguiente{
     display:inline-block; 
-    font-size:30px;
+    font-size:25px;
     width:auto;
     padding:10px 20px 10px 20px;
-    background:#333;
-    border-left:2px solid #fa0;
+    background:#000;
+    border-left:none;
     border-bottom:2px solid #fa0;
     border-right:2px solid #fa0;
     border-top:2px solid #fa0;
@@ -843,44 +844,136 @@ img{
     margin-bottom:100px;
 }
 
-.contendor_botones  i.descargar{
-    display:inline-block; 
-    font-size:30px;
-    width:auto;
-    padding:10px ;
-    background:#333;
-    border-radius:10px;
-    border: 2px solid #fa0;
-    border-radius:10px;
-    color: rgb(226,128,0);
-    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
-    margin-top:10px;
-    margin-right:0;
-    margin-left:15px;
-    margin-bottom:100px;
-}
 
-.contendor_botones  i.descargar_1{
-    display:inline-block; 
-    font-size:30px;
-    width:auto;
-    padding:10px;
-    background:#333;
-    border-radius:10px;
-    border: 2px solid #fa0;
-    color: rgb(226,128,0);
-    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
-    margin-top:10px;
-    margin-right:0;
-    margin-left:15px;
-    margin-bottom:100px;
-}
+
 .contendor_botones{
     padding-left:50px;
     display:block;
   
 }
+    .capitulo{
+        width:80%;
+        height:500px;
+        margin-top:120px;
+        
+    }
+    .order{
+        margin:0 60px;
+    }
+    
+
 }
+
+
+
+@media screen and (max-width:1024px){
+    .contendor_botones  i.anterior{
+    display:inline-block; 
+    font-size:20px;
+    width:auto;
+    padding:10px 20px 10px 20px ;
+    background:#000;
+    border-right: 2px solid #fa0;
+    border-top:2px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-left:2px solid #fa0;
+    border-radius:20px 0 0 20px;
+    color: rgb(226,128,0);
+    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
+    margin-top:10px;
+    margin-right:-6px;
+    margin-left:0;
+    margin-bottom:100px;
+}
+.contendor_botones  i.capitulos{
+    display:inline-block; 
+    font-size:20px;
+    width:auto;
+    padding:10px ;
+    background:#000;
+    border-top:2px solid #fa0;
+    border-bottom:2px solid #fa0;
+    color: rgb(226,128,0);
+    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
+    margin-top:10px;
+    margin-right:-7px;
+    margin-left:-5px;
+    margin-bottom:100px;
+}
+.contendor_botones  i.capitulos_pag1{
+    display:inline-block; 
+    font-size:20px;
+    width:auto;
+    padding:10px 10px 10px 20px;
+    background:#000;
+    border-radius: 20px 0 0 20px ;
+    border-top:2px solid #fa0;
+    border-left: 2px solid #fa0;
+    border-bottom:2px solid #fa0;
+    border-right:1px solid #fa0;
+    color: rgb(226,128,0);
+    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
+    margin-top:10px;
+    margin-right:-7px;
+    margin-left:-10px;
+    margin-bottom:100px;
+}
+.contendor_botones  i.capitulos_ult{
+    display:inline-block; 
+    font-size:20px;
+    width:auto;
+    padding:10px ;
+    background:#333;
+    border-radius:20px 20px 20px 20px ;
+    border-top:2px solid #fa0;
+    border-left:2px solid #fa0 ;
+    border-bottom:2px solid #fa0;
+    color: rgb(226,128,0);
+    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
+    margin-top:10px;
+    margin-right:-7px;
+    margin-left:-15px;
+    margin-bottom:100px;
+}
+
+.contendor_botones  i.siguiente{
+    display:inline-block; 
+    font-size:20px;
+    width:auto;
+    padding:10px 20px 10px 20px;
+    background:#000;
+    border-left:none;
+    border-bottom:2px solid #fa0;
+    border-right:2px solid #fa0;
+    border-top:2px solid #fa0;
+    border-radius:2px 20px 20px 0;
+    color: rgb(226,128,0);
+    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
+    margin-top:10px;
+    margin-right:0;
+    margin-left:0;
+    margin-bottom:100px;
+}
+}
+
+
+
+.contendor_botones{
+    padding-left:50px;
+    display:block;
+  
+}
+    .capitulo{
+        width:80%;
+        height:500px;
+        margin-top:120px;
+        
+    }
+    .order{
+        margin:0 60px;
+    }
+
+
 
 
 @media screen and (max-width:768px){
@@ -889,7 +982,7 @@ img{
     font-size:25px;
     width:auto;
     padding:10px 20px 10px 20px;
-    background:#333;
+    background:#000;
     border-right: 2px solid #fa0;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -907,7 +1000,7 @@ img{
     font-size:25px;
     width:auto;
     padding:10px ;
-    background:#333;
+    background:#000;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
@@ -921,8 +1014,8 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:10px ;
-    background:#333;
+    padding:10px 20px 10px 20px;
+    background:#000;
     border-radius:20px 0 0 20px ;
     border-top:2px solid #fa0;
     border-left:2px solid #fa0 ;
@@ -938,9 +1031,9 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:10px ;
-    background:#333;
-    border-radius:0 20px 20px 0 ;
+    padding:10px 20px 10px 20px;
+    background:#000;
+    border-radius:20px 0 0 20px ;
     border-top:2px solid #fa0;
     border-right: 2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -951,18 +1044,19 @@ img{
     margin-left:-15px;
     margin-bottom:100px;
 }
+}
 
 .contendor_botones  i.siguiente{
     display:inline-block; 
     font-size:25px;
     width:auto;
     padding:10px 20px 10px 20px;
-    background:#333;
-    border-left:2px solid #fa0;
+    background:#000;
+    border-left:none;
     border-bottom:2px solid #fa0;
     border-right:2px solid #fa0;
     border-top:2px solid #fa0;
-    border-radius:2px 20px 20px 0;
+    border-radius:0 20px 20px 0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -971,43 +1065,28 @@ img{
     margin-bottom:100px;
 }
 
-.contendor_botones  i.descargar{
-    display:inline-block; 
-    font-size:25px;
-    width:auto;
-    padding:10px ;
-    background:#333;
-    border-radius:10px;
-    border: 2px solid #fa0;
-    color: rgb(226,128,0);
-    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
-    margin-top:10px;
-    margin-right:0;
-    margin-left:15px;
-    margin-bottom:100px;
-}
 
-.contendor_botones  i.descargar_1{
-    display:inline-block; 
-    font-size:25px;
-    width:auto;
-    padding:10px;
-    background:#333;
-    border: 2px solid #fa0;
-    border-radius:10px;
-    color: rgb(226,128,0);
-    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
-    margin-top:10px;
-    margin-right:0;
-    margin-left:15px;
-    margin-bottom:100px;
-}
+
 .contendor_botones{
     padding-left:50px;
     display:block;
   
 }
-}
+    .capitulo{
+        border-radius:20px;
+        width:97%;
+        height:400px;
+        margin-top:40px;
+        margin-left:10px;
+        border:2px solid #fa0;
+        
+        
+    }
+    .order{
+        margin:15px;
+    }
+
+
 
 
 @media screen and (max-width:425px){
@@ -1016,7 +1095,7 @@ img{
     font-size:15px;
     width:auto;
     padding:10px 20px 10px 20px;
-    background:#333;
+    background:#000;
     border-right: 2px solid #fa0;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -1034,7 +1113,7 @@ img{
     font-size:15px;
     width:auto;
     padding:10px ;
-    background:#333;
+    background:#000;
     border-top:2px solid #fa0;
     border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
@@ -1049,14 +1128,15 @@ img{
     font-size:15px;
     width:auto;
     padding:10px ;
-    background:#333;
-    border-radius:20px 0 0 20px ;
+    background:#000;
+    border-right:none;
+    border-radius:10px 0 0 10px ;
     border-top:2px solid #fa0;
     border-left:2px solid #fa0 ;
     border-bottom:2px solid #fa0;
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
-    margin-right:-7px;
+    margin-right:-10px;
     margin-left:-100px;
     margin-bottom:100px;
 }
@@ -1065,7 +1145,7 @@ img{
     font-size:15px;
     width:auto;
     padding:10px ;
-    background:#333;
+    background:#000;
     border-radius:0 20px 20px 0 ;
     border-top:2px solid #fa0;
     border-right: 2px solid #fa0;
@@ -1083,12 +1163,12 @@ img{
     font-size:15px;
     width:auto;
     padding:10px 20px 10px 20px;
-    background:#333;
-    border-left:2px solid #fa0;
+    background:#000;
+    border-left:none;
     border-bottom:2px solid #fa0;
     border-right:2px solid #fa0;
     border-top:2px solid #fa0;
-    border-radius:2px 20px 20px 0;
+    border-radius:0px 10px 10px 0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
     margin-top:10px;
@@ -1096,44 +1176,25 @@ img{
     margin-left:0;
     margin-bottom:100px;
 }
-
-.contendor_botones  i.descargar{
-    display:inline-block; 
-    font-size:15px;
-    width:auto;
-    padding:10px ;
-    background:#333;
-    border-radius:10px;
-    border: 2px solid #fa0;
-    color: rgb(226,128,0);
-    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
-    margin-top:10px;
-    margin-right:0;
-    margin-left:15px;
-    margin-bottom:100px;
 }
 
-.contendor_botones  i.descargar_1{
-    display:inline-block; 
-    font-size:15px;
-    width:auto;
-    padding:10px;
-    background:#333;
-    border-radius:5px;
-    border: 2px solid #fa0;
-    color: rgb(226,128,0);
-    color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
-    margin-top:10px;
-    margin-right:0;
-    margin-left:15px;
-    margin-bottom:100px;
-}
 .contendor_botones{
     padding-left:50px;
     display:block;
   
 }
-}
+    .capitulo{
+        border-radius:10px;
+        border:2px solid #fa0;
+        width:96%;
+        height:290px;
+        margin-left:10px;
+    }
+    .order{
+        margin:10px;
+    }
+    
+
 
 @media screen and (max-width:320px){
     .contendor_botones  i.anterior{
