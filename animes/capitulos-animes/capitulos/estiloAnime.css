@@ -954,7 +954,6 @@ img{
     margin-left:0;
     margin-bottom:100px;
 }
-}
 
 
 
@@ -972,6 +971,7 @@ img{
     .order{
         margin:0 60px;
     }
+}
 
 
 
@@ -1191,8 +1191,8 @@ img{
         margin-left:10px;
     }
     .order{
-        margin:10px;
-    }
+        margin:10px;    
+}
     
 
 
@@ -1340,5 +1340,3 @@ img{
     margin-bottom:100px;
     }
 }
-
-
