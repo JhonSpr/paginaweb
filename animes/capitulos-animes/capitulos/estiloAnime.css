@@ -1281,3 +1281,122 @@ img{
 }
 
 
+.margin-container .MC__fixed {
+    -webkit-flex:none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+    padding: 20px 10px 0;
+}
+
+
+.wrapper-general .container-principal .container-body .sidebar a img {
+    margin-bottom: 20px;
+}
+
+.wrapper-general .container-principal .container-body .search -widget-emision {
+    background: #fff;
+    border-radius: 3px;
+}
+
+.wrapper-general
+    .container-principal
+    .container-body
+    .sidebar
+    .widget-emision
+    .title-emision{
+        border-bottom: 1px solid #f3f3f3;
+        color: #c37005;
+        padding: 15px;
+        position: relative;
+    }
+
+    .wrapper-general
+    .container-principal
+    .container-body
+    .sidebar
+    .widget-emision
+    .title-emision[class*="fa-"]::before {
+        color: #ff7c00;
+        position: absolute;
+        height: 50px;
+        line-height: 50px;
+        right: 0;
+        top: 0;
+        font-size: 20px;
+        margin-right:10px;
+
+    }
+
+.wrapper-general
+    .container-principal
+    .container-body
+    .sidebar
+    .widget-emision
+    .animes-emision{
+        padding: 15px 0;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+        max-width: 100%;
+        outline: 0;
+        direction: ltr;
+    }
+
+.wrapper-general
+    .container-principal
+    .container-body
+    .sidebar
+    .widget-emision
+    .animes-emision 
+    ul
+    > li
+    a{
+        display: block;
+        padding: 10px 85px 10px 15px;
+        position: relative;
+        white-space: nowrap;
+        -ms-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #fff;
+    }
+
+
+.wrapper-general
+    .container-principal
+    .container-body
+    .sidebar
+    .widget-emision
+    .animes-emision
+    ul
+    > li
+    a[class*="fa-"]::before{
+        margin-right: 10px;
+    }
+
+    .tv{
+        background-color: #001;
+        border-color: #fa0;
+    }
+
+
+    .type-anime{
+        transition: all .2s;
+        position: absolute;
+        top:0;
+        bottom: 0;
+        margin: auto;
+        right: 16px;
+        font-size: 12px; 
+        font-weight: 700;
+        line-height: 16px;
+        width: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #fa0;
+        display: inline-block;
+        height: 20px;
+        border-radius: 8px;
+    }
+ 
