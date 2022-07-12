@@ -965,7 +965,7 @@ img{
     border-radius: 5px;
     z-index: 1;
     transition: 0.2s;
-    transform: scale(1.2);
+    transform: scale(1.10);
 
 }
 
@@ -982,7 +982,7 @@ img{
     border-radius: 5px;
     z-index: 1;
     transition: .2s;
-    transform: scale(1.2);
+    transform: scale(1.12);
 }
 
 .wrapper-general
