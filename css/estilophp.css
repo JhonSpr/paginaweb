@@ -1104,10 +1104,9 @@ img{
  .sidebar{
     display: none;
  }
- h2{
-    display: flex;
-    margin: 50px auto 20px 45%;
-    color: #fa0;
+
+  .title{
+    text-align: center;
   }
 
 }
