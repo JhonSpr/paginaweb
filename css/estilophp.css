@@ -1130,6 +1130,7 @@ img{
      h2{
        display: flex;
        text-align: center;
+       color: #fa0;
      }
 
 }
