@@ -40,8 +40,7 @@ a{
 }
 
 a:hover{
-    transform: scale(1.12);
-    background: transparent;
+    background: #ff7c00;
     transition: all 100ms;
 }
 
