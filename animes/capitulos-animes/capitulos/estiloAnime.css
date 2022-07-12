@@ -38,12 +38,16 @@ a{
     outline: none;
 }
 
-.a:hover{
+.bordes:hover{
     background: transparent;
     transform: scale(1.12);
     transition: all 300ms;
 }
-
+.bordes2:hover{
+    transform: scale(1.12);
+    background: #cA7005;
+    transform: 300ms;
+}
 
 
 ul{
