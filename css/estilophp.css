@@ -1195,12 +1195,40 @@ img{
         .order{
            display: none;
         }
+        .title{
+            padding: 50px;
+          }
+          h2{
+            color: #fa0;
+            display: block;
+            width:140%;
+            text-align:center;
+            margin-left:-115px;
+            margin-top: 50px;
+            margin-bottom:20px ;
+            background-color: #262a2e;
+        }
+        
        }
 
     @media screen and (max-width:1920px){
         .order{
            display: none;
         }
+        .title{
+            padding: 50px;
+          }
+          h2{
+            color: #fa0;
+            display: block;
+            width:140%;
+            text-align:center;
+            margin-left:-115px;
+            margin-top: 50px;
+            margin-bottom:20px ;
+            background-color: #262a2e;
+        }
+        
        }
        
        
@@ -1208,6 +1236,20 @@ img{
         .order{
            display: none;
         }
+        .title{
+            padding: 50px;
+          }
+          h2{
+            color: #fa0;
+            display: block;
+            width:140%;
+            text-align:center;
+            margin-left:-115px;
+            margin-top: 50px;
+            margin-bottom:20px ;
+            background-color: #262a2e;
+        }
+        
        }
 
 
