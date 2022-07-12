@@ -1107,9 +1107,7 @@ img{
  h2{
     display: none;
  }
- .order{
-    display: block;
- }
+
 }
 
 
@@ -1131,6 +1129,9 @@ img{
      }
      h2{
         display: none;
+     }
+     .order{
+        display: block;
      }
 }
     
