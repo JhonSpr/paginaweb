@@ -1340,18 +1340,7 @@ img{
 }
 
 
-.opciones_de_video{
-    display: block;
-    background-color: #000;
-}
-.opciones_de_video > li{
-    display: inline-block;
-    width: auto;
-    height: auto;
-    color: #c47005;
-    border: #C69001 1px solid;
-    
-}
+
 
 
 
