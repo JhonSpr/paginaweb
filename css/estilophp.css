@@ -1215,17 +1215,12 @@ img{
         .order{
            display: none;
         }
-        .title{
-            padding: 50px;
-          }
           h2{
             color: #fa0;
             display: block;
-            width:140%;
+            width:105%;
             text-align:center;
-            margin-left:-115px;
-            margin-top: 50px;
-            margin-bottom:20px ;
+            margin-left:-50px;
             background-color: #262a2e;
         }
         
@@ -1242,9 +1237,9 @@ img{
           h2{
             color: #fa0;
             display: block;
-            width:140%;
+            width:110%;
             text-align:center;
-            margin-left:-115px;
+            margin-left:-54px;
             margin-top: 50px;
             margin-bottom:20px ;
             background-color: #262a2e;
