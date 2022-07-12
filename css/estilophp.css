@@ -909,6 +909,7 @@ li
 a
 .imagen-mask{
     border-radius: 5px;
+    overflow: hidden;
     z-index: 1;
     display: block;
 
