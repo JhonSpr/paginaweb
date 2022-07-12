@@ -1128,92 +1128,10 @@ img{
         display: none;
      }
      h2{
-        display: none;
-     }
-     .order{
-        display: block;
+       display: flex;
+       text-align: center;
      }
 
-     .wrapper-general .container-principal .container-body main .title .order {
-        position: absolute;
-        right:0;
-        top: 10px;
-    }
-
-    .wrapper-general .container-principal .container-body main .title .order{
-        padding-top: 15px;
-        font-size: 0;
-    }
-    
-    .wrapper-general .container-principal .container-body main .title .order > a {
-        font-size: 12px;
-        font-weight: 700;
-        color: #fff;
-        background-color: #000;
-        line-height: 30px;
-        min-width: 65px;
-        padding:  0 15px;
-        height: 30px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-    }
-    
-    .wrapper-general .container-principal .container-body main 
-    .title
-    .order > a:last-child{
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    
-    
-    .wrapper-general .container-principal .container-body main .title
-    .order 
-    > a:first-child{
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-    
-    }
-    
-    .wrapper-general .container-principal .container-body main .title
-    .order 
-    > a.active{
-        background-color: #ff7c00;
-        margin-bottom:20px;
-        margin-right:20px;
-        position: relative;
-    }
-    
-    
-    .wrapper-general .container-principal .container-body main .title .order>a {
-        font-size: 12px;
-        font-weight: 700;
-        color: #fff;
-        background-color: #3b4248;
-        line-height: 30px;
-        min-width: 65px;
-        padding: 0 15px;
-        height: 30px;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-    }
-    
-    
-    wrapper-general .container-principal .container-body main .title .order > a::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -5px;
-        margin: auto;
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-top: 5px solid #01bcf3;
-    }
-    
 }
 
 
