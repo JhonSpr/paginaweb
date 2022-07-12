@@ -1107,6 +1107,9 @@ img{
  h2{
     display: none;
  }
+ .order{
+    display: block;
+ }
 }
 
 
