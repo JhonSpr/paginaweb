@@ -1142,3 +1142,24 @@ img{
         font-size:17px;
         padding:15px;
     }
+
+
+
+    @media screen and (max-width:1024px){
+        .order{
+           display: none;
+        }
+       }
+
+    @media screen and (max-width:1920px){
+        .order{
+           display: none;
+        }
+       }
+       
+       
+    @media screen and (max-width:1440px){
+        .order{
+           display: none;
+        }
+       }
