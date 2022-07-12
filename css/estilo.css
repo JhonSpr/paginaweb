@@ -944,7 +944,6 @@ img{
     height: 100%;
     border-radius: 15px;
     z-index: 1;
-    
     transition: 0.2s;
     transform: scale(1.2);
 
