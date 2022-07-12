@@ -984,7 +984,7 @@ img{
     z-index: 1;
     transition: .2s;
     transform: scale(1.12);
-    opacity: .8;
+    opacity: .6;
 }
 
 .wrapper-general
