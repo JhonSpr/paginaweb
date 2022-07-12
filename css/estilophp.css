@@ -152,8 +152,8 @@ main{
     
     .menu_items{
         position:absolute;
-        z-index: 5;
-        width: 100%;
+        
+        width: 104%;
         height:auto;
         left: -100%;
         padding:30px;
