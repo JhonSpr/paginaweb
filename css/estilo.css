@@ -42,7 +42,13 @@ a{
 .bordes:hover{
     transform: scale(1.12);
     background: transparent;
-    transition: all 100ms;
+    transition: .2s;
+}
+
+.bordes2:hover{
+    transform: scale(1.12);
+    background: #cA7005;
+    transform: .2s;
 }
 
 
