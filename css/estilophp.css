@@ -1105,8 +1105,10 @@ img{
     display: none;
  }
  h2{
-    display: none;
- }
+    display: flex;
+    text-align: center;
+    color: #fa0;
+  }
 
 }
 
