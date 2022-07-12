@@ -955,10 +955,11 @@ img{
     top: 0;
     width: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 15px;
     z-index: 1;
     transition: .2s;
-    transform: scale(1.10);
+    transform: scale(1.12);
+    opacity: .6;
 }
 
 .wrapper-general
