@@ -1086,6 +1086,9 @@ img{
     .sidebar{
         display: none;
      }
+    h2{
+        display: none;
+    }
 }
 
 @media screen and (max-width:720px){
@@ -1102,6 +1105,9 @@ img{
     font-size:17px;
 }
  .sidebar{
+    display: none;
+ }
+ h2{
     display: none;
  }
 }
@@ -1121,6 +1127,9 @@ img{
         font-size:17px;
     }
     .sidebar{
+        display: none;
+     }
+     h2{
         display: none;
      }
 }
