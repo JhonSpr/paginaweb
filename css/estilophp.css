@@ -1110,7 +1110,7 @@ img{
   }
   h2{
     color: #fa0;
-    display: block;
+    display: inline-block;
     background-color: #262a2e;
     margin-right:50px ;
   }
