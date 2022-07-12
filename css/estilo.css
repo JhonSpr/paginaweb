@@ -163,7 +163,7 @@ main{
         position:absolute;
         z-index: 7;
         width: 110%;
-        height:calc(400px - 65px);
+        height:auto;
         left: -100%;
         padding:30px;
         text-align: center;
