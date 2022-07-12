@@ -1106,7 +1106,7 @@ img{
  }
  h2{
     display: flex;
-    text-align: center;
+    margin: 50px auto 20px 45%;
     color: #fa0;
   }
 
