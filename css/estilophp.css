@@ -1111,6 +1111,7 @@ img{
   h2{
     color: #fa0;
     display: block;
+    margin-left:-200px ;
   }
 
 }
