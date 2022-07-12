@@ -1107,11 +1107,11 @@ img{
 
   .title{
     text-align: center;
+    padding: 50px;
   }
   h2{
     color: #fa0;
     display: block;
-    margin-left:-200px ;
   }
 
 }
