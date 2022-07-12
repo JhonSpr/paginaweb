@@ -96,7 +96,7 @@ img{
 .menu_items.show{
     margin-top: 33px;
     margin-left: -20px;
-    width: 110%;
+    width: 104%;
     height:auto;
     left: 0px;
     position: absolute;
@@ -147,8 +147,8 @@ img{
     .menu_items{
         position:absolute;
         z-index: 7;
-        width: 250px;
-        height:calc(400px - 65px);
+        width: 104%;
+        height:auto;
         left: -100%;
         padding:30px;
         text-align: center;
@@ -163,6 +163,7 @@ img{
     .menu_items li a:hover{
         color: #fff;
         font-size:18px;
+        transform: none;
         background: #000;
     }
 
