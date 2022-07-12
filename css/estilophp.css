@@ -1072,111 +1072,11 @@ img{
         white-space: nowrap;
         color: inherit;
     }
-    @media screen and (max-width:768px){
-        .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-    h2{
-        display: none;
-    }
-}
-
-@media screen and (max-width:720px){
-    .container-principal .container-body p{
-    flex-direction:row;
-    display:inline-block;
-    margin-left:-50px;
-    margin-right:50px;
-    margin-top:30px;
-    margin-bottom:30px;
-    border:2px solid #fa0;
-    padding:15px;
-    border-radius:15px;
-    font-size:17px;
-}
- .sidebar{
-    display: none;
- }
-
-  .title{
-    padding: 50px;
-  }
-  h2{
-    color: #fa0;
-    display: block;
-    width:140%;
-    text-align:center;
-    margin-left:-115px;
-    margin-top: 50px;
-    margin-bottom:20px ;
-    background-color: #262a2e;
-}
-
-}
-
-    @media screen and (max-width:375px){
-        .container-principal .container-body p{
-            flex-direction:row;
-            display:inline-block;
-            margin-left:-50px;
-            margin-right:50px;
-            margin-top:30px;
-            margin-bottom:30px;
-            border:2px solid #fa0;
-            padding:15px;
-            border-radius:15px;
-            font-size:17px;
-        }
-        .sidebar{
-            display: none;
-         }
-
-         h2{
-            color: #fa0;
-            display: block;
-            width:140%;
-            text-align:center;
-            margin-left:-105px;
-            background-color: #262a2e;
-      }
-    }
 
 
-    @media screen and (max-width:425px){
-        .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-    .sidebar{
-        display: none;
-     }
-     h2{
-        color: #fa0;
-        display: block;
-        width:140%;
-        text-align:center;
-        margin-left:-105px;
-        background-color: #262a2e;
-  }
 
-}
+
+
 
 
     
@@ -1250,6 +1150,112 @@ img{
         }
         
        }
+
+       @media screen and (max-width:768px){
+        .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
+    h2{
+        display: none;
+    }
+}
+
+       @media screen and (max-width:720px){
+        .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
+     .sidebar{
+        display: none;
+     }
+    
+      .title{
+        padding: 50px;
+      }
+      h2{
+        color: #fa0;
+        display: block;
+        width:140%;
+        text-align:center;
+        margin-left:-115px;
+        margin-top: 50px;
+        margin-bottom:20px ;
+        background-color: #262a2e;
+    }
+    
+    }
+
+
+       @media screen and (max-width:425px){
+        .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
+    .sidebar{
+        display: none;
+     }
+     h2{
+        color: #fa0;
+        display: block;
+        width:140%;
+        text-align:center;
+        margin-left:-105px;
+        background-color: #262a2e;
+  }
+
+}
+
+@media screen and (max-width:375px){
+    .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
+    .sidebar{
+        display: none;
+     }
+
+     h2{
+        color: #fa0;
+        display: block;
+        width:140%;
+        text-align:center;
+        margin-left:-105px;
+        background-color: #262a2e;
+  }
+}
 
 
 
