@@ -154,7 +154,7 @@ main{
         position:absolute;
         z-index: 5;
         width: 110%;
-        height:calc(400px - 65px);
+        height:auto;
         left: -100%;
         padding:30px;
         text-align: center;
