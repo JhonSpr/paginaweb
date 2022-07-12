@@ -39,7 +39,7 @@ a{
     outline: none;
 }
 
-a:hover{
+.bordes:hover{
     background: #ff7c00;
     transition: all 100ms;
 }
