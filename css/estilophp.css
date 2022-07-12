@@ -1110,6 +1110,7 @@ img{
   }
   h2{
     color: #fa0;
+    display: block;
   }
 
 }
