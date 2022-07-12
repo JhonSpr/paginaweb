@@ -1111,9 +1111,11 @@ img{
   h2{
     color: #fa0;
     display: block;
+    width:140%;
+    text-align:center;
+    margin-left:-105px;
     background-color: #262a2e;
-    margin-right:50px ;
-  }
+}
 
 }
 
@@ -1134,11 +1136,14 @@ img{
             display: none;
          }
 
-        h2{
-            display: flex;
-            text-align: center;
+         h2{
             color: #fa0;
-          }
+            display: block;
+            width:140%;
+            text-align:center;
+            margin-left:-105px;
+            background-color: #262a2e;
+      }
     }
 
 
@@ -1159,10 +1164,13 @@ img{
         display: none;
      }
      h2{
-       display: flex;
-       text-align: center;
-       color: #fa0;
-     }
+        color: #fa0;
+        display: block;
+        width:140%;
+        text-align:center;
+        margin-left:-105px;
+        background-color: #262a2e;
+  }
 
 }
 
