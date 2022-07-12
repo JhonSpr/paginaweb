@@ -45,7 +45,6 @@ a{
     transition: 300ms;
 }
 .bordes2:hover{
-    transform: scale(1.12);
     background: #cA7005;
     transform: 300ms;
 }
