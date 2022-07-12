@@ -152,7 +152,7 @@ main{
     
     .menu_items{
         position:absolute;
-        z-index: 2;
+        z-index: 5;
         width: 110%;
         height:calc(400px - 65px);
         left: -100%;
