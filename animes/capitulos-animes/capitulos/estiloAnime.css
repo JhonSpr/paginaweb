@@ -96,8 +96,8 @@ img{
 .menu_items.show{
     margin-top: 33px;
     margin-left: -20px;
-    width: 300px;
-    height:70%;
+    width: 100%;
+    height:auto;
     left: 0px;
     position: absolute;
     border-radius: 0 0 7px 0;
