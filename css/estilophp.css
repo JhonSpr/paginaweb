@@ -104,6 +104,7 @@ main{
     width: 110%;
     height:auto;
     left: 0px;
+    margin-bottom: 40px;
     position: absolute;
     border-radius: 0 0 7px 0;
     background: #fa0;
