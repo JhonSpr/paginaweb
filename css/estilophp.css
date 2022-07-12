@@ -101,7 +101,7 @@ main{
 .menu_items.show{
     margin-top: 33px;
     margin-left: -20px;
-    width: 110%;
+    width: 100%;
     height:auto;
     left: 0px;
     margin-bottom: 40px;
@@ -153,7 +153,7 @@ main{
     .menu_items{
         position:absolute;
         z-index: 5;
-        width: 110%;
+        width: 100%;
         height:auto;
         left: -100%;
         padding:30px;
