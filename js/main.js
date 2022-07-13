@@ -47,8 +47,6 @@ function ocultar_buscador(){
 
 
 
-inputSearch = document.getElementById("inputSearch");
-box_search =  document.getElementById("box-search");
 
 var input = document.getElementById("inputSearch");
 
