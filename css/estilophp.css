@@ -315,6 +315,7 @@ main{
     color:#fff;
     font: inherit;
     outline: none;
+    
 
 }
 
@@ -1294,4 +1295,24 @@ a
     bottom: 40px;
     z-index: 3;
 
+}
+
+
+.contenedor_buscador{
+    display:inline-block;
+    color:#fa0;
+    margin-left:1310px;
+    padding:15px;
+    background:#262a2e;;
+    width:200px;
+    z-index:5;
+    margin-bottom:-400px;
+    margin-top:-20px;
+}
+.contenedor_buscador ul > li{
+    padding:10px;
+}
+
+.contenedor_buscador ul > li > a:hover{
+    background:#ff7d12;
 }
