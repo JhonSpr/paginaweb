@@ -1329,7 +1329,7 @@ a
     color:#fff;
 }
 
-.contenedor_buscador{
+#box-search{
     display: none;
     overflow: hidden;
     position: fixed;
