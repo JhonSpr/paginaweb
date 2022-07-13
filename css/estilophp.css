@@ -1298,7 +1298,9 @@ a
 }
 
 
+
 .contenedor_buscador{
+    text-align:center;
     display:inline-block;
     color:#fa0;
     margin-left:1310px;
@@ -1313,6 +1315,16 @@ a
     padding:10px;
 }
 
-.contenedor_buscador ul > li > a:hover{
+.contenedor_buscador ul li a{
+    display:inline-block;
+    width:200px;
+    color:#fff;
+    padding:20px 0;
+    margin-left:-24px;
+    
+}
+
+.contenedor_buscador ul > li:hover > a{
     background:#ff7d12;
+    color:#fff;
 }
