@@ -312,7 +312,7 @@ main{
     width: 100%;
     -webkit-appearance: none;
     -moz-appearance: none;
-    color:inherit;
+    color:#fff;
     font: inherit;
     outline: none;
 
