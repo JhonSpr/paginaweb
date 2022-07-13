@@ -13,8 +13,29 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-inputSearch =       document.getElementById("inputSearch");
-box_search =        document.getElementById("box-search");
+inputSearch = document.getElementById("inputSearch");
+box_search =  document.getElementById("box-search");
 
 
+
+function buscador(){
+    filter = inputSearch.value.toUpperCase();
+    li = box_search.getElementsByTagName('li');
+
+    
+    for (i = 0; i < li.lenght; i++){
+
+        a = li[i].getElementsByTagName('a')(0);
+        textValue = a.textContent || a.innerText;
+
+
+        if (textValue.toUpperCase().indexOf(filter) > -1 ) {
+            li[i].style.display = "";
+
+        }
+    }
+
+
+
+}
 
