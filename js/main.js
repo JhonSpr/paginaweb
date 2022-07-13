@@ -16,7 +16,7 @@ addEventListener('DOMContentLoaded', () => {
 function search_animal() {
     let input = document.getElementById('inputSearch').value
     input=input.toLowerCase();
-    let x = document.getElementsByClassName('search');
+    let x = document.getElementsByClassName('animes');
       
     for (i = 0; i < x.length; i++) { 
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
