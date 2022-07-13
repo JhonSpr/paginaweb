@@ -1307,5 +1307,5 @@ box-search{
     width: 400px;
     background: #262a2e;
     z-index: 8;
-    
+    direction:column;
 }
