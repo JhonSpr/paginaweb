@@ -16,7 +16,13 @@ addEventListener('DOMContentLoaded', () => {
 inputSearch = document.getElementById("inputSearch");
 box_search =  document.getElementById("box-search");
 
-document.getElementById("inputSearch").addEventListener("keyup", buscador_interno);
+var input = document.getElementById("inputSearch");
+
+if(input)
+{
+    input.addEventListener("keyup", buscador_interno);
+}
+
 
 function buscador_interno(){
 
