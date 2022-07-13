@@ -58,12 +58,24 @@
                             <form action="https://animekun.netlify.app/animes" method="get">
                                 <div class="field has-addons">
                                     <div class="control has-icons-right is-expanded">
-                                        <input type="text" class="input is-orange is-rounded" placeholder="Busca un anime aquí..." name="q">
+                                        <input type="text" class="input is-orange is-rounded" placeholder="Busca un anime aquí..." name="q" id="formulario">
                                     </div>
                                     <p class="control">
-                                        <button type="submit" class="button is-orange is-rounded">
+                                        <button type="submit" class="button is-orange is-rounded " id="boton">
                                             <i class="fas fa-search"></i>
+                                        </button>
                      </a></p></div></form></div>
+
+                     <script>
+                        const form = document.querySelector('#formulario');
+                        const boton = document.querySelector('#boton');
+
+                        const filtrar = () =>{
+                            console.log(formulario.value)
+                        }
+
+                        boton.addEventListener('click',filtrar)
+                     </script>
                             
                             <span class="btn_menu" style="font-size: 25px;">
                                 <i class="fa fa-bars" style="font-size: 30px;"></i>
