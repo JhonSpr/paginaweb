@@ -13,8 +13,8 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-inputSearch = document.getElementById("inputSearch");
-box_search =  document.getElementById("box-search");
+inputSearch = document.getElementById('inputSearch');
+box_search =  document.getElementById('box-search');
 
 document.getElementById('inputSearch').addEventListener('keyup',buscador);
 
