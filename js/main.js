@@ -10,8 +10,27 @@ addEventListener('DOMContentLoaded', () => {
 
 })
 
+document.getElementById("icon-menu").addEventListener("click", mostrar_menu);
+
+function mostrar_menu(){
+
+    document.getElementById("move-content").classList.toggle('move-container-all');
+    document.getElementById("show-menu").classList.toggle('show-lateral');
+}
+
+
+
+
+
+
+
+
+                            //Buscador de contenido
+
 
 //Ejecutando funciones
+document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
+document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
 
 //Declarando variables
 bars_search =       document.getElementById("ctn-bars-search");
@@ -44,15 +63,9 @@ function ocultar_buscador(){
 }
 
 
+//Creando filtrado de busqueda
 
-
-var input = document.getElementById("inputSearch");
-
-if(input)
-{
-    input.addEventListener("keyup", buscador_interno);
-}
-
+document.getElementById("inputSearch").addEventListener("keyup", buscador_interno);
 
 function buscador_interno(){
 
@@ -72,7 +85,7 @@ function buscador_interno(){
             box_search.style.display = "block";
 
             if (inputSearch.value === ""){
-                box_search.style.display = "block";
+                box_search.style.display = "none";
             }
 
         }else{
