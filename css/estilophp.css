@@ -1298,20 +1298,9 @@ a
 }
 
 
-
-.contenedor_buscador{
-    text-align:center;
-    display:inline-block;
-    color:#fa0;
-    margin-left:1310px;
-    padding:15px;
-    background:#262a2e;;
-    width:200px;
-    z-index:5;
-    margin-bottom:50px;
-    margin-top:-20px;
+a{
+    color:#fff;
 }
-
 
 #box-search{
     display: none;
