@@ -34,7 +34,7 @@ function buscador(){
             box_search.style.display = "block";
 
         }else{
-            #box_search.style.display = "none";
+            box_search.style.display = "none";
         }
     }
 
