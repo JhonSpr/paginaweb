@@ -31,7 +31,7 @@ function buscador(){
 
         if (textValue.toUpperCase().indexOf(filter) > -1 ) {
             li[i].style.display = "";
-            box_search.style.display = "block"
+            box_search.style.display = "block";
 
         }else{
             #box_search.style.display = "none";
