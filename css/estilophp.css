@@ -1308,7 +1308,7 @@ a
     background: #fff;
     z-index: 8;
     overflow: hidden;
-    display: none;
+    display: block;
 }
 
 #box-search li a{
