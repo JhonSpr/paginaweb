@@ -42,7 +42,7 @@ function buscador_interno(){
             box_search.style.display = "block";
 
             if (inputSearch.value === ""){
-                box_search.style.display = "none";
+                box_search.style.display = "block";
             }
 
         }else{
