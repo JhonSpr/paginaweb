@@ -33,7 +33,7 @@ function buscador(){
             li[i].style.display = "";
 
         }else{
-            li[i].style.display = "none";
+            #box_search.style.display = "none";
         }
     }
 
