@@ -122,7 +122,7 @@ main{
     margin-bottom: 40px;
     position: absolute;
     border-radius: 0 0 7px 0;
-    background: #fa0;
+    background: #ff7d12;
 }
 
 
@@ -207,7 +207,7 @@ main{
 
 .wrapper-general header{
  
-    background: #fa0;
+    background: #ff7d12;
     height: auto;
 }
 
