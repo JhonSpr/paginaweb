@@ -1308,6 +1308,7 @@ a
     background: #262a2e;
     z-index: 8;
     overflow: hidden;
+    display: none;
     text-align:center;
 }
 
