@@ -51,10 +51,17 @@
                                 </li> 
 
                             </ul>
-
+                            <div class="search">
+                                <form method="get">
+                                    <input type="text" name="buscador" id="buscador" placeholder="Buscar">
+                                    <button id="boton">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
 
                      <script>
-                        const formulario = document.querySelector('#formulario');
+                        const formulario = document.querySelector('#buscador');
                         const boton = document.querySelector('#boton');
 
                         const filtrar = () =>{
