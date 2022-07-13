@@ -1301,7 +1301,7 @@ a
 box-search{
     flex-wrap: wrap;
     position:fixed;
-    width: 400px;
+    width: 500px;
     background: #ffff;
     z-index: 8;
     flex-direction:column;
