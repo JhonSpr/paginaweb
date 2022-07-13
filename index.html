@@ -53,23 +53,15 @@
                             </ul>
                             <div class="search">
                                 <form method="get">
-                                    <input type="text" name="buscador" id="buscador" placeholder="Buscar">
-                                    <button id="boton">
-                                        <i class="fas fa-search"></i>
-                                    </button>
+                                    <div id="ctn-bars-search">
+                                        <input type="text" name="buscador" id="buscador" placeholder="Buscar">
+                                        <button id="boton">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                    >
                                 </form>
                             </div>
-
-                     <script>
-                        const formulario = document.querySelector('#buscador');
-                        const boton = document.querySelector('#boton');
-
-                        const filtrar = () =>{
-                            console.log(formulario.value);
-                        }
-
-                        boton.addEventListener('click',filtrar)
-                     </script>
                             
                             <span class="btn_menu" style="font-size: 25px;">
                                 <i class="fa fa-bars" style="font-size: 30px;"></i>
