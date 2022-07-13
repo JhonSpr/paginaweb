@@ -1328,3 +1328,11 @@ a
     background:#ff7d12;
     color:#fff;
 }
+
+.contenedor_buscador{
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    z-index: 8;
+    
+}

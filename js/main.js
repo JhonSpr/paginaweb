@@ -15,3 +15,6 @@ addEventListener('DOMContentLoaded', () => {
 
 inputSearch =       document.getElementById("inputSearch");
 box_search =        document.getElementById("box-search");
+
+
+
