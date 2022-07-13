@@ -12,9 +12,7 @@ html{
     
 }
 
-.filtro{
-    display: none;
-}
+
 /* width */
 body::-webkit-scrollbar {
     width: 10px;
@@ -500,7 +498,7 @@ header
 }
 
 .wrapper-general .container-principal .container-body .search -widget-emision {
-    background: #fff;
+    background: transparent;
     border-radius: 3px;
 }
 
