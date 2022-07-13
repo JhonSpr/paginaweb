@@ -1298,11 +1298,26 @@ a
 }
 
 
-box-search{
+
+#box-search{
+    margin-top:55px;
+    margin-left:1210px;
     flex-wrap: wrap;
     position:fixed;
-    width: 500px;
-    background: #ffff;
+    width: 400px;
+    background: #262a2e;
     z-index: 8;
-    flex-direction:column;
+    text-align:center;
+}
+
+#box-search li{
+    width:100%;
+    padding:10px;
+    background:#262a2e;
+}
+
+#box-search li a{
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
 }
