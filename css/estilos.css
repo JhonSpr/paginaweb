@@ -25,6 +25,7 @@
     margin-left: 10px;
     overflow-y: visible;
     overflow-x: hidden;
+    z-index: 8;
 }
 
 .content-table table{
