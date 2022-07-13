@@ -1298,11 +1298,8 @@ a
 }
 
 
-a{
-    color:#fff;
-}
-
 box-search{
+    flex-wrap: wrap;
     position:fixed;
     width: 400px;
     background: #262a2e;
