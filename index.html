@@ -4,12 +4,23 @@
 <head>
     <meta name="google-site-verification" content="tEwDQhbxluhRBz7n9ral8yLrS78ng4xMHaCEkjMSBBQ" />
     <meta charset="UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-234116092-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-234116092-1');
+</script>
+
     <link rel="icon" href="imagenes/anime-logo-square.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/fontawesome.css">
     <script src="js/main.js"></script>
     <script src="https://kit.fontawesome.com/9d2ffd2695.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilophp.css">
+    <link rel="stylesheet" href="css/estilosbuscador.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Animeku</title>
 </head>
@@ -54,12 +65,33 @@
                             </ul>
                             <div class="search">
                                 <form method="get">
-                                        <input type="text" name="buscador" id="input-search" placeholder="Buscar">
+                                    <input id="searchbar" onkeyup="search_animal()" type="text"
+                                    name="search" placeholder="Search animals..">
                                         <button id="boton">
                                             <i class="fas fa-search"></i>
                                         </button>
                                 </form>
                             </div>
+
+                             <!-- ordered list -->
+            <ol id='list'>
+                <li class="animals">Cat</li>
+                <li class="animals">Dog</li>
+                <li class="animals">Elephant</li>
+                <li class="animals">Fish</li>
+                <li class="animals">Gorilla</li>
+                <li class="animals">Monkey</li>
+                <li class="animals">Turtle</li>
+                <li class="animals">Whale</li>
+                <li class="animals">Aligator</li>
+                <li class="animals">Donkey</li>
+                <li class="animals">Horse</li>
+            </ol>
+      
+    <!-- linking javascript -->
+    <script src="./animals.js"></script>
+
+
                             <span class="btn_menu" style="font-size: 25px;">
                                 <i class="fa fa-bars" style="font-size: 30px;"></i>
                                 Menu
