@@ -11,8 +11,6 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-
-// JavaScript code
 function search_animal() {
     let input = document.getElementById('inputSearch').value
     input=input.toLowerCase();
@@ -21,9 +19,10 @@ function search_animal() {
     for (i = 0; i < x.length; i++) { 
         if (!x[i].innerHTML.toLowerCase().includes(input)) {
             x[i].style.display="none";
+            list.style.display="block";
         }
         else {
-            x[i].style.display="list-item";                 
+            x[i].style.display="none";                 
         }
     }
 }
