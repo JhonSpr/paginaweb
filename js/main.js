@@ -12,8 +12,6 @@ addEventListener('DOMContentLoaded', () => {
 
 
 //Ejecutando funciones
-document.getElementById("icon-search").addEventListener("click", mostrar_buscador);
-document.getElementById("cover-ctn-search").addEventListener("click", ocultar_buscador);
 
 //Declarando variables
 bars_search =       document.getElementById("ctn-bars-search");
