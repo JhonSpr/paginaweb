@@ -228,9 +228,8 @@ img{
 
 .wrapper-general header .menu .logo{
     margin-bottom: 0;
-    padding: 15px 0;
+    padding: 0;
     flex: 3;
-    height: 76px;
 
 }
 
