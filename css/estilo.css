@@ -138,6 +138,13 @@ main{
     
 }
 
+@media screen and (max-width:1224px) {
+    .menu_items{
+        display: none;
+    }
+    
+}
+
 
 @media screen and (max-width:768px){
     .menu_items  li a{
