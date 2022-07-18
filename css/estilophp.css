@@ -872,8 +872,8 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
 @media (min-width:1200px){
 .wrapper-general .container-principal .container-body main .lastEpisodios li,
 .wrapper-general .container-principal .container-body main .last-animes li{
-    width: 200px;
-    padding: 20px 10px 0;
+    width: 170px;
+    padding: 20px 5px 0;
 }
     .wrapper-general .container-principal .container-body main .lastEpisodios,
     .wrapper-general .container-principal .container-body main .last-animes {
