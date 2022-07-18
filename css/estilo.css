@@ -1069,3 +1069,8 @@ img{
         color: inherit;
     }
 
+
+
+.bordes2.active{
+    background: #cA7005;
+}
