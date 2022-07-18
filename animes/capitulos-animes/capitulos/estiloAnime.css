@@ -274,10 +274,11 @@ img{
 .wrapper-general header .menu .navbar-nav .navigation .nav-options .menu-navigation > li > a{
     display: block;
     color:#000;
-    text-transform: uppercase;
-    font-weight: 800;
-    line-height: 50px;
+    font-weight: 700;
+    line-height: 59px;
     opacity: 1;
+    font-size:17px;
+    padding:5px 20px;
 }
 
 
