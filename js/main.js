@@ -16,10 +16,9 @@ addEventListener('DOMContentLoaded', () => {
 addEventListener('DOMContentLoaded', () =>{
 
     const mostrarAlert = document.getElementsByClassName('.pronto');
-    if(mostrarAlert)
+    if(mostrarAlert == addEventListener('click')){
 
-    mostrarAlert.addEventListener('click', ()=>{
+
         alert("PROXIMAMENTE");
-
-    })
+    }
 })
