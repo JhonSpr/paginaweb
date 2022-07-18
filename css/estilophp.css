@@ -206,7 +206,7 @@ main{
 .wrapper-general header{
  
     background: #ff7d12;
-    height: auto;
+    height: 70px;
 }
 
 .wrapper-general header .menu{
@@ -232,6 +232,7 @@ main{
 .wrapper-general header .menu .logo{
     margin-bottom: 0;
     padding: 0;
+    background: transparent;
     flex: 3;
 
 }
@@ -277,10 +278,11 @@ main{
 .wrapper-general header .menu .navbar-nav .navigation .nav-options .menu-navigation > li > a{
     display: block;
     color:#000;
-    text-transform: uppercase;
-    font-weight: 800;
-    line-height: 50px;
-    opacity: 0.8;
+    font-weight: 700;
+    line-height: 59px;
+    opacity:1;
+    font-size:17px;
+    padding:5px 20px;
 }
 
 
