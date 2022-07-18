@@ -1349,5 +1349,23 @@ img{
 
 
 
+@media screen and (max-width:1200px){
+    .login-button{
+        display: none;
+    }
+    .menu-navigation{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .btn_menu{
+        color: #fff;
+        display: inline-block;
+    }
+  }
 
 
