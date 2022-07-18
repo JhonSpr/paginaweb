@@ -9,3 +9,11 @@ addEventListener('DOMContentLoaded', () => {
     }
 
 })
+
+
+
+mostrarAlert = document.getElementsByClassName('.pronto');
+
+if (mostrarAlert == true) {
+    alert("PROXIMANTENTE")
+}
