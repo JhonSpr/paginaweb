@@ -126,7 +126,7 @@ main{
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:425px){
     .menu_items  li a{
         font-weight: 900;
         color:#fff;
@@ -1297,23 +1297,3 @@ a
     z-index: 3;
 
 }
-
-
-@media screen and (max-width:1200px){
-    .login-button{
-        display: none;
-    }
-    .menu-navigation{
-        display: none;
-    }
-    .search{
-        display: none;
-    }
-    .logo{
-        display: none;
-    }
-    .btn_menu{
-        color: #fff;
-        display: inline-block;
-    }
-  }
