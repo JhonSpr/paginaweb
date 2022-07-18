@@ -698,7 +698,6 @@ img{
     width:auto;
     padding:10px ;
     background:#333;
-    border-radius:0 20px 20px 0 ;
     border-top:2px solid #fa0;
     border-right: 2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -821,11 +820,9 @@ img{
     display:inline-block; 
     font-size:35px;
     width:auto;
-    padding:10px ;
+    padding:10px 20px;
     background:#000;
-    border-radius:20px 20px 20px 20px ;
     border-top:2px solid #fa0;
-    border-left:2px solid #fa0 ;
     border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -834,6 +831,7 @@ img{
     margin-left:-15px;
     margin-bottom:100px;
 }
+
 
 .contendor_botones  i.siguiente{
     display:inline-block; 
@@ -925,11 +923,9 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:10px ;
+    padding:10px 20px;
     background:#000;
-    border-radius:20px 20px 20px 20px ;
     border-top:2px solid #fa0;
-    border-left:2px solid #fa0 ;
     border-bottom:2px solid #fa0;
     color: rgb(226,128,0);
     color: linear-gradient(90deg, rgba(226,128,0,1) 0%, rgba(212,110,0,1) 51%, rgba(204,130,1,1) 100%);
@@ -1029,9 +1025,8 @@ img{
     display:inline-block; 
     font-size:25px;
     width:auto;
-    padding:10px ;
+    padding:10px 20px;
     background:#000;
-    border-radius:0 20px 20px 0 ;
     border-top:2px solid #fa0;
     border-right: 2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -1133,9 +1128,8 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:10px ;
+    padding:10px 20px;
     background:#000;
-    border-radius:0 20px 20px 0 ;
     border-top:2px solid #fa0;
     border-right: 2px solid #fa0;
     border-bottom:2px solid #fa0;
@@ -1263,9 +1257,8 @@ img{
     display:inline-block; 
     font-size:15px;
     width:auto;
-    padding:10px ;
+    padding:10px 15px ;
     background:#333;
-    border-radius:0 20px 20px 0 ;
     border-top:2px solid #fa0;
     border-right: 2px solid #fa0;
     border-bottom:2px solid #fa0;
