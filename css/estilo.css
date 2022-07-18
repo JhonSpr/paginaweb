@@ -338,7 +338,7 @@ main{
     width: 100%;
     -webkit-appearance: none;
     -moz-appearance: none;
-    color:inherit;
+    color:#fff;
     font: inherit;
     outline: none;
 
@@ -1093,4 +1093,24 @@ img{
         margin-left: 15%;
         padding:15px;
         border-radius: 10px;
+      }
+
+
+      @media screen and (max-width:1200px){
+        .login-button{
+            display: none;
+        }
+        .menu-navigation{
+            display: none;
+        }
+        .search{
+            display: none;
+        }
+        .logo{
+            display: none;
+        }
+        .btn_menu{
+            color: #fff;
+            display: inline-block;
+        }
       }
