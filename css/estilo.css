@@ -1072,5 +1072,7 @@ img{
 
 
 .bordes2.active{
-    background: #cA7005;
+    background: #000;
+    color: #ff7c00;
+
 }
