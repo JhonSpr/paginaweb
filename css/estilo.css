@@ -121,7 +121,7 @@ main{
 .menu_items.show{
     margin-top: 33px;
     margin-left: -20px;
-    width: 110%;
+    width: 104%;
     height:auto;
     left: 0px;
     margin-bottom: 40px;
@@ -131,30 +131,9 @@ main{
 }
 
 
-@media screen and (max-width:1024px) {
-    .menu_items{
-        display: none;
-    }
-    
-}
-
-@media screen and (max-width:1224px) {
-    .menu_items{
-        display: none;
-    }
-    
-}
-
-@media screen and (max-width:2000px) {
-    .menu_items{
-        display: none;
-    }
-    
-}
 
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:425px){
     .menu_items  li a{
         font-weight: 900;
         color:#fff;
@@ -169,8 +148,8 @@ main{
          border: 2px solid #000;
      }
     a:hover{
-        transform: scale(1);
-        background: transparent;
+        background: #000;
+        color: #fff;
         transition: all 100ms;
     }
 
@@ -193,13 +172,14 @@ main{
     
     .menu_items{
         position:absolute;
-        z-index: 7;
-        width: 110%;
+        z-index: 5;
+        width: 104%;
         height:auto;
         left: -100%;
         padding:30px;
         text-align: center;
         align-items: center;
+        margin-bottom: 50px;
         transition: all .3s;
         flex-direction: column;
     }
@@ -222,6 +202,7 @@ main{
         opacity: 0;
     }
 }
+
 
 .wrapper-general{
     display: flex;
@@ -1088,23 +1069,3 @@ img{
         color: inherit;
     }
 
-
-
-      @media screen and (max-width:1200px){
-        .login-button{
-            display: none;
-        }
-        .menu-navigation{
-            display: none;
-        }
-        .search{
-            display: none;
-        }
-        .logo{
-            display: none;
-        }
-        .btn_menu{
-            color: #fff;
-            display: inline-block;
-        }
-      }
