@@ -1089,13 +1089,6 @@ img{
 
 
 
-    #inputSearch{
-        margin-left: 15%;
-        padding:15px;
-        border-radius: 10px;
-      }
-
-
       @media screen and (max-width:1200px){
         .login-button{
             display: none;
