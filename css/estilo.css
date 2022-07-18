@@ -1075,3 +1075,25 @@ img{
     background: #C65D00;
 
 }
+
+@media screen and (max-width:1920px){
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        align-items:center;
+        flex: none;
+        margin: 60px 100px;
+        padding:50px;
+        max-width: 100%;
+    }
+        .order{
+            margin:50px;
+        }
+    }
