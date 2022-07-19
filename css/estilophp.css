@@ -1412,48 +1412,7 @@ a
         border-radius: 0 0 7px 0;
         background: #ff7d12;
     }
-    .btn_menu{
-        display:block;
-    }
-    .login-button{
-        display: none;
-    }
-    .menu-navigation{
-        display: none;
-    }
-    .search{
-        display: none;
-    }
-    .logo{
-        display: none;
-    }
-    .btn_menu{
-        color: #fff;
-        display: inline-block;
-    }}
-    
-    .menu_items{
-        position:absolute;
-        z-index: 5;
-        width: 104%;
-        height:auto;
-        left: -100%;
-        padding:30px;
-        text-align: center;
-        align-items: center;
-        margin-bottom: 50px;
-        transition: all .3s;
-        flex-direction: column;
-    }
-    .menu_items{
-        margin: 30px 0 0 0;
-        line-height: 30px;
-    }
-    .menu_items li a:hover{
-        color: #fff;
-        font-size:18px;
-        background: #000;
-    }
+}
     
 
 
