@@ -12,6 +12,9 @@ html{
     
 }
 
+.filtro{
+    display: none;
+}
 
 /* width */
 body::-webkit-scrollbar {
@@ -35,7 +38,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
-
 body{
     height: 100%;
     color: #000;
@@ -50,13 +52,16 @@ a{
 
 .bordes:hover{
     transform: scale(1.12);
-    background:transparent;
+    background: transparent;
     transition: 300ms;
 }
+
 .bordes2:hover{
     background: #cA7005;
     transform: 300ms;
 }
+
+
 
 
 
@@ -81,9 +86,11 @@ img{
 }
 
 main{
+    
     margin-left:50px;
     width: 100%;
     height: auto;
+    
 }
 
 
@@ -111,7 +118,17 @@ main{
 
 
 
-
+.menu_items.show{
+    margin-top: 33px;
+    margin-left: -20px;
+    width: 104%;
+    height:auto;
+    left: 0px;
+    margin-bottom: 40px;
+    position: absolute;
+    border-radius: 0 0 7px 0;
+    background: #ff7d12;
+}
 
 
 
@@ -186,6 +203,7 @@ main{
     }
 }
 
+
 .wrapper-general{
     display: flex;
     flex-direction: column;
@@ -201,7 +219,7 @@ main{
 
 .wrapper-general header .menu{
     margin: 0 auto;
-    padding:10px 20px;
+    padding: 10px 20px;
 
 }
 
@@ -221,8 +239,7 @@ main{
 
 .wrapper-general header .menu .logo{
     margin-bottom: 0;
-    padding: 0;
-    background: transparent;
+    padding:0;
     flex: 3;
 
 }
@@ -270,7 +287,7 @@ main{
     color:#000;
     font-weight: 700;
     line-height: 59px;
-    opacity:1;
+    opacity: 1;
     font-size:17px;
     padding:5px 20px;
 }
@@ -306,7 +323,6 @@ main{
     color:#fff;
     font: inherit;
     outline: none;
-    
 
 }
 
@@ -320,7 +336,7 @@ main{
     right: 0;
     top: 0px;
     margin-bottom: 0;
-    color: #000;
+    color: aliceblue;
     border: 0;
     cursor: pointer;
     box-shadow: none;
@@ -424,37 +440,31 @@ header
 }
 
 .wrapper-general .container-principal .container-body{
-    width: 100%;
-    margin: 0 auto;
+    width: 120%;
+    margin: 0 0  0 0;
     padding: 0 15px;
 
 }
+@media(min-width: 425px){
+    .wrapper-general .container-principal .container-body{
+        max-width: 500px;
+        margin-left:-80px;
+    }
+    
+}
+
 
 @media(min-width: 767px){
     .wrapper-general .container-principal .container-body{
         max-width: 765px;
+        margin-left:20px;
     }
 }
 
-@media(min-width:1024px){
+@media(min-width:1020px){
     .wrapper-general .container-principal .container-body{
-        max-width: 1000px;
-        margin:20px;
-    }
-    .wrapper-general .container-principal .container-body main .lastEpisodios,
-    .wrapper-general .container-principal .container-body main .last-animes {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-        -webkit-flex:none;
-        -ms-flex: none;
-        align-items:center;
-        flex: none;
-        padding:0 15px 0 45px;
-        max-width: 120%;
+        max-width: 1024px;
+        padding:20px 50px;
     }
 }
 
@@ -466,9 +476,11 @@ header
 
 @media(min-width:1440px){
     .wrapper-general .container-principal .container-body{
-        max-width: 1170px;
+        max-width: 100%;
     }
 }
+
+
 
 
 .margin-container{
@@ -487,18 +499,13 @@ header
     }
 }
 
-@media(min-width:767px){
-    .sidebar {
-        width: 320px;
-    }
-}
 
 .margin-container .MC__fixed {
     -webkit-flex:none;
     -ms-flex: none;
     flex: none;
     max-width: 100%;
-    padding: 20px 10px 0;
+    padding: 20px 0 20px 0;
 }
 
 .wrapper-general .container-principal .container-body .sidebar a img {
@@ -506,7 +513,7 @@ header
 }
 
 .wrapper-general .container-principal .container-body .search -widget-emision {
-    background: transparent;
+    background: #fff;
     border-radius: 3px;
 }
 
@@ -612,18 +619,6 @@ header
 
 
 @media(min-width:767px){
-    .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
     .wrapper-general .container-principal .container-body main {
         -webkit-flex:1;
         -ms-flex: 1;
@@ -681,26 +676,13 @@ header
     line-height: 30px;
     padding: 5px 0;
     margin-bottom: 0;
-    color: #C69001;
 }
 
 @media (min-width: 1020px){
-    .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
     .wrapper-general .container-principal .container-body main .title .order {
         position: absolute;
-        right:0;
-        top: 10px;
+        margin-bottom: 30px;
+        top: -20px;
     }
 }
 
@@ -742,20 +724,21 @@ header
 .wrapper-general .container-principal .container-body main .title
 .order 
 > a.active{
-    background-color: #ff7c00;
-    margin-bottom:20px;
+    background-color: #C65D00;
+    margin-bottom:-10px;
+    margin-top: 50px;
     margin-right:20px;
     position: relative;
 }
 
 
 .wrapper-general .container-principal .container-body main .title .order>a {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: #fff;
     background-color: #3b4248;
     line-height: 30px;
-    min-width: 65px;
+    max-width: 100px;
     padding: 0 15px;
     height: 30px;
     display: inline-block;
@@ -789,42 +772,10 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     -webkit-flex:none;
     -ms-flex: none;
     flex: none;
-    max-width: 80%;
-}
-
-@media (min-width:423px){
-    .wrapper-general .container-principal .container-body main .lastEpisodios li,
-    .wrapper-general .container-principal .container-body main .last-animes li{
-        width: 130px;
-        padding: 20px 5px 0;
-    }
-    .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-    .wrapper-general .container-principal .container-body main .lastEpisodios,
-    .wrapper-general .container-principal .container-body main .last-animes {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-flex:none;
-    margin-left: -50px;
-    -ms-flex: none;
-    flex: none;
+    margin: 60px 10px 60px 10px;
     max-width: 100%;
 }
-}
+
 
 .wrapper-general .container-principal .container-body main .lastEpisodios li,
 .wrapper-general .container-principal .container-body main .last-animes li {
@@ -835,28 +786,59 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
 @media (min-width:767px){
     .wrapper-general .container-principal .container-body main .lastEpisodios li,
     .wrapper-general .container-principal .container-body main .last-animes li{
-        width: 50%;
+        width: 200px;
         padding: 20px 10px 0;
     }
+}
+
+@media (min-width:424px){
+    .wrapper-general .container-principal .container-body main .lastEpisodios li,
+    .wrapper-general .container-principal .container-body main .last-animes li{
+        width: 150px;
+        padding: 20px 10px 0;
+    }
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex:none;
+    margin-left: -30px;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+}
+}
+
+@media (min-width:375px){
+    .wrapper-general .container-principal .container-body main .lastEpisodios li,
+    .wrapper-general .container-principal .container-body main .last-animes li{
+        width: 140px;
+        padding: 20px 5px 0;
+    }
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-flex:none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+}
 }
 
 @media (min-width:1020px){
     .wrapper-general .container-principal .container-body main .lastEpisodios li,
     .wrapper-general .container-principal .container-body main .last-animes li{
-        width: 140px;
+        width: 20%;
         padding: 20px 10px 0;
-    }
-    .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
     }
     .wrapper-general .container-principal .container-body main .lastEpisodios,
     .wrapper-general .container-principal .container-body main .last-animes {
@@ -864,40 +846,63 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-flow: row wrap;
+    margin-left:5px;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     -webkit-flex:none;
-    margin-left: -50px;
     -ms-flex: none;
     flex: none;
-    max-width:1000%;
+    max-width: 100%;
 }
+}
+
+@media (min-width:375px){
+    .wrapper-general .container-principal .container-body main .lastEpisodios li,
+    .wrapper-general .container-principal .container-body main .last-animes li{
+        width: 150px;
+        padding: 10px  10px 10 8px;
     }
-
-
+        .wrapper-general .container-principal .container-body main .lastEpisodios,
+        .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        margin-left:5px;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        flex: none;
+        max-width: 100%;
+    }
+}
 
 
 @media (min-width:1200px){
-.wrapper-general .container-principal .container-body main .lastEpisodios li,
-.wrapper-general .container-principal .container-body main .last-animes li{
-    width: 170px;
-    padding: 20px 5px 0;
-}
-    .wrapper-general .container-principal .container-body main .lastEpisodios,
-    .wrapper-general .container-principal .container-body main .last-animes {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-    -ms-flex-flow: row wrap;
-    flex-flow: row wrap;
-    -webkit-flex:none;
-    margin-left: -50px;
-    -ms-flex: none;
-    flex: none;
-    max-width:1000%;
-}
-}
+    .wrapper-general .container-principal .container-body main .lastEpisodios li,
+    .wrapper-general .container-principal .container-body main .last-animes li{
+        width: 200px;
+        padding: 30px  8px 0 8px;
+    }
+        .wrapper-general .container-principal .container-body main .lastEpisodios,
+        .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        margin-left:5px;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        flex: none;
+        max-width: 100%;
+    }
+    container-body margin-container{
+        margin:0;
+    }
+    }
 
 .wrapper-general .container-principal .container-body main .lastEpisodios li a {
     border-radius: 5px;
@@ -912,7 +917,6 @@ wrapper-general .container-principal .container-body main .title .order > a::bef
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 10px;
     top: 10px;
     border-radius: 50%;
     border: 2px solid #ff7c00;
@@ -932,7 +936,6 @@ li
 a
 .imagen-mask{
     border-radius: 5px;
-    overflow: hidden;
     z-index: 1;
     display: block;
 
@@ -972,7 +975,7 @@ a
         );
         z-index: 2;
         border-radius: 0 0 5px 5px ;
-        opacity: 0.8;
+        opacity: 0.7;
 }
 
 .wrapper-general .container-principal .container-body main
@@ -987,7 +990,7 @@ img{
     height: 100%;
     border-radius: 15px;
     z-index: 1;
-    transition: .2s;
+    transition: 0.2s;
     transform: scale(1.2);
 
 }
@@ -1001,8 +1004,8 @@ img{
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
-    border-radius: 5px;
+    height: auto;
+    border-radius: 15px;
     z-index: 1;
     transition: .2s;
     transform: scale(1.12);
@@ -1022,11 +1025,12 @@ img{
         border-radius: 32px;
         padding: 0 8px;
         margin-bottom: 1px;
-        font-size: 12px;
-        font-weight: 900;
+        font-size: 13px;
+        font-weight: 700;
         position: absolute;
         left: 10px;
-        bottom: 40px;
+        color:#000;
+        bottom: 37px;
         z-index: 3;
 
     }
@@ -1044,11 +1048,12 @@ img{
         border-radius: 32px;
         padding: 0 8px;
         margin-bottom: 1px;
-        font-size: 12px;
-        font-weight: 900;
+        font-size: 13px;
+        font-weight: 700;
         position: absolute;
+        color:#000;
         left: 10px;
-        bottom: 40px;
+        bottom: 37px;
         z-index: 3;
 
     }
@@ -1066,11 +1071,12 @@ img{
         border-radius: 32px;
         padding: 0 8px;
         margin-bottom: 1px;
-        font-size: 12px;
-        font-weight: 900;
+        font-size: 13px;
+        font-weight: 700;
         position: absolute;
+        color:#000;
         left: 10px;
-        bottom: 40px;
+        bottom: 37px;
         z-index: 3;
 
     }
@@ -1086,7 +1092,7 @@ img{
         position: absolute;
         left: 10px;
         bottom: 10px;
-        right: 10px;
+        right: 1px;
         z-index: 3;
         -ms-text-overflow: ellipsis;
         text-overflow: ellipsis;
@@ -1097,219 +1103,10 @@ img{
 
 
 
-
-
-
-
-    
-    
-    .container-principal .container-body p{
-        display:inline-block;
-        border:2px solid #fa0;
-        border-radius:15px;
-        font-size:17px;
-        padding:15px;
-    }
-
-
-    @media screen and (max-width:1920px){
-        .order{
-           display: none;
-            
-        }
-        .title{
-            margin:100px 0 10px 0;
-        }
-          h2{
-            color: #fa0;
-            display: block;
-            width:100%;
-            text-align:center;
-            margin-left:-50px;
-            background-color: #262a2e;
-        }
-        
-       }
-
- @media screen and (max-width:1440px){
-        .order{
-           display: none;
-        }
-        .title{
-            margin:30px 0 1px 0;
-          }
-          h2{
-            color: #fa0;
-            display: block;
-            width:110%;
-            text-align:center;
-            margin-left:-54px;
-            margin-top: 50px;
-            margin-bottom:20px ;
-            background-color: #262a2e;
-        }
-        
-       }
-
-
-
-    @media screen and (max-width:1024px){
-        .order{
-           display: none;
-        }
-        .title{
-            margin:10px 0 10px 0;
-        }
-          h2{
-            color: #fa0;
-            display: block;
-            width:140%;
-            text-align:center;
-            margin-left:-115px;
-            margin-top: 50px;
-            margin-bottom:20px ;
-            background-color: #262a2e;
-        }
-        
-       }
-
-       @media screen and (max-width:768px){
-        .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-    h2{
-        display: none;
-    }
-}
-
-       @media screen and (max-width:720px){
-        .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-     .sidebar{
-        display: none;
-     }
-    
-      .title{
-        padding: 50px;
-      }
-      h2{
-        color: #fa0;
-        display: block;
-        width:140%;
-        text-align:center;
-        margin-left:-115px;
-        margin-top: 50px;
-        margin-bottom:20px ;
-        background-color: #262a2e;
-    }
-    
-    }
-
-
-       @media screen and (max-width:425px){
-        .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-    .sidebar{
-        display: none;
-     }
-     h2{
-        color: #fa0;
-        display: block;
-        width:140%;
-        text-align:center;
-        margin-left:-105px;
-        background-color: #262a2e;
-  }
-
-}
-
-@media screen and (max-width:375px){
-    .container-principal .container-body p{
-        flex-direction:row;
-        display:inline-block;
-        margin-left:-50px;
-        margin-right:50px;
-        margin-top:30px;
-        margin-bottom:30px;
-        border:2px solid #fa0;
-        padding:15px;
-        border-radius:15px;
-        font-size:17px;
-    }
-    .sidebar{
-        display: none;
-     }
-
-     h2{
-        color: #fa0;
-        display: block;
-        width:140%;
-        text-align:center;
-        margin-left:-105px;
-        background-color: #262a2e;
-  }
-}
-
-
-
-       
-.wrapper-general
-.container-principal
-.container-body
-main
-.lastEpisodios
-li
-a
-.pronto {
-    line-height: 18px;
-    background: #F90136;
-    border-radius: 32px;
-    padding: 0 8px;
-    margin-bottom: 1px;
-    font-size: 12px;
-    font-weight: 900;
-    position: absolute;
-    left: 10px;
-    bottom: 40px;
-    z-index: 3;
-
-}
-
-
 .bordes2.active{
     background: #C65D00;
 
 }
-
 
 @media screen and (max-width:1920px){
     .wrapper-general .container-principal .container-body main .lastEpisodios,
@@ -1339,6 +1136,26 @@ a
     .logo{
         display:none;
     }
+    .menu_items{
+        margin-top:-30px;
+        margin-bottom:10px;
+    }
+
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        align-items:center;
+        flex: none;
+        padding:0px;
+        max-width: 100%;
+    }
     
 }
 
@@ -1350,11 +1167,93 @@ a
         width:auto;
         margin-left:-20px;
     }
-  
+
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        align-items:center;
+        flex: none;
+        padding:0px;
+        max-width: 100%;
+    }
+    .menu_items{
+        margin-bottom:10px;
+        margin-top:-40px;
+    }   
 
     
+}
+
+@media screen and (max-width:1440px){
+
+    h2{
+        display:block;
+        width:auto;
+        margin-left:-20px;
+    }
+
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        align-items:center;
+        flex: none;
+        padding:0px;
+        max-width: 100%;
+    }
+    .menu_items{
+        margin-bottom:10px;
+        margin-top:-40px;
+    }   
+
     
 }
+
+
+@media screen and (max-width:1920px){
+
+    h2{
+        display:block;
+        width:auto;
+        margin-left:-20px;
+    }
+
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        align-items:center;
+        flex: none;
+        padding:0px;
+        max-width: 100%;
+    }
+    .menu_items{
+        margin-bottom:10px;
+        margin-top:-40px;
+    }   
+
+    
+}
+
 
 @media screen and (max-width:425px){
 
@@ -1382,6 +1281,9 @@ a
         padding:0px;
         max-width: 100%;
     }
+    .menu_items.show{
+        width:110%;
+    }   
     
 }
 
@@ -1408,65 +1310,4 @@ a
     }
 
     
-}
-
-
-@media screen and (max-width:1920px){
-    .menu_items{
-        display:none;
-    }
-}
-
-@media screen and (max-width:768px){
-
-    .menu_items.show{
-        margin-top: 33px;
-        margin-left: -20px;
-        width: 110%;
-        height:auto;
-        left: 0;
-        margin-bottom: 40px;
-        position: absolute;
-        border-radius: 0 0 7px 0;
-        background: #ff7d12;
-    }
-}
-    
-
-
-
-
-@media screen and (max-width:425px){
-    .menu_items{
-        display:block;
-        width:100%;
-    }
-    .menu_items.show{
-    margin-top: 33px;
-    margin-left: -20px;
-    width: 110%;
-    height:auto;
-    left: 0px;
-    margin-bottom: 40px;
-    position: absolute;
-    border-radius: 0 0 7px 0;
-    background: #ff7d12;
-}
-}
-
-@media screen and (max-width:375px){
-    .menu_items{
-        display:block;
-    }
-    .menu_items.show{
-    margin-top: 33px;
-    margin-left: -20px;
-    width: 110%;
-    height:auto;
-    left: 0px;
-    margin-bottom: 40px;
-    position: absolute;
-    border-radius: 0 0 7px 0;
-    background: #ff7d12;
-}
 }
