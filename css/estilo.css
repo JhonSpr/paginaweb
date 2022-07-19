@@ -480,6 +480,13 @@ header
     }
 }
 
+@media(min-width:1920px){
+    .wrapper-general .container-principal .container-body{
+        max-width: 1700px;
+        margin-left:100px;
+    }
+}
+
 
 .margin-container{
     margin:-20px -10px 20px;
