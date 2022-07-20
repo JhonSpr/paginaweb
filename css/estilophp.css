@@ -55,8 +55,8 @@ a{
 }
 .bordes2:hover{
     background: #cA7005;
-    transform: 300ms;
-    border-bottom:2px solid #000;
+    transform: 200ms;
+    border-bottom:1px solid #000;
     
 }
 
