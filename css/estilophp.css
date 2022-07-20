@@ -1150,3 +1150,12 @@ a
     cursor: pointer;
     display: none;
 }
+
+@media (min-width:1024px){
+    .menu_items{
+        display:none;
+    }
+    .order{
+        display:none;
+    }
+}
