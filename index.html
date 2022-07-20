@@ -120,8 +120,14 @@
                                     <span class="line two btn_menu"></span>
                                     <span class="line three btn_menu"></span>
                                     MENU
+                                </div>
                             </div>
-                        </div>
+                            <script>
+                                let hamMenu = document.querySelector(".contenedorMenu");
+                                  hamMenu.addEventListener("click", ()=>{
+                                      hamMenu.classList.toggle("active");
+                                  });
+                              </script>
                     </div>
 
                 </div>
