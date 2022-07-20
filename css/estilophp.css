@@ -1449,8 +1449,9 @@ a
         color:#fff;
         font-size: 14px;
         border: 1px solid #000;
-        margin:1px  10px 1px -100px;
+        margin:1px  10px 1px 30px;
         padding:10px;
+        width:200px;
     }
     .menu_items  a{
          display:inline-block;
@@ -1504,7 +1505,7 @@ a
         .menu_items.show{
     margin-top: 33px;
     margin-left: -20px;
-    width: 200px;
+    width: 250px;
     height:100%;
     left: 0px;
     margin-bottom: 40px;
@@ -1512,6 +1513,7 @@ a
     border-radius: 0 0 7px 0;
     background: #ff7d12;
 }
+
 
 
 @media (min-width:100vh){
