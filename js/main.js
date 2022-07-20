@@ -1,6 +1,6 @@
 addEventListener('DOMContentLoaded', () => {
 
-    const btn_menu = document.querySelector('.menu-bars');
+    const btn_menu = document.querySelector('.menu-bars','body');
     if (btn_menu) {
         btn_menu.addEventListener('click' , () =>{
             const menu_items = document.querySelector('.menu_items')
@@ -12,17 +12,6 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-addEventListener('DOMContentLoaded', () => {
-
-    const btn_menu = document.querySelector('body');
-    if (btn_menu) {
-        btn_menu.addEventListener('click' , () =>{
-            const menu_items_esconder = document.querySelector('.menu_items')
-            menu_items_esconder.classList.toggle('hidden')
-        })
-    }
-
-})
 
 
 
