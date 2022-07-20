@@ -1,4 +1,4 @@
-*{
+**{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -154,7 +154,7 @@ main{
 
 @media(min-width:1920px){
     .wrapper-general .container-principal .container-body{
-        max-width: 11220px;
+        max-width: 1720px;
     }
 }
 
