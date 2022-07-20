@@ -558,6 +558,11 @@ header
     position: absolute;
     border-radius: 0 0 7px 0;
     background: #ff7d12;
+
+    
+}
+.menu_items.hidden{
+    left: -100%;
 }
 
 
