@@ -1140,10 +1140,10 @@ a
 /* Precuelas Y Secuelas */
 
 .anime-temp{
-    color: #fa0; 
+    color: #000; 
     display:inline-block ; 
     font-size: 10px; 
-    background-color: #000;
+    background-color: #fa0;
     padding: 10px;
 }
 
