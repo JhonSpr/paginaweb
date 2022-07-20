@@ -1435,6 +1435,12 @@ a
         border-radius: 0 0 7px 0;
         background: #ff7d12;
     }
+    .menu-navigation{
+        display: none;
+    }
+    .btn_menu{
+        display: block;
+    }
 }
     
 
