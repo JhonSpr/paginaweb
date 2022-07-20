@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.bars__menu{
+.btn_menu{
     width: 30px;
     height: 30px;
     position: absolute;
@@ -14,7 +14,7 @@
     cursor: pointer;
 }
 
-.bars__menu span {
+.btn_menu span {
     display: block;
     width: 100%;
     height: 2px;
