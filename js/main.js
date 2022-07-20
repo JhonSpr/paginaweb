@@ -12,3 +12,8 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
+let hamMenu = document.querySelector(".contenedorMenu");
+  hamMenu.addEventListener("click", ()=>{
+      hamMenu.classList.toggle("active");
+  });
+
