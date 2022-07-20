@@ -36,10 +36,10 @@
 
 }
 
-
-.contenedor_capitulos li {
+@media screen and (min-width:768px){
+    .contenedor_capitulos li {
     height: auto;
-    width:100%;
+    width:auto;
     padding: 20px 0;
     border-top:2px solid #fa0;
 }
@@ -48,13 +48,10 @@
      background:#000;
 }
 
-.contenedor_capitulos li a {
-    margin: auto;
-    color: #fff; 
-}
 
 .contenedor_capitulos li a  strong{
     margin: auto;
+    font-size:12px;
     font-weight:0;
     color: #fff;
     margin: 10px 15px 10px 0;; 
@@ -65,6 +62,8 @@
     color: #fff; 
     font-weight:500;
     font-size:18px;
+}
+
 }
 
 
