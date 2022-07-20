@@ -1098,33 +1098,6 @@ a
     
 }
 
-
-@media screen and (max-width:1920px){
-    .menu_items{
-        display:none;
-    }
-}
-
-.menu_items{
-    display: flex;
-    list-style: none;
-}
-
-.menu_items a:hover, a.active{
-    background: #ff7c00;
-    color: #fff;
-    transition: .3s;
-
-}
-
-.btn_menu{
-    color: #fff;
-    font-size: 30px;
-    z-index: 6;
-    cursor: pointer;
-    display: none;
-}
-
 @media (min-width:1920px){
     .menu_items{
         display:none;
@@ -1151,10 +1124,6 @@ a
 }
 
 .btn_menu{
-    color: #fff;
-    font-size: 30px;
-    z-index: 6;
-    cursor: pointer;
     display: none;
 }
 
