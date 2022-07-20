@@ -458,7 +458,6 @@ header
 @media(min-width: 767px){
     .wrapper-general .container-principal .container-body{
         max-width: 765px;
-        margin-left:20px;
     }
 }
 
