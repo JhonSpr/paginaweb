@@ -1139,7 +1139,7 @@ a
 
 /* Precuelas Y Secuelas */
 
-.anime-temp{
+.anime-temp::before[class*="fa-circle-caret-right"]{
     color: #fa0; 
     display:inline-block ; 
     font-size: 15px; 
