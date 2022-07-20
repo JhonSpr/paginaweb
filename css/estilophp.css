@@ -439,7 +439,6 @@ header
 @media(min-width:1024px){
     .wrapper-general .container-principal .container-body{
         max-width: 1000px;
-        margin:20px;
     }
     .wrapper-general .container-principal .container-body main .lastEpisodios,
     .wrapper-general .container-principal .container-body main .last-animes {
