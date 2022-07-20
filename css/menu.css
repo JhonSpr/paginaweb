@@ -9,22 +9,6 @@ body{
 	background-repeat:no-repeat;
 	background-size:100vw 100vh;
 }
-.lbl-menu{
-    width: 40px;
-    height: 30px;
-    position: relative;
-    cursor: pointer;
-	transform: scale(1.2);
-}
-.lbl-menu #spn1,#spn2,#spn3{
-    position: absolute;
-    content: '';
-    background:#ffff;
-    width: 40px;
-    height: 5px;
-    border-radius: 5px;
-    transition: all 400ms ease;
-}
 #spn2{
     top: 12px;
 }
