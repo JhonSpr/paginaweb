@@ -1143,7 +1143,8 @@ a
     color: #fa0; 
     display:inline-block ; 
     font-size: 10px; 
-    background-color: #fa0;
+    background-color: #000;
+    padding: 10px;
 }
 
 /* Precuelas Y Secuelas */
