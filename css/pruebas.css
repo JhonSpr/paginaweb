@@ -1,0 +1,70 @@
+.contenedor_capitulos {
+    background: #111114;
+    width: auto;
+    height: 600px;
+}
+
+.contenedor_capitulos{
+    overflow:scroll;
+    overflow-x:auto;
+    transition:300ms;
+    max-height:600px;
+}
+
+
+.contenedor_capitulos::-webkit-scrollbar-track {
+    width:10px;
+    background: #333;
+
+}
+
+.contenedor_capitulos::-webkit-scrollbar {
+    width:10px;
+    height:auto;
+    background: #ff7d12;
+
+}
+
+.contenedor_capitulos::-webkit-scrollbar-thumb {
+    height:auto;
+    background: #ff7d12;
+
+}
+
+.contenedor_capitulos::-webkit-scrollbar-thumb:hover {
+     background: #c76310;
+
+}
+
+
+.contenedor_capitulos li {
+    height: auto;
+    width:100%;
+    padding: 20px 0;
+    border-top:2px solid #fa0;
+}
+
+.contenedor_capitulos li:hover {
+     background:#000;
+}
+
+.contenedor_capitulos li a {
+    margin: auto;
+    color: #fff; 
+}
+
+.contenedor_capitulos li a  strong{
+    margin: auto;
+    font-weight:0;
+    color: #fff;
+    margin: 10px 15px 10px 0;; 
+}
+
+.contenedor_capitulos li a span{
+    
+    color: #fff; 
+    font-weight:500;
+    font-size:18px;
+}
+
+
