@@ -1143,6 +1143,13 @@ a
 
 }
 
+.menu_items{
+    display:none;
+}
+.order{
+    display:none;
+}
+
 .btn_menu{
     color: #fff;
     font-size: 30px;
