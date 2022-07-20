@@ -58,7 +58,8 @@ a{
 
 .bordes2:hover{
     background: #cA7005;
-    transform: 300ms;
+    border-bottom: 1px #000;
+    transform: 200ms;
 }
 
 
