@@ -17,14 +17,14 @@
 .contenedorMenu.active{
     background-color: #de0611;
 }
-.contenedorMenu .menu{
+.contenedorMenu .menu-bars{
     position: relative;
     width: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.menu .line{
+.menu-bars .line{
     position: absolute;
     height: 4px;
     width: 25px;
