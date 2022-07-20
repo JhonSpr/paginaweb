@@ -1422,6 +1422,27 @@ a
     }
 }
 
+.menu_items{
+    display: flex;
+    list-style: none;
+}
+
+.menu_items a:hover, a.active{
+    background: #ff7c00;
+    color: #fff;
+    transition: .3s;
+
+}
+
+.btn_menu{
+    color: #fff;
+    font-size: 30px;
+    z-index: 6;
+    cursor: pointer;
+    display: none;
+}
+
+
 @media screen and (max-width:768px){
     .menu_items  li a{
         font-weight: 600;
