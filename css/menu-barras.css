@@ -79,3 +79,10 @@
     overflow: hidden;
     }
 }
+
+
+@media (min-width:2560px){
+    .contenedorMenu{
+        display:none;
+    }
+}
