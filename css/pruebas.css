@@ -4,77 +4,72 @@
     height: 600px;
 }
 
-.contenedor_capitulos{
-    overflow:scroll;
-    overflow-x:auto;
-    transition:300ms;
-    max-height:600px;
+.contenedor_capitulos {
+    overflow: scroll;
+    overflow-x: auto;
+    transition: 300ms;
+    max-height: 600px;
 }
 
-
 .contenedor_capitulos::-webkit-scrollbar-track {
-    width:10px;
+    width: 10px;
     background: #333;
-
 }
 
 .contenedor_capitulos::-webkit-scrollbar {
-    width:10px;
-    height:auto;
+    width: 10px;
+    height: auto;
     background: #ff7d12;
-
 }
 
 .contenedor_capitulos::-webkit-scrollbar-thumb {
-    height:auto;
+    height: auto;
     background: #ff7d12;
-
 }
 
 .contenedor_capitulos::-webkit-scrollbar-thumb:hover {
-     background: #c76310;
-
+    background: #c76310;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
     .contenedor_capitulos li {
-    height: auto;
-    width:auto;
-    padding: 20px 0;
-    border-top:2px solid #fa0;
-}
+        height: auto;
+        width: auto;
+        padding: 20px 0;
+        border-top: 2px solid #fa0;
+    }
 
-.contenedor_capitulos li:hover {
-     background:#000;
-}
+    .contenedor_capitulos li:hover {
+        background: #000;
+    }
 
+    .contenedor_capitulos li a strong {
+        margin: auto;
+        font-size: 12px;
+        font-weight: 0;
+        color: #fff;
+        margin: 10px 15px 10px 0;
+        ; }
 
-.contenedor_capitulos li a  strong{
-    margin: auto;
-    font-size:12px;
-    font-weight:0;
-    color: #fff;
-    margin: 10px 15px 10px 0;; 
-}
-
-.contenedor_capitulos li a span{
-    
-    color: #fff; 
-    font-weight:500;
-    font-size:inherit;
-}
-
+    .contenedor_capitulos li a span {
+        color: #fff;
+        font-weight: 500;
+        font-size: inherit;
+    }
 }
 
 .contenedor_capitulos li a span img {
-    width:80px;
-    height:50px;
-    margin-left:8px;
-    
+    width: 80px;
+    height: 50px;
+    margin-left: 8px;
 }
 
 .contenedor_capitulos li a i {
-    color:#fa0;
-    margin:5px;
+    color: #fa0;
+    margin: 5px;
 }
 
+
+.contenedor_capitulos li a {
+    display:block;
+}
