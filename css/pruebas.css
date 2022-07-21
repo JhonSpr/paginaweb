@@ -90,6 +90,21 @@
     width: auto;
     border-top: 2px solid #fa0;
 }
+p{
+    color:#fff;
+
+}
+
+.title{
+    margin-left:-100px;
+    border:none;
+}
+
+.list-top{
+    color:#fff;
+    margin:10px;
+    font-size:30px;
+}
 
 .contenedor_capitulos li:hover {
     background: #000;
@@ -157,6 +172,8 @@
 .contenedor_capitulos li:hover {
     background: #000;
 }
+
+    
 
 
 .contenedor_capitulos li:first-child {
