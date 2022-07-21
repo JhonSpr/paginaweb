@@ -223,12 +223,12 @@ p{
     margin: auto;
     font-size: 18px;
     font-weight: 700;
-    color: #c1c1c1;
+    color: rgba(255, 255, 255, 0.7);
     margin: 10px 15px 10px 0;
 }
 
 .contenedor_capitulos li a span {
-    color: #c1c1c1;
+    color: rgba(255, 255, 255, 0.7);
     font-weight:700;
     font-size: 20px;
     
@@ -241,7 +241,7 @@ p{
 }
 
 .contenedor_capitulos li a i {
-    color: #c1c1c1;
+    color: rgba(255, 255, 255, 0.7);
     margin: 10px;
     font-size:large;
 }
