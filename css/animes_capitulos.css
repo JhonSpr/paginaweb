@@ -222,14 +222,14 @@ p{
 .contenedor_capitulos li a strong {
     margin: auto;
     font-size: 18px;
-    font-weight: 0;
+    font-weight: 700;
     color: #c1c1c1;
     margin: 10px 15px 10px 0;
 }
 
 .contenedor_capitulos li a span {
     color: #c1c1c1;
-    font-weight: 500;
+    font-weight:700;
     font-size: 20px;
     
 }
