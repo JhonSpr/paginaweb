@@ -170,7 +170,32 @@ p{
 
 @media screen and (max-width:1024px){
 
-    .contenedor_capitulos li {
+p{
+    color:#fff;
+
+}
+
+.contenedor_descripcion{
+    margin-left:-30px;
+    
+}
+.text-top{
+    padding:15px 0 10px 0;
+    display:block;
+    height:auto;
+    background:#000;
+    margin-bottom:-2px;
+    margin-left:-80px;
+    border-radius:0px 10px 0 0;
+}
+
+.list-top{
+    color:#fff;
+    font-size:20px;
+    margin-left:15px;
+}    
+
+.contenedor_capitulos li {
     height: auto;
     width: auto;
     border-top: 2px solid #fa0;
