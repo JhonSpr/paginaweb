@@ -35,7 +35,6 @@
     .contenedor_capitulos li {
         height: auto;
         width: auto;
-        padding: 20px 0;
         border-top: 2px solid #fa0;
     }
 
@@ -72,4 +71,5 @@
 
 .contenedor_capitulos li a {
     display:block;
+    padding:15px;
 }
