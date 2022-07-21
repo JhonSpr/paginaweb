@@ -175,43 +175,44 @@ p{
 @media screen and (max-width:1440px){
 
 .contenedor_capitulos li {
-    height: auto;
-    width: auto;
-    border-top: 2px solid #111114;
-}
+        height: auto;
+        width: auto;
+        border-top: 2px solid #111114;
+    }
 p{
-    color:#c47005;
-    margin:15px;
-
-}
-
-.contenedor_descripcion{
-    margin-left:-196px;
-    height:auto;
-    border-top:2px solid #fa0;
-    border-bottom:2px solid #fa0;
-    border-right:2px solid #fa0;
+        color:#c47005;
+        margin:15px;
     
-}
+    }
+    
+.contenedor_descripcion{
+        margin-left:-78px;
+        height:auto;
+        border-top:2px solid #fa0;
+        border-bottom:2px solid #fa0;
+        border-right:2px solid #fa0;
+        
+    }
 .text-top{
-    padding:15px 0 10px 0;
-    display:block;
-    height:auto;
-    background:#000;
-    margin-bottom:-2px;
-    margin-left:-200px;
-    border-radius:0px 10px 0 0;
-}
-
+        padding:15px 0 10px 0;
+        display:block;
+        height:auto;
+        background:#000;
+        margin-bottom:-2px;
+        margin-left:-75px;
+        border-radius:0px 10px 0 0;
+    }
+    
 .list-top{
-    color:#fff;
-    font-size:20px;
-    margin-left:15px;
-}
-
+        color:#fff;
+        font-size:20px;
+        margin-left:15px;
+    }
+    
 .contenedor_capitulos li:hover {
-    background: #000;
-}
+        background: #ff7d12;
+        
+    }
 
 
 .contenedor_capitulos li:first-child {
