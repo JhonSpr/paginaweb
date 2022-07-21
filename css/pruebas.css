@@ -30,31 +30,28 @@
 .contenedor_capitulos::-webkit-scrollbar-thumb:hover {
     background: #c76310;
 }
+.contenedor_capitulos li {
+    height: auto;
+    width: auto;
+    border-top: 2px solid #fa0;
+}
 
-@media screen and (min-width: 768px) {
-    .contenedor_capitulos li {
-        height: auto;
-        width: auto;
-        border-top: 2px solid #fa0;
-    }
+.contenedor_capitulos li:hover {
+    background: #000;
+}
 
-    .contenedor_capitulos li:hover {
-        background: #000;
-    }
+.contenedor_capitulos li a strong {
+    margin: auto;
+    font-size: 12px;
+    font-weight: 0;
+    color: #fff;
+    margin: 10px 15px 10px 0;
+}
 
-    .contenedor_capitulos li a strong {
-        margin: auto;
-        font-size: 12px;
-        font-weight: 0;
-        color: #fff;
-        margin: 10px 15px 10px 0;
-        ; }
-
-    .contenedor_capitulos li a span {
-        color: #fff;
-        font-weight: 500;
-        font-size: inherit;
-    }
+.contenedor_capitulos li a span {
+    color: #fff;
+    font-weight: 500;
+    font-size: inherit;
 }
 
 .contenedor_capitulos li a span img {
