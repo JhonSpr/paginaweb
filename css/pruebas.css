@@ -1,5 +1,4 @@
 .contenedor_capitulos {
-    background: #111114;
     width: auto;
     height: 600px;
 }
@@ -88,7 +87,7 @@
     .contenedor_capitulos li {
     height: auto;
     width: auto;
-    border-top: 2px solid #fa0;
+    border-top: 2px solid #111114;
 }
 p{
     color:#fff;
@@ -96,14 +95,25 @@ p{
 }
 
 .title{
-    margin-left:-100px;
-    border:none;
+    margin-left:-120px;
+    margin-bottom:-0px;
+    border-radius:0px;
+    
+}
+.text-top{
+    padding:15px 0 10px 0;
+    display:block;
+    height:auto;
+    background:#000;
+    margin-bottom:-2px;
+    margin-left:-200px;
+    border-radius:0px 10px 0 0;
 }
 
 .list-top{
     color:#fff;
-    margin:10px;
-    font-size:30px;
+    font-size:20px;
+    margin-left:15px;
 }
 
 .contenedor_capitulos li:hover {
@@ -153,7 +163,6 @@ p{
     overflow-x: auto;
     transition: 300ms;
     max-height: 600px;  
-    background: #111114;
     width: auto;
     margin-left:-200px;
 }
