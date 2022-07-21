@@ -39,7 +39,6 @@
 .contenedor_capitulos li {
     height: auto;
     width: auto;
-    border-top: 1px solid #fa0;
 }
 
 
@@ -171,12 +170,16 @@ p{
 @media screen and (max-width:1024px){
 
 p{
-    color:#fff;
+    color:#c1c1c1;
+    margin:10px;
 
 }
 
 .contenedor_descripcion{
-    margin-left:-30px;
+    margin-left:-78px;
+    border-top:1px solid #fa0;
+    border-bottom:1px solid #fa0;
+    border-right:1px solid #fa0;
     
 }
 .text-top{
@@ -190,7 +193,7 @@ p{
 }
 
 .list-top{
-    color:#fff;
+    color:#c1c1c1;
     font-size:20px;
     margin-left:15px;
 }    
@@ -216,12 +219,12 @@ p{
     margin: auto;
     font-size: 12px;
     font-weight: 0;
-    color: #fff;
+    color: #c1c1c1;
     margin: 10px 15px 10px 0;
 }
 
 .contenedor_capitulos li a span {
-    color: #fff;
+    color: #c1c1c1;
     font-weight: 500;
     font-size: inherit;
     
@@ -251,7 +254,7 @@ p{
     max-height: 600px;  
     background: #111114;
     width: auto;
-    margin-left:-68px;
+    margin-left:-78px;
 }
 
 
@@ -259,6 +262,41 @@ p{
 
 
 @media screen and (max-width:768px){
+
+
+p{
+    color:#fff;
+    margin-top:25px;
+    margin-bottom:25px;
+   
+    
+}
+
+
+.contenedor_descripcion{
+    
+    width:772px; 
+    border-top:1px solid #fa0;
+    margin-left:-67px;
+    border-bottom:1px solid #fa0;
+    
+}
+.text-top{
+    padding:15px 0 10px 0;
+    display:block;
+    height:auto;
+    background:#000;
+    margin-bottom:-2px;
+    margin-left:-80px;
+    border-radius:0px 10px 0 0;
+}
+
+.list-top{
+    color:#fff;
+    font-size:20px;
+    margin-left:15px;
+}
+
 .contenedor_capitulos li:hover {
     background: #000;
 }
@@ -289,7 +327,7 @@ p{
 }
 
 .contenedor_capitulos li a i {
-    color: #fa0;
+    color: #c1c1c1;
     margin: 5px;
 }
 
@@ -304,13 +342,8 @@ p{
     overflow-x: auto;
     transition: 300ms;
     max-height: 600px;  
-    background: #111114;
-    width: 768px;
-    margin-left:-78px;
+    background: #000;
+    width: 769px;
+    margin-right:10px;
 }
-
-aside{
-    display:none;
-}
-
 }
