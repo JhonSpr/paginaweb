@@ -59,6 +59,30 @@
         background:#111114;
         padding: 5px 8px 5px 8px;
     }
+
+    /*Botones Ultimo cap*/
+
+    .anterior_ult{
+               display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-right:-4px;
+        margin-left:-4px ;
+        background:#111114;
+        padding: 5px 8px 5px 8px;
+        border-radius:20px 0 0 20px;
+    }
+
+    .capitulos_ult{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-right:-4px;
+        margin-left:-4px ;
+        background:#111114;
+        padding: 5px 8px 5px 8px;
+        border-radius:0 20px 20px 0;
+    }
     
     .contendor_botones{
         margin-top:14px;
