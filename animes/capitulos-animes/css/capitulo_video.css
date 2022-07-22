@@ -40,7 +40,24 @@
 
     /*Botones cap Noramles*/
     
-    
+    .anterior{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        background:#111114;
+        padding:5px 8px 5px 5px;
+        margin-right:-4px;
+        border-radius:20px 0 0 20px;
+    }
+
+    .capitulos{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-right:-4px;
+        background:#111114;
+        padding: 10px;
+    }
     
     .contendor_botones{
         margin-top:14px;
