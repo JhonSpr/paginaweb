@@ -2,7 +2,8 @@
 
     .capitulo{
         border:2px solid #fa0;
-        width:398px;
+        width:735px;
+        height: 500px;
         margin-top:15px;
         margin-left:15px;
         margin-right:0;
@@ -66,10 +67,9 @@
                display:inline-block;
         color:#fa0;
         font-size:19px;
-        margin-right:-4px;
         margin-left:-4px ;
         background:#111114;
-        padding: 5px 8px 5px 8px;
+        padding: 5px 10px 5px 8px;
         border-radius:20px 0 0 20px;
     }
 
