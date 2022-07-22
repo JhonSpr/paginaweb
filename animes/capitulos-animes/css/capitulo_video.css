@@ -2,15 +2,15 @@
 
     .capitulo{
         border:2px solid #fa0;
-        width:715px;
+        width:620px;
         height: 500px;
         margin-top:15px;
-        margin-left:25px;
+        margin-left:35px;
         margin-right:0;
         border-radius:6px;
     }
     .active{
-        margin-left:15px;
+        margin-left:30px;
         background:#000;
         font-weight:900;
     }
@@ -18,7 +18,7 @@
     .capitulos_pag1{
         display:inline-block;
         color:#fa0;
-        font-size:19px;
+        font-size:25px;
         margin-right:-2px;
         background:#111114;
         padding: 5px 5px 5px 8px;
@@ -32,7 +32,7 @@
     .siguiente{
         display:inline-block;
         color:#fa0;
-        font-size:19px;
+        font-size:25px;
         background:#111114;
         padding:5px 8px 5px 5px;
         margin-left:-2px;
@@ -44,7 +44,7 @@
     .anterior{
         display:inline-block;
         color:#fa0;
-        font-size:19px;
+        font-size:25px;
         background:#111114;
         padding:5px 8px 5px 5px;
         margin-right:-4px;
@@ -54,7 +54,7 @@
     .capitulos{
         display:inline-block;
         color:#fa0;
-        font-size:19px;
+        font-size:25px;
         margin-right:-4px;
         margin-left:-4px ;
         background:#111114;
@@ -66,7 +66,7 @@
     .anterior_ult{
                display:inline-block;
         color:#fa0;
-        font-size:19px;
+        font-size:25px;
         margin-left:-4px ;
         background:#111114;
         padding: 5px 10px 5px 8px;
@@ -76,7 +76,7 @@
     .capitulos_ult{
         display:inline-block;
         color:#fa0;
-        font-size:19px;
+        font-size:25px;
         margin-left:-4px ;
         background:#111114;
         padding: 5px 8px 5px 8px;
