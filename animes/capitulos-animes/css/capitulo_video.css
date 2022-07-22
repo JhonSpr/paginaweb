@@ -2,10 +2,10 @@
 
     .capitulo{
         border:2px solid #fa0;
-        width:735px;
+        width:715px;
         height: 500px;
         margin-top:15px;
-        margin-left:15px;
+        margin-left:25px;
         margin-right:0;
         border-radius:6px;
     }
