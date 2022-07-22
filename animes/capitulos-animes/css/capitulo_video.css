@@ -2,10 +2,10 @@
 
     .capitulo{
         border:2px solid #fa0;
-        width:890px;
+        width:850px;
         height: 500px;
         margin-top:12px;
-        margin-left:35px;
+        margin-left:85px;
         margin-right:0;
         border-radius:6px;
     }
@@ -86,7 +86,7 @@
     
     .contendor_botones{
         margin-top:14px;
-        margin-left:30px;
+        margin-left:80px;
         margin-bottom:100px;
         display:block;
     }
