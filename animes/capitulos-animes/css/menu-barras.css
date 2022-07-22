@@ -1,0 +1,88 @@
+
+
+
+.contenedorMenu{
+    position: relative;
+    margin:10px 0 -29px;
+    left: 0;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 45px;
+    background-color:  #ff7d12;;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    overflow: hidden;
+}
+.contenedorMenu.active{
+    background-color: #de0611;
+}
+.contenedorMenu .menu-bars{
+    position: relative;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-bars .line{
+    position: absolute;
+    height: 4px;
+    width: 25px;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: all 0.4s linear;
+}
+.menu .line.one{
+    top: 10px;
+}
+.contenedorMenu.active .line.one{
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    background-color: #fff;
+}
+.menu .line.three{
+    bottom: 10px;
+}
+.menu .line.two{
+    opacity: 1;
+}
+.contenedorMenu.active .line.two{
+    left: -100%;
+    opacity: 0;
+    background-color: #de0611;
+}
+.contenedorMenu.active .line.three{
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+    background-color: #fff;
+}
+
+@media (max-width:1920px){
+    .contenedorMenu{
+        display:none;
+    }
+}
+
+@media (max-width:768px){
+    .contenedorMenu{
+    display:block;
+    position: relative;
+    margin:10px 0 -29px;
+    left: 0;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 45px;
+    background-color:  #ff7d12;;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    overflow: hidden;
+    }
+}
+
+
+@media (min-width:2560px){
+    .contenedorMenu{
+        display:none;
+    }
+}
