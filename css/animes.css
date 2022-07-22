@@ -49,7 +49,6 @@ a{
 }
 
 .bordes:hover{
-    transform: scale(1.12);
     background:transparent;
     transition: 300ms;
 }
