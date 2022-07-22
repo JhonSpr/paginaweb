@@ -1,3 +1,98 @@
+@media (max-width:768px){
+
+    .capitulo{
+        border:2px solid #fa0;
+        width:398px;
+        margin-top:15px;
+        margin-left:15px;
+        margin-right:0;
+        border-radius:6px;
+    }
+    .active{
+        margin-left:15px;
+        background:#000;
+        font-weight:900;
+    }
+    /*Botones cap1*/
+    .capitulos_pag1{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-right:-2px;
+        background:#111114;
+        padding: 5px 5px 5px 8px;
+        border-radius:20px 0 0 20px;
+        
+        
+        
+    }
+
+    
+    .siguiente{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        background:#111114;
+        padding:5px 8px 5px 5px;
+        margin-left:-2px;
+        border-radius:0 20px 20px 0;
+    }
+
+    /*Botones cap Noramles*/
+    
+    .anterior{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        background:#111114;
+        padding:5px 8px 5px 5px;
+        margin-right:-4px;
+        border-radius:20px 0 0 20px;
+    }
+
+    .capitulos{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-right:-4px;
+        margin-left:-4px ;
+        background:#111114;
+        padding: 5px 8px 5px 8px;
+    }
+
+    /*Botones Ultimo cap*/
+
+    .anterior_ult{
+               display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-right:-4px;
+        margin-left:-4px ;
+        background:#111114;
+        padding: 5px 8px 5px 8px;
+        border-radius:20px 0 0 20px;
+    }
+
+    .capitulos_ult{
+        display:inline-block;
+        color:#fa0;
+        font-size:19px;
+        margin-left:-4px ;
+        background:#111114;
+        padding: 5px 8px 5px 8px;
+        border-radius:0 20px 20px 0;
+    }
+    
+    .contendor_botones{
+        margin-top:14px;
+        margin-left:30px;
+        margin-bottom:100px;
+        display:inline-block;
+    }
+
+}
+
+
 @media (max-width:425px){
 
     .capitulo{
