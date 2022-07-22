@@ -1,0 +1,18 @@
+@media (max-width:425px){
+
+    .capitulo{
+        border:2px solid #fa0;
+        width:398px;
+        margin-top:15px;
+        margin-left:15px;
+        margin-right:0;
+        border-radius:10px;
+    }
+    .active{
+        margin-left:15px;
+        background:#000;
+    }
+    .title{
+        background:#000;
+    }
+}

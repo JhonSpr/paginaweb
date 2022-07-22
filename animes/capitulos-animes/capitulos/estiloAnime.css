@@ -348,13 +348,17 @@ img{
 
 
 
+
 .wrapper-general .container-principal {
     flex: 1 0 auto;
     position: relative;
     z-index: 2;
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-left:0px;
+    padding-right:0px;
     overflow: hidden;
 }
+
 
 
 
