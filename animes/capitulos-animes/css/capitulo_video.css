@@ -18,7 +18,6 @@
         display:inline-block;
         color:#fa0;
         font-size:19px;
-        outline:1px solid #111114;
         margin-right:-2px;
         background:#111114;
         padding: 5px 5px 5px 8px;
@@ -31,7 +30,6 @@
     
     .siguiente{
         display:inline-block;
-        outline:1px solid #111114;
         color:#fa0;
         font-size:19px;
         background:#111114;
