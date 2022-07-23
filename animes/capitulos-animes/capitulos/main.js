@@ -16,9 +16,6 @@ addEventListener('DOMContentLoaded', () => {
 
    
        function myFunction() {
-               var e = document.getElementById('opcion1');
-               var e2 = document.getElementById('opcion2');
-               var e3 = document.getElementById('opcion3');
                var x = document.getElementById("myDIV1");
                var g = document.getElementById('myDIV2');
                var i = document.getElementById('divPrincipal');
@@ -31,7 +28,6 @@ addEventListener('DOMContentLoaded', () => {
                  
    
                } else {
-                    e.style.background="#c47005"
                    i.style.display = "block";
                    x.style.display="none";
                    g.style.display="none";
@@ -42,9 +38,6 @@ addEventListener('DOMContentLoaded', () => {
    
        
            function myFunction3() {
-               var e = document.getElementById('opcion1');
-               var e2 = document.getElementById('opcion2');
-               var e3 = document.getElementById('opcion3');
                var x = document.getElementById("myDIV1");
                var g = document.getElementById('myDIV2');
                var i = document.getElementById('divPrincipal');
@@ -56,7 +49,6 @@ addEventListener('DOMContentLoaded', () => {
                   
    
                } else {
-                    e3.style.background="#c47005"
                    x.style.display = "block";
                    i.style.display="none";
                    g.style.display="none";
@@ -67,9 +59,6 @@ addEventListener('DOMContentLoaded', () => {
       
        
            function myFunction2() {
-               var e = document.getElementById('opcion1');
-               var e2 = document.getElementById('opcion2');
-               var e3 = document.getElementById('opcion3');
                var x = document.getElementById("myDIV1");
                var g = document.getElementById('myDIV2');
                var i = document.getElementById('divPrincipal');
@@ -80,7 +69,6 @@ addEventListener('DOMContentLoaded', () => {
                
                   
                } else {
-                e2.style.background="#c47005"
                 x.style.display = "none";
                 g.style.display="block";
                 i.style.display= "none";       
