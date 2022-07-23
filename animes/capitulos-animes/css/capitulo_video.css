@@ -893,3 +893,9 @@
 #option1.active{
    display: block;
 }
+
+.menu-tap li{
+    background:#fff;
+    display:inline-block;
+    padding:10px;
+}
