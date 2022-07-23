@@ -6,21 +6,7 @@
 	<title>Navegacion por pestañas</title>
 
 	<link rel="stylesheet" href="css/pruebas.css">
-	<script>
-        
-const targets = document.querySelectorAll('[data-target]')
-const content = document.querySelectorAll('[data-content]')
-
-targets.forEach(target => {
-	target.addEventListener('click', () => {
-		content.forEach(c => {
-			c.classList.remove('active')
-		})
-		const t = document.querySelector(target.dataset.target)
-		t.classList.add('active')
-	})
-})
-    </script>
+    <link rel="stylesheet" href="animes/capitulos-animes/capitulos/main.js">
 </head>
 <body>
 
