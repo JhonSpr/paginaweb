@@ -162,13 +162,13 @@
 
     .noticias_animes{
         overflow: scroll;
-        overflow-x: auto;
-        
+        overflow-x: auto;   
     }
     
     aside{
         background:#111114;
         width:600px;
+        height:500px;
         overflow:scroll;
         overflow-x:auto;
         display:inline-block;
