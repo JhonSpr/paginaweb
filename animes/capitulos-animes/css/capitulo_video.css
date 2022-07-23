@@ -890,8 +890,8 @@
 
 
 
-#option1.active{
-   display: block;
+#option1{
+   display: none;
 }
 
 .menu-tap li{
