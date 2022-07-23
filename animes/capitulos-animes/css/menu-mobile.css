@@ -576,9 +576,6 @@ header
     .menu_items{
         display:none;
     }
-    .order{
-        display:none;
-    }
 }
 
 @media (min-width:2560px){
