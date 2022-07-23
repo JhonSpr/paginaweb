@@ -1,5 +1,24 @@
 @media (max-width:1920px){
 
+    
+    .contenedor-list{
+        padding:15px;
+        display:inline-block;
+        background:#fa0;
+        cursor:pointer;
+    }
+    
+    .contenedor-list:hover{
+     background:#ccc;
+    }
+
+    #myDIV1{
+        display: none;
+    }
+    #myDIV2{
+        display: none;
+    }
+
 
     
 
