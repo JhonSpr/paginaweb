@@ -18,6 +18,11 @@
     #myDIV2{
         display: none;
     }
+    .opciones{
+        display: block;
+        margin:10px 0;
+        
+    }
 
 
     
