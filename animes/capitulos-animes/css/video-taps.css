@@ -57,10 +57,17 @@ ul.tabs li a .tab-text{
 	
 }
 
-#opcion1{
+#tab1{
     display: none;
 }
+#tab1.show{
+    display: block;
+}
 
-#opcion1.show{
+#tab2{
+    display: block;
+}
+
+#tab2.show{
     display: block;
 }
