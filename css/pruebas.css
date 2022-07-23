@@ -350,7 +350,6 @@ p{
 } */
 
 
-
 *{
 	margin: 0;
 	padding: 0;
@@ -381,7 +380,7 @@ body{
 	width: 18%;
 }
 
-.tabs li .menu-tabs{
+.tabs li a{
 	color: #fff;
 	text-decoration: none;
 	font-size: 16px;
@@ -395,7 +394,7 @@ body{
 	background: #ca4;
 }
 
-ul.tabs li .menu-tabs .tab-text{
+ul.tabs li a .tab-text{
 	margin-left: 8px;
 }
 
@@ -417,3 +416,6 @@ ul.tabs li .menu-tabs .tab-text{
     
     }
 
+iframe.hide{
+  display:none;
+}
