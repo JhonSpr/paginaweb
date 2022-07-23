@@ -9,3 +9,12 @@ addEventListener('DOMContentLoaded', () => {
     }
 
 })
+
+
+const option = document.getElementById('#option1');
+if (option){
+    option.addEventListener('click' , () => {
+        const video = document.getElementById('#option1')
+        video.style.display = "block";
+    })
+}
