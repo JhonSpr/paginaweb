@@ -10,15 +10,6 @@ body {
 	padding: 5%;
 }
 
-.menu {
-	display: flex;
-}
-
-.menu p {
-	margin-right: 2rem;
-	cursor: pointer;
-}
-
 .content {
 	margin-top: 2rem;
 }
