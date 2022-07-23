@@ -196,19 +196,18 @@
 
                             x = document.addEventListener('click');
 
-
-                            function myFunctionPrincipal() {
+                            function myFunction() {
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var i = document.getElementById('divPrincipal');
                                     if (i.style.display === "none") {
                                         i.style.display = "block";
+                                        x.style.display="none";
                                         g.style.display="none";
-                                        i.style.display="none";
 
                                     } else {
                                         i.style.display = "none";
-         
+                                
                                     }
                                 }
 
