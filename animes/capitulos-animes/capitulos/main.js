@@ -13,27 +13,7 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-function activado(){
-                           
-    if (i.style.display === "block"){
-        e.style.background="#c47005";
-    }
-       else{
-           e.style.background="#fa0"
-       }
-       if(x.style.display === "block"){
-           e3.style.background="#c47005";
-       }
-       else{
-           e3.style.background="#fa0"
-       }
-       if(g.style.display === "block"){
-           e2.style.background="#c47005"
-       }
-       else{
-           e2.style.background="#fa0"
-       }
-      }
+
    
        function myFunction() {
                var e = document.getElementById('opcion1');
