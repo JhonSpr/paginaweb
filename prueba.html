@@ -1,309 +1,56 @@
-<!-- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="imagenes/anime-logo-square.ico">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <script src="js/main.js"></script>
-    <script src="https://kit.fontawesome.com/9d2ffd2695.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/capitulos.css">
-    <link rel="stylesheet" href="css/menu-mobile.css">
-    <link rel="stylesheet" href="css/menu-barras.css">
-    <link rel="stylesheet" href="css/pruebas.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Akudama Drive</title>
-</head>
-<body style="margin-bottom: 50px;">
-    <div class="wrapper-general">
-        <header>
-            <nav class="menu menu-responsive">  
-                <nav class="menu-responsive2">
-                <ul class="menu_items">
-                    <li class="obj">
-                        <a href="../index" class=" menu-responsive active">
-                            <i class="fa-solid fa-house"></i>
-                        </a>
-                    </li>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Navegacion por pestañas</title>
 
-                    <li class="obj">
+	<link rel="stylesheet" href="css/pruebas.css">
+	<script>
+        
+const targets = document.querySelectorAll('[data-target]')
+const content = document.querySelectorAll('[data-content]')
 
-                        <li class="obj">
-                            <a href="../animes" class="menu-responsive">
-                                <i class="fa-solid fa-tv" style=" margin-right:5px;"></i>
-                                ANIMES
-                            </a>
-                            
-                        </li>
-                    </li>
-                  
-                    <li class="obj">
-                        <a href="" class="menu-responsive">
-                            <i class="fa-regular fa-film" style=" margin-right:5px;"></i>
-                            OVAS
-                        </a>
-                    </li>  
-                    <li class="obj">
-                        <a href="" class="menu-responsive">
-                            <i class="fa-regular fa-film" style=" margin-right:5px;"></i>
-                            PELICULAS
-                        </a>
-                    </li> 
-                </ul>   
-                </nav>
-                
-                
-                
-                <div class="navbar-nav">            
-                    <div class="logo">
-                            <img src="../Mi proyecto.png" alt="logo">
-                    </div>
-                    <div class="navigation">  
-                        <div class="nav-options">       
-                            <ul class="menu-navigation">
-                                <li class="obj">
-                                    <a href="../index" class="bordes2 menu-responsive">
-                                        <i class="fa-solid fa-house"></i>
-                                    </a>
-                                </li>
-                                <li class="obj">
-                                    <a href="../animes" class="bordes2 menu-responsive">
-                                        <i class="fa-solid fa-tv" style="color: #000; margin-right:5px;"></i>
-                                        ANIMES
-                                    </a>
-                                    
-                                </li> 
-                                <li class="obj">
-                                    <a href="" class="bordes2 menu-responsive">
-                                        <i class="fa-regular fa-film" style="color:#000; margin-right:5px;"></i>
-                                        OVAS
-                                    </a>
-                                </li> 
-                                <li class="obj">
-                                    <a href="" class="bordes2 menu-responsive">
-                                        <i class="fa-regular fa-film" style="color:#000; margin-right:5px;"></i>
-                                        PELICULAS
-                                    </a>
-                                </li>     
-                            </ul>
-                            <div class="search">
-                                <form method="get">
-                                    <input id="inputSearch" type="text" name="search" placeholder="Buscar anime" autocomplete="off">
-                                        <button id="boton">
-                                            <i class="fas fa-search"></i>
-                                        </button>
-                                </form>
-                            </div>
-
-                            <div class="contenedorMenu">
-
-                                <div class="menu-bars">
-                                    <span class="line one btn_menu"></span>
-                                    <span class="line two btn_menu"></span>
-                                    <span class="line three btn_menu"></span>
-                                </div>
-                            </div>
-                            <script>
-                                let hamMenu = document.querySelector(".contenedorMenu");
-                                  hamMenu.addEventListener("click", ()=>{
-                                      hamMenu.classList.toggle("active");
-                                  });
-                              </script>
-                        </div>
-                    </div>
-
-                </div>
-                
-                
-            </nav>
-        </header>
-
-        <section class="container-principal">
-            <div class="container-body margin-container">
-                
-                
-                <aside class="sidebar MC__fixed">
-                    <div class="widget-emision">
-                            <div class="title-emision fa-play">
-                                <strong>Mas Animes</strong>
-                            </div>
-                            <div class="animes-emision">
-                                <ul>
-                                                                <li>
-                                        <a href="#"  class="fa-play-circle bordes">Naruto Shippuden
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Dororo
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Burn the Witch
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Boogiepop wa Warawanai 
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Egao no Daika
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">BAKI: dai reitaisai-hen
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">BAKI: dai reitaisai-hen
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Fukigen na Mononokean Tsuzuki
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Mob Psycho 100 
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Mob Psycho 100 II
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Watashi ni Tenshi ga Maiorita!
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Yakusoku no Neverland
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Girly Air Force
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Mahou Shoujo Tokushusen Asuka
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes" >Violet Evergarden
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="fa-play-circle bordes">Doukyonin wa Hiza, Tokidoki, Atama no Ue.
-                                            <span class="type-anime tv">ANIME</span>
-                                        </a>
-                                    </li>
-                            </ul>
-                            </div>
-                         </div>
-                </aside>
-            </div>
-        </section>
-        <footer>
-
-        </footer>
-    </div>
-    
-</body>
-</html>
-
-
- -->
-
-
-
-
-
-
- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../../../../../css/fontawesome.css">
-    <link rel="icon" href="../../anime-logo-square.ico">
-    <script src="animes/capitulos-animes/capitulos/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://kit.fontawesome.com/9d2ffd2695.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/pruebas.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>Capitulo 1 Tate No Yuusha no ariagari</title>
+targets.forEach(target => {
+	target.addEventListener('click', () => {
+		content.forEach(c => {
+			c.classList.remove('active')
+		})
+		const t = document.querySelector(target.dataset.target)
+		t.classList.add('active')
+	})
+})
+    </script>
 </head>
 <body>
-    <body>
-        <div class="wrap">
-            <ul class="tabs">
-                <li><a data-target="#tab1"></span><span class="tab-text">opcion 1</span></a></li>
-                <li><a  data-target="#tab2"></span><span class="tab-text">opcion 2</span></a></li>
-                <li><a href="#tab3" class="menu-tabs"></span><span class="tab-text">opcion 3</span></a></li>
-                <li><a href="#tab4" class="menu-tabs"></span><span class="tab-text">opcion 4</span></a></li>
-		        
-            </ul>
-    
-    
-    <div class="contenedor_iframe">
-      
-    
-        
-     <iframe  width="560" height="315" frameborder="0" src="https://cdn.jwplayer.com/players/EkwLrr12-KlDvFrjn.html" scrolling="no" allowfullscreen=""  data-content id="tab1"  class="active capitulo"></iframe>
-        
-     <iframe  width="560" height="315" frameborder="0" src="https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html" scrolling="no" allowfullscreen="" data-content id="tab2"  class="active capitulo"></iframe>
-      
-      
-    </div>
-    
-    
-                
-                
-            </div>
-    
-    </body>
+
+	<div class="menu">
+		<p data-target="#inicio">Inicio</p>
+		<p data-target="#productos">Productos</p>
+		<p data-target="#contacto">Contacto</p>
+	</div>
+
+	<div class="content">
+
+		<div data-content id="inicio" class="active">
+			<h1>Inicio</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis architecto aperiam accusamus vitae possimus. Atque quam quibusdam nobis perferendis voluptate harum, sed aliquam illo! Suscipit!
+			</p>
+		</div>
+
+		<div data-content id="productos">
+			<h1>Productos</h1>
+		</div>
+
+		<div data-content id="contacto">
+			<h1>Contacto</h1>
+		</div>
+
+	</div>
+
 </body>
 </html>
-
-
-
-
-
-
-
 
 
 
