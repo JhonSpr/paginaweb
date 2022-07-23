@@ -121,12 +121,18 @@
     }
     
     /*Botones Ultimo cap*/
+
+    i{
+    margin:10px;
+    }
+    .botones-borde{
+        display:inline-block;
+    }
     
     .anterior_ult{
-               display:inline-block;
-        color:#fa0;
+        display:inline-block;
+        color:#fff;
         font-size:25px;
-        margin-left:-4px ;
         background:#111114;
         padding: 5px 10px 5px 8px;
         border-radius:20px 0 0 20px;
@@ -177,7 +183,6 @@
     }
     
     }
-
 
 
 
