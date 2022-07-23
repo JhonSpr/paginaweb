@@ -27,8 +27,7 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display="none";
                    g.style.display="none";
                   
-                   e2.style.background="transparent"
-                   e3.style.background="transparent"
+                   
                  
    
                } else {
@@ -53,12 +52,11 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    i.style.display="none";
                    g.style.display="none";
-                   e.style.background="transparent"
-                   e2.style.background="transparent"
-                   e3.style.background="#c47005"
+                
+                  
    
                } else {
-               
+                    e3.style.background="#c47005"
                    x.style.display = "block";
                    i.style.display="none";
                    g.style.display="none";
@@ -79,15 +77,13 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    g.style.display="block";
                    i.style.display= "none";
-                   e.style.background="transparent"
-                   e2.style.background="#c47005"
-                   e3.style.background="transparent"
+               
                   
                } else {
-                   
-                   x.style.display = "none";
-                   g.style.display="block";
-                   i.style.display= "none";       
+                e2.style.background="#c47005"
+                x.style.display = "none";
+                g.style.display="block";
+                i.style.display= "none";       
                }
            }
    
