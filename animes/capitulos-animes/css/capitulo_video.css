@@ -889,22 +889,6 @@
 
 
 
-#opcion1{
-    display: none;
-}
-
-#opcion2{
-    display: none;
-}
-
-#option2.poner{
-    display: block;
-}
-
-
-#option1.poner{
-   display: block;
-}
 
 .menu-tap li{
     background:#fff;
