@@ -104,6 +104,14 @@
         display:block;
     }
 
+    /* Aside */
+
+    .cont-aside{
+        background:#000;
+        display:inline-block;
+        height:100%;
+    }
+
 }
 
 @media (max-width:1440px){
