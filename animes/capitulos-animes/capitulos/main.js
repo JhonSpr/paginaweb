@@ -11,9 +11,18 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-const option = document.getElementById('#option1');
-if (option){
-    option.addEventListener('click' , () => {
+const option1 = document.getElementById('#option1');
+if (option2){
+    option1.addEventListener('click' , () => {
+        const video = document.querySelector('#option1')
+        video.click.toggle('show')
+    })
+ 
+}
+
+const option2 = document.querySelector('#option1');
+if (option2){
+    option2.addEventListener('click' , () => {
         const video = document.querySelector('#option1')
         video.click.toggle('show')
     })
