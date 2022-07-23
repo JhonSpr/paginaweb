@@ -15,6 +15,7 @@ const option = document.getElementById('#option1');
 if (option){
     option.addEventListener('click' , () => {
         const video = document.getElementById('#option1')
+        video.click.toggle('show')
         video.style.display = "block";
     })
 }
