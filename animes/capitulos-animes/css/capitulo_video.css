@@ -16,15 +16,9 @@
         height:100%;
 
     }
-    .order{
-        display: block;
-        width: 150px;
-
-    }
 
     .active{
         margin-left:400px;
-        background:#111114;
         margin-top:10px;
         font-weight:900;
         font-size:20px;
