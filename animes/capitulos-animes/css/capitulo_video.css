@@ -11,7 +11,7 @@
         border-radius:3px;
         font-size:12px;
         margin:-20px 0 0 10px;
-        position:fixed;
+        position:absolute;
         
     }
     
@@ -50,7 +50,7 @@
     }
     
     .active{
-        margin-top:-700px;
+        margin-top:-1000px;
         font-weight:900;
         font-size:20px;
         color: #fa0;
@@ -138,10 +138,32 @@
         
         
     }
+
+    aside::-webkit-scrollbar {
+    width: 7px;
+    height: auto;
+    background: #ff7d12;
+    }
+
+    aside::-webkit-scrollbar-track {
+    width: 10px;
+    background: #333;
+    }
+
+    aside::-webkit-scrollbar-thumb {
+    height: auto;
+    background: #ff7d12;
+    }
+    
+    aside::-webkit-scrollbar-thumb:hover {
+    background: #c76310;
+    }
     
     aside{
         background:#111114;
         width:600px;
+        overflow:scroll;
+        overflow-x:auto;
         display:inline-block;
     }
     
@@ -153,6 +175,10 @@
     }
     
     }
+
+
+
+
 @media (max-width:1440px){
 
     .capitulo{
