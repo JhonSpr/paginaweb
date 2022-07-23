@@ -140,26 +140,31 @@
     }
 
 /* width */
-aside::-webkit-scrollbar {
+.noticias_animes::-webkit-scrollbar {
     width: 10px;
     
 }
 
 /* Track */
-aside::-webkit-scrollbar-track {
+.noticias_animes::-webkit-scrollbar-track {
     background-color: #333;
 }
 
 /* Handle */
-aside::-webkit-scrollbar-thumb {
+.noticias_animes::-webkit-scrollbar-thumb {
     background: #ff7d12;
 }
 
 /* Handle on hover */
-aside::-webkit-scrollbar-thumb:hover {
+.noticias_animes::-webkit-scrollbar-thumb:hover {
     background: #c76310;
 }
 
+    .noticias_animes{
+        overflow: scroll;
+        overflow-x: auto;
+        
+    }
     
     aside{
         background:#111114;
