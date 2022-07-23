@@ -29,18 +29,16 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-var colocarClass = ('.tabs li a:first').addClass('active');
-	let esconder = ('.contenedor_iframe iframe').hide();
-    esconder.style.display="none";
-	let mostrar = ('.contenedor_iframe iframe:first').show();
-    mostrar.style.display="block";
+$('.tabs li a:first').addClass('active');
+	$('.contenedor_iframe').hide();
+	$('.contenedor_iframe:first').show();
 
-	('ul.tabs li a').click(function(){
-		removerClass=('ul.tabs li .menu-tabs').removeClass('active');
-		colocarClass = (this).addClass('active');
-		esconder = ('.contenedor_iframe iframe').hide();
+	$('ul.tabs li a').click(function(){
+		$('ul.tabs li a').removeClass('active');
+		$(this).addClass('active');
+		$('.contenedor_iframe iframe').hide();
 
-		var activeTab = colocarClass=(this).attr('href');
-		mostrar = (activeTab).show();
+		var activeTab = $(this).attr('href');
+		$(activeTab).show();
 		return false;
 	});
