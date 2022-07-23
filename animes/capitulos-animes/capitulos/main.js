@@ -12,7 +12,15 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-
+    function activado(){
+        const activado1 = document.getElementById('opcion1')
+        activado1.classList.add('activo1');
+        const activado2 = document.getElementById('opcion2')
+        activado2.classList.add('activo2');
+        const activado3 = document.getElementById('opcion3')
+        activado3.classList.add('activo3');
+    }
+    
 
    
        function myFunction() {
