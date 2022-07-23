@@ -29,7 +29,7 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-$('.tabs li a:first').addClass('active');
+var colocarClass = ('.tabs li a:first').addClass('active');
 	let esconder = ('.contenedor_iframe iframe').hide();
     esconder.style.display="none";
 	let mostrar = ('.contenedor_iframe iframe:first').show();
