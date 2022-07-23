@@ -405,6 +405,6 @@ ul.tabs li a .tab-text{
     
     }
 
-iframe.hide{
+iframe{
     visibility: hidden;
 }
