@@ -212,11 +212,14 @@
                            
                             
                                 function myFunction2() {
-                                    var x = document.getElementById("myDIV2");
+                                    var x = document.getElementById("myDIV1");
+                                    var g = document.getElementById('myDVI2');
                                     if (x.style.display === "none") {
-                                        x.style.display = "block";
-                                    } else {
                                         x.style.display = "none";
+                                        g.style.display="block";
+                                    } else {
+                                        x.style.display = "block";
+                                        g.style.display = "none"
                                     }
                                 }
                                 
