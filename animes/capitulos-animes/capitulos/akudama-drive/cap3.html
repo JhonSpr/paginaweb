@@ -99,10 +99,21 @@
                                         </button>
                                 </form>
                             </div>
-                            <span class="btn_menu" style="font-size: 25px;">
-                                <i class="fa fa-bars" style="font-size: 30px;"></i>
-                                Menu
-                            </span>
+                        
+                            <div class="contenedorMenu">
+
+                                <div class="menu-bars">
+                                    <span class="line one btn_menu"></span>
+                                    <span class="line two btn_menu"></span>
+                                    <span class="line three btn_menu"></span>
+                                </div>
+                            </div>
+                            <script>
+                                let hamMenu = document.querySelector(".contenedorMenu");
+                                  hamMenu.addEventListener("click", ()=>{
+                                      hamMenu.classList.toggle("active");
+                                  });
+                              </script>
                         </div>
                     </div>
 
