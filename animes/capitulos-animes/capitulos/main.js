@@ -24,7 +24,7 @@ const option2 = document.querySelector('#option1');
 if (option2){
     option2.addEventListener('click' , () => {
         const video = document.querySelector('#option1')
-        video.click.toggle('show')
+        video.click.toggle('poner')
     })
  
 }
