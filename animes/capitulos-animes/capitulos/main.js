@@ -16,13 +16,26 @@ addEventListener('DOMContentLoaded', ()=>{
         const activado = document.querySelector('.contenedor-list');
         if (activado){
           activado.addEventListener('click' , () =>{
-              const marcado1 = document.querySelector('.activado1');
+              const activado1 = document.querySelector('.activado1');
               activado1.addClass('activado');
-              const marcado2 = document.querySelector('.activado2');
+              const activado2 = document.querySelector('.activado2');
               activado1.addClass('activado3');
-              const marcado3 = document.querySelector('.activado3');
+              const activado3 = document.querySelector('.activado3');
               activado1.addClass('activado3');
           })
+          var i = document.getElementById('divPrincipal');
+          if (i.style.display === "block") {
+            activado1.style.background="#c47005"
+            activado2.style.background="#fa0"
+            activado3.style.background="#fa0"
+          }
+          var g = document.getElementById('myDIV2');
+          if (g.style.display === "block") {
+            activado1.style.background="fa0"
+            activado2.style.background="fa0"
+            activado3.style.background="#c47005"
+          }
+
         }
       })
 
