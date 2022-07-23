@@ -406,5 +406,5 @@ ul.tabs li a .tab-text{
     }
 
 iframe.hide{
-  display:none;
+    visibility: hidden;
 }
