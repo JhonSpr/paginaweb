@@ -24,6 +24,9 @@
         
     }
     
+    .activado {
+        background-color: #c47006;
+    }
 
     .text-noticias:hover{
         color:#c4a;
