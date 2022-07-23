@@ -11,15 +11,16 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-function activado(){
-  const activado = document.querySelector('.contenedor-list');
-  if (activado){
-    activado.addEventListener('click' , () =>{
-        const marcado = document.querySelector('.contenedor-list');
-        contenedor-list.addClass('activado');
-    })
-  }
-}
+addEventListener('DOMContentLoaded', ()=>{
+   
+        const activado = document.querySelector('.contenedor-list');
+        if (activado){
+          activado.addEventListener('click' , () =>{
+              const marcado = document.querySelector('.contenedor-list');
+              contenedor-list.addClass('activado');
+          })
+        }
+      })
 
 
 
