@@ -1,5 +1,11 @@
 @media (max-width:1920px){
 
+    .borde-noticias-list{
+        border-bottom:1px solid #fa0;
+        padding-bottom:15px;
+        padding-top:0;
+    }
+
     .aside-capitulos .noticias_animes li{
         border:2px solid #fa0;
     }
@@ -55,7 +61,7 @@
     }
     
     .active{
-        margin-top:-1000px;
+        margin-top:-1200px;
         font-weight:900;
         font-size:20px;
         color: #fa0;
@@ -161,7 +167,6 @@
     }
     
     }
-
 
 
 
