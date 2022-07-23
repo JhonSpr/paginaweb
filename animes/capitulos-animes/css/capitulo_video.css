@@ -17,8 +17,8 @@
 
     }
     .order{
-        display: inline-block;
-        
+        display: block;
+
     }
 
     .active{
