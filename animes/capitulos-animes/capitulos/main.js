@@ -35,12 +35,12 @@ var colocarClass = ('.tabs li a:first').addClass('active');
 	let mostrar = ('.contenedor_iframe iframe:first').show();
     mostrar.style.display="block";
 
-	$('ul.tabs li a').click(function(){
-		$('ul.tabs li .menu-tabs').removeClass('active');
-		$(this).addClass('active');
-		$('.contenedor_iframe iframe').hide();
+	('ul.tabs li a').click(function(){
+		removerClass=('ul.tabs li .menu-tabs').removeClass('active');
+		colocarClass = (this).addClass('active');
+		esconder = ('.contenedor_iframe iframe').hide();
 
-		var activeTab = $(this).attr('href');
-		$(activeTab).show();
+		var activeTab = colocarClass=(this).attr('href');
+		mostrar = (activeTab).show();
 		return false;
 	});
