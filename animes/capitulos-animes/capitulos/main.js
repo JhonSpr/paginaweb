@@ -36,6 +36,13 @@ addEventListener('DOMContentLoaded', ()=>{
             activado3.style.background="#c47005"
           }
 
+          var x = document.getElementById('myDIV1');
+          if (x.style.display === "block") {
+            activado1.style.background="fa0"
+            activado2.style.background="#c47005"
+            activado3.style.background="#fa0"
+          }
+
         }
       })
 
