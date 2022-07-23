@@ -19,8 +19,33 @@ addEventListener('DOMContentLoaded', () => {
         activado2.classList.add('activo2');
         const activado3 = document.getElementById('opcion3')
         activado3.classList.add('activo3');
+
+        if (i.style.display === "block") {
+            activado1.style.background=" #3A3A3C";
+            activado2.style.background=" #fa0"; 
+            activado3.style.background=" #fa0";          
+        }
+        else{
+            activado1.style.background="#fa0"
+        }
+        if (x.style.display === "block") {
+            activado1.style.background=" #fa0";
+            activado2.style.background=" #fa0"; 
+            activado3.style.background=" #3A3A4C";          
+        }
+        else{
+            activado3.style.background="#fa0"
+        }
+        if (g.style.display === "block") {
+            activado1.style.background=" #fa0";
+            activado2.style.background=" #3A3A3C"; 
+            activado3.style.background=" #fa0";          
+        }
     }
-    
+
+
+
+
 
    
        function myFunction() {
