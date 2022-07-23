@@ -60,3 +60,7 @@ ul.tabs li a .tab-text{
 #opcion1{
     display: none;
 }
+
+#opcion1.show{
+    display: block;
+}
