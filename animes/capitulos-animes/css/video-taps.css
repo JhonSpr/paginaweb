@@ -35,18 +35,3 @@ ul.tabs li a .tab-text{
 	margin-left: 8px;
 }
 
-
-#tab1{
-    display: none;
-}
-#tab1.show{
-    display: block;
-}
-
-#tab2{
-    display: block;
-}
-
-#tab2.show{
-    display: block;
-}
