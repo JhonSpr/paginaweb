@@ -26,13 +26,13 @@ addEventListener('DOMContentLoaded', () => {
                    i.style.display = "block";
                    x.style.display="none";
                    g.style.display="none";
-                   e.style.background="#c47005"
+                  
                    e2.style.background="transparent"
                    e3.style.background="transparent"
                  
    
                } else {
-               
+                    e.style.background="#c47005"
                    i.style.display = "block";
                    x.style.display="none";
                    g.style.display="none";
