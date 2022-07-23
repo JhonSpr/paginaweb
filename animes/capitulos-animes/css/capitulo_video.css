@@ -1,5 +1,12 @@
 @media (max-width:1920px){
 
+    .contenedor-total{
+        margin:50px 250px;
+        height:100%;
+        padding-bottom:50px;
+        background:#fff;
+    }
+
     .contenedor_iframe{
         display:inline-block;
         border:2px solid #fa0;
@@ -18,8 +25,7 @@
     }
 
     .active{
-        margin-left:400px;
-        margin-top:10px;
+        margin-top:12px;
         font-weight:900;
         font-size:20px;
         color: #fa0;
@@ -68,7 +74,7 @@
         margin-right:-4px;
         margin-left:-4px ;
         background:#111114;
-        padding: 5px 8px 5px 8px;
+        padding: 10px 10px 10px 10px;
     }
 
     /*Botones Ultimo cap*/
@@ -95,13 +101,10 @@
     
     .contendor_botones{
         margin-top:14px;
-        margin-left:400px;
-        margin-bottom:100px;
         display:block;
     }
 
 }
-
 
 @media (max-width:1440px){
 
