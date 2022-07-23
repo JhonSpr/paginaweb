@@ -12,20 +12,15 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-// $('ul.tabs li a:first').addClass('active');
-// 	$('.contenedor_iframe iframe').hide();
-// 	$('.contenedor_iframe iframe:first').show();
+const targets = document.querySelectorAll('[data-target]')
+const content = document.querySelectorAll('[data-content]')
 
-// 	$('ul.tabs li a').click(function(){
-// 		$('ul.tabs li a').removeClass('active');
-// 		$(this).addClass('active');
-// 		$('.contenedor_iframe iframe').hide();
-
-// 		var activeTab = $(this).attr('href');
-// 		$(activeTab).show();
-// 		return false;
-// 	});
-
-
-
-
+targets.forEach(target => {
+	target.addEventListener('click', () => {
+		content.forEach(c => {
+			c.classList.remove('active')
+		})
+		const t = document.querySelector(target.dataset.target)
+		t.classList.add('active')
+	})
+})
