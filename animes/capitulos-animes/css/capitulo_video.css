@@ -137,14 +137,7 @@
         z-index:999999;
     
     }
-    
-    .menu-tabs.active{
-        margin-top:auto;
-        font-weight:900;
-        font-size:20px;
-        display:inline-block;
-        color: #fa0;
-    }
+
     /*Botones cap1*/
     .capitulos_pag1{
         display:inline-block;
