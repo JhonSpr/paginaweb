@@ -893,6 +893,11 @@
     display: none;
 }
 
+#opcion2{
+    display: none;
+}
+
+
 #option1.show{
    display: block;
 }
