@@ -88,7 +88,7 @@
     
     .siguiente{
         display:inline-block;
-        color:#fa0;
+        color:#fff;
         font-size:25px;
         background:#111114;
         padding:5px 8px 5px 5px;
@@ -102,7 +102,7 @@
     
     .anterior{
         display:inline-block;
-        color:#fa0;
+        color:#fff;
         font-size:25px;
         background:#111114;
         padding:5px 8px 5px 5px;
@@ -114,10 +114,10 @@
         display:inline-block;
         color:#fa0;
         font-size:25px;
-        margin-right:-4px;
-        margin-left:-4px ;
+        margin-right:-1px;
+        margin-left:1px;
         background:#111114;
-        padding: 10px 10px 10px 10px;
+        padding: 5px 10px 5px 10px;
     }
     
     /*Botones Ultimo cap*/
@@ -212,7 +212,6 @@
     }
     
     }
-
 
 
 @media (max-width:1440px){
