@@ -99,10 +99,21 @@
                                         </button>
                                 </form>
                             </div>
-                            <span class="btn_menu" style="font-size: 25px;">
-                                <i class="fa fa-bars" style="font-size: 30px;"></i>
-                                Menu
-                            </span>
+                            
+                            <div class="contenedorMenu">
+
+                                <div class="menu-bars">
+                                    <span class="line one btn_menu"></span>
+                                    <span class="line two btn_menu"></span>
+                                    <span class="line three btn_menu"></span>
+                                </div>
+                            </div>
+                            <script>
+                                let hamMenu = document.querySelector(".contenedorMenu");
+                                  hamMenu.addEventListener("click", ()=>{
+                                      hamMenu.classList.toggle("active");
+                                  });
+                              </script>
                         </div>
                     </div>
 
@@ -115,10 +126,69 @@
         <section class="container-principal">
             
                 <main>
+
+
+                            <!-- aside -->
+                            <div class="contenedor-total">       
+                                <div class="cont-aside">
+                                    <aside class="aside-capitulos">
+                                        <div class="noticas_animes">
+                                            <div class="title-aside">
+                                                <h2 class="text-aside">Noticias Animes</h2>
+                                            </div>
+                                            <li class="borde-noticias-list">
+                                                <a href="https://somoskudasai.com/noticias/cultura-otaku/spy-x-family-ya-domina-en-popularidad-en-china/" target="_blank" class="text-noticias">                                                                                
+                                                    <p>
+                                                        <img src="https://somoskudasai.com/wp-content/uploads/2022/07/portada_spy-x-family-115-150x150.jpg" class="imagen-noticias" alt="">
+                                                        Spy X Family Ya domina en popularidad en toda china
+                                                    </p>
+                                                    <span class="fecha-noticias">22-07-2022</span>
+                                                </a>
+                                            </li>
+                                            <li class="borde-noticias-list">
+                                                <a href="https://somoskudasai.com/noticias/cultura-otaku/spy-x-family-ya-domina-en-popularidad-en-china/" target="_blank" class="text-noticias">                                                                                
+                                                    <p>
+                                                        <img src="https://somoskudasai.com/wp-content/uploads/2022/07/portada_spy-x-family-115-150x150.jpg" class="imagen-noticias" alt="">
+                                                        Spy X Family Ya domina en popularidad en toda china
+                                                    </p>
+                                                    <span class="fecha-noticias">22-07-2022</span>
+                                                </a>
+                                            </li>
+                                            <li class="borde-noticias-list">
+                                                <a href="https://somoskudasai.com/noticias/cultura-otaku/spy-x-family-ya-domina-en-popularidad-en-china/" target="_blank" class="text-noticias">                                                                                
+                                                    <p>
+                                                        <img src="https://somoskudasai.com/wp-content/uploads/2022/07/portada_spy-x-family-115-150x150.jpg" class="imagen-noticias" alt="">
+                                                        Spy X Family Ya domina en popularidad en toda china
+                                                    </p>
+                                                    <span class="fecha-noticias">22-07-2022</span>
+                                                </a>
+                                            </li>
+                                            <li class="borde-noticias-list">
+                                                <a href="https://somoskudasai.com/noticias/cultura-otaku/spy-x-family-ya-domina-en-popularidad-en-china/" target="_blank" class="text-noticias">                                                                                
+                                                    <p>
+                                                        <img src="https://somoskudasai.com/wp-content/uploads/2022/07/portada_spy-x-family-115-150x150.jpg" class="imagen-noticias" alt="">
+                                                        Spy X Family Ya domina en popularidad en toda china
+                                                    </p>
+                                                    <span class="fecha-noticias">22-07-2022</span>
+                                                </a>
+                                            </li>
+                                            <li class="borde-noticias-list">
+                                                <a href="https://somoskudasai.com/noticias/cultura-otaku/spy-x-family-ya-domina-en-popularidad-en-china/" target="_blank" class="text-noticias">                                                                                
+                                                    <p>
+                                                        <img src="https://somoskudasai.com/wp-content/uploads/2022/07/portada_spy-x-family-115-150x150.jpg" class="imagen-noticias" alt="">
+                                                        Spy X Family Ya domina en popularidad en toda china
+                                                    </p>
+                                                    <span class="fecha-noticias">22-07-2022</span>
+                                                </a>
+                                            </li>
+                                        </div>
+                                    </aside>
+                                </div> 
+
                     <div class="contenedor-total">
                         <div class="title">
                             <div class="order">
-                            <a href="#" class="active">Capitulo 5</a>
+                                <h2 class="active">Akudama Drive - Episodio 4</h2>
                             </div>
                             <div class="contenedor_iframe">
                                 <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/neea68kvfnro.html" scrolling="no" allowfullscreen="" class="capitulo"></iframe>
@@ -127,7 +197,7 @@
                             <div class="contendor_botones">
                                     <a href="cap4">
                                         <i class="fa-solid fa-backward anterior"></i>
-                                        <span></span>
+                                        <span class="text-anterior">anterior</span>
                                     </a>
                                     <a href="../../../akudama-drive">
                                         <i class="fa-solid fa-align-justify capitulos"></i>
@@ -135,9 +205,10 @@
                                     </a>
                            
                             
-                                    <a href="cap6" class="siguiente">
+                                    <a href="cap6"> 
+                                        <span class="text-siguiente">siguiente</span>
                                         <i class="fa-solid fa-forward siguiente"></i>
-                                        <span></span>
+                                       
                                     </a>
                             </div>
                            
