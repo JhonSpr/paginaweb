@@ -1,5 +1,15 @@
 @media (max-width:1920px){
 
+
+    .imagen-noticias{
+        width:130px;
+        height:80px;
+        margin-top:10px;
+        margin-left:10px;
+        border-radius:10px;
+    }
+    
+    
     .contenedor-total{
         margin:50px 250px;
         height:100%;
@@ -116,7 +126,7 @@
 
     aside{
         background:#fa0;
-        width:450px;
+        width:600px;
         display:inline-block;
     }
 
