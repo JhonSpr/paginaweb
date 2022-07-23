@@ -1,4 +1,8 @@
 @media (max-width:1920px){
+    .text-noticias:hover{
+        color:#c4a;
+        
+    }
 
     .borde-noticias-list{
         border-bottom:1px solid #fa0;
