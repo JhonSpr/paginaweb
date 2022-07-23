@@ -381,7 +381,7 @@ body{
 	width: 18%;
 }
 
-.tabs li a{
+.tabs li .menu-tabs{
 	color: #fff;
 	text-decoration: none;
 	font-size: 16px;
@@ -395,7 +395,7 @@ body{
 	background: #ca4;
 }
 
-ul.tabs li a .tab-text{
+ul.tabs li .menu-tabs .tab-text{
 	margin-left: 8px;
 }
 
