@@ -128,6 +128,9 @@
     .botones-borde{
         display:inline-block;
     }
+    .botones-borde:hover{
+        background: #111114;
+    }
     
     .anterior_ult{
         display:inline-block;
