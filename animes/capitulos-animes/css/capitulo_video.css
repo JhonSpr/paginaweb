@@ -897,8 +897,12 @@
     display: none;
 }
 
+#option2.poner{
+    display: block;
+}
 
-#option1.show{
+
+#option1.poner{
    display: block;
 }
 
