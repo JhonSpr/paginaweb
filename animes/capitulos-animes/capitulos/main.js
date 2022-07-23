@@ -17,4 +17,5 @@ if (option){
         const video = document.querySelector('#option1')
         video.click.toggle('show')
     })
+ 
 }
