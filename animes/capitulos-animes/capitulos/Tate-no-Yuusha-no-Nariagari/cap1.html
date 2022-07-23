@@ -194,7 +194,18 @@
 
                         <script>
 
-                            x = document.addEventListener('click');
+                           function activado(){
+                            e = document.getElementById('opcion1');
+                            e2 = document.getElementById('opcion2');
+                            e3 = document.getElementById('opcion3');
+                            var i = document.getElementById('divPrincipal');
+
+                            if (i.style.display === "block") {
+                                e.style.background="#ca705";
+                                e2.style.background="transparent";
+                                e3.style.background="transparent";    
+                            }
+                           }
 
                             function myFunction() {
                                     var e = document.getElementById('opcion1')
@@ -205,10 +216,10 @@
                                         i.style.display = "block";
                                         x.style.display="none";
                                         g.style.display="none";
-                                        e.style.background="#ca7005"
+                                      
 
                                     } else {
-                                        e.style.background="none"
+                                       
                                         i.style.display = "none";
                                 
                                     }
@@ -217,7 +228,7 @@
 
                             
                                 function myFunction3() {
-                                    var e = document.getElementById('opcion2')
+                                   
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var i = document.getElementById('divPrincipal');
@@ -228,7 +239,7 @@
                                         e.style.background="#ca7005"
 
                                     } else {
-                                        e.style.background="none"
+                                    
                                         x.style.display = "none";
                                 
                                     }
@@ -236,7 +247,7 @@
                            
                             
                                 function myFunction2() {
-                                    var e = document.getElementById('opcion3')
+                                    
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var x = document.getElementById("myDIV1");
@@ -246,10 +257,10 @@
                                         x.style.display = "none";
                                         g.style.display="block";
                                         i.style.display= "none";
-                                        e.style.background="#ca7005"
+                                       
                                     } else {
                                         g.style.display = "none";
-                                        e.style.background="none"
+                                       
                                       
                                     }
                                 }
