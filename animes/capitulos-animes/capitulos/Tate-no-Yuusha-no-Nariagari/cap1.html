@@ -197,6 +197,7 @@
                             x = document.addEventListener('click');
 
                             function myFunction() {
+                                    var e = document.getElementById('opcion1')
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var i = document.getElementById('divPrincipal');
@@ -204,8 +205,10 @@
                                         i.style.display = "block";
                                         x.style.display="none";
                                         g.style.display="none";
+                                        e.style.background="#ca7005"
 
                                     } else {
+                                        e.style.background="none"
                                         i.style.display = "none";
                                 
                                     }
@@ -214,6 +217,7 @@
 
                             
                                 function myFunction3() {
+                                    var e = document.getElementById('opcion2')
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var i = document.getElementById('divPrincipal');
@@ -221,8 +225,10 @@
                                         x.style.display = "block";
                                         i.style.display="none";
                                         g.style.display="none";
+                                        e.style.background="#ca7005"
 
                                     } else {
+                                        e.style.background="none"
                                         x.style.display = "none";
                                 
                                     }
@@ -230,6 +236,7 @@
                            
                             
                                 function myFunction2() {
+                                    var e = document.getElementById('opcion3')
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var x = document.getElementById("myDIV1");
@@ -239,8 +246,10 @@
                                         x.style.display = "none";
                                         g.style.display="block";
                                         i.style.display= "none";
+                                        e.style.background="#ca7005"
                                     } else {
                                         g.style.display = "none";
+                                        e.style.background="none"
                                       
                                     }
                                 }
@@ -250,14 +259,14 @@
 
                         <div class="opciones">
                             <li class="contenedor-list">
-                                <a onclick="myFunction()">OPCION 1</a> 
+                                <a onclick="myFunction()" id="opcion1">OPCION 1</a> 
                             </li>
                             <li class="contenedor-list">
-                                <a onclick="myFunction2()">OPCION 2</a>
+                                <a onclick="myFunction2()" id="opcion2">OPCION 2</a>
                                 
                             </li>
                             <li class="contenedor-list">
-                                <a onclick="myFunction3()">OPCION 3</a>
+                                <a onclick="myFunction3()" id="opcion3">OPCION 3</a>
                                 
                             </li>
                         </div>
