@@ -11,15 +11,3 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-let iframe = document.getElementById('option1');
-window.onmessage = function(e){
-if (e.data == 'message'){
-document.getElementById("option1").style.display="block";
-}
-}
-
-
-<script>
-function send() {
-    window.top.postMessage('message', '*');
-}
