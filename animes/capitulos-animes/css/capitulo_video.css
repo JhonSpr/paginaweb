@@ -889,6 +889,9 @@
 
 
 
+#opcion1{
+    display: none;
+}
 
 #option1.show{
    display: none;
