@@ -121,7 +121,14 @@
         display:inline-block;
     }
 
+    .text-aside{
+        background:#111114;
+        color:#fff;
+        padding:15px 4px;
+    }
+
 }
+
 @media (max-width:1440px){
 
     .capitulo{
