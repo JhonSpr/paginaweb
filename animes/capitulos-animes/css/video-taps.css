@@ -46,18 +46,6 @@ ul.tabs li a .tab-text{
 	margin-left: 8px;
 }
 
-.secciones{
-	width: 100%;
-	background: #fff;
-}
-
-.secciones article{
-	padding: 30px;
-}
-
-.secciones article p{
-	text-align: justify;
-}
 
 
 @media screen and (max-width: 700px){
