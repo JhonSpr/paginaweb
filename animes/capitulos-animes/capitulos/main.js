@@ -27,10 +27,9 @@ addEventListener('DOMContentLoaded', () => {
 // 	});
 
 
-
 $('.tabs li a:first').addClass('active');
-	$('.contenedor_iframe article').hide();
-	$('.contenedor_iframe article:first').show();
+	$('.contenedor_iframe iframe').hide();
+	$('.contenedor_iframe iframe:first').show();
 
 	$('ul.tabs li a').click(function(){
 		$('ul.tabs li a').removeClass('active');
