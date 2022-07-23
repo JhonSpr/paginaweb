@@ -195,9 +195,7 @@
                         <script>
 
                            function activado(){
-                            e = document.getElementById('opcion1');
-                            e2 = document.getElementById('opcion2');
-                            e3 = document.getElementById('opcion3');
+                           
                             var i = document.getElementById('divPrincipal');
 
                             if (i.style.display === "block") {
@@ -209,7 +207,9 @@
                            }
 
                             function myFunction() {
-                                    var e = document.getElementById('opcion1')
+                                    var e = document.getElementById('opcion1');
+                                    var e2 = document.getElementById('opcion2');
+                                    var e3 = document.getElementById('opcion3');
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
                                     var i = document.getElementById('divPrincipal');
@@ -217,10 +217,13 @@
                                         i.style.display = "block";
                                         x.style.display="none";
                                         g.style.display="none";
+                                        e.style.background="#c47005"
+                                        e2.style.background="transparent"
+                                        e3.style.background="transparent"
                                       
 
                                     } else {
-                                       
+                                    
                                         i.style.display = "block";
                                         x.style.display="none";
                                         g.style.display="none";
@@ -239,14 +242,16 @@
                                         x.style.display = "block";
                                         i.style.display="none";
                                         g.style.display="none";
-                                        e.style.background="#ca7005"
+                                        e.style.background="transparent"
+                                        e2.style.background="transparent"
+                                        e3.style.background="#c47005"
 
                                     } else {
                                     
                                         x.style.display = "block";
                                         i.style.display="none";
                                         g.style.display="none";
-                                        e.style.background="#ca7005"
+                                        
                                 
                                     }
                                 }
@@ -263,6 +268,9 @@
                                         x.style.display = "none";
                                         g.style.display="block";
                                         i.style.display= "none";
+                                        e.style.background="transparent"
+                                        e2.style.background="#c47005"
+                                        e3.style.background="transparent"
                                        
                                     } else {
                                         g.style.display = "block";
