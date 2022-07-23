@@ -197,6 +197,22 @@
                             x = document.addEventListener('click');
 
 
+                            function myFunctionPrincipal() {
+                                    var x = document.getElementById("myDIV1");
+                                    var g = document.getElementById('myDIV2');
+                                    var i = document.getElementById('divPrincipal');
+                                    if (x.style.display === "none") {
+                                        i.style.display = "block";
+                                        g.style.display="none";
+                                        i.style.display="none";
+
+                                    } else {
+                                        i.style.display = "none";
+         
+                                    }
+                                }
+
+
                             
                                 function myFunction() {
                                     var x = document.getElementById("myDIV1");
@@ -204,13 +220,11 @@
                                     var i = document.getElementById('divPrincipal');
                                     if (x.style.display === "none") {
                                         x.style.display = "block";
-                                        g.style.display="none";
-                                        i.style.display="none";
+                                     
 
                                     } else {
                                         x.style.display = "none";
-                                        g.style.display = "block";
-                                        i.style.display=  "none";
+                                
                                     }
                                 }
                            
@@ -223,9 +237,8 @@
                                         g.style.display="block";
                                         i.style.display= "none";
                                     } else {
-                                        x.style.display = "block";
                                         g.style.display = "none";
-                                        i.style.display= "none";
+                                      
                                     }
                                 }
                                 
