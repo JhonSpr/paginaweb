@@ -224,4 +224,11 @@
     .contenedor-list:hover{
      background:#ccc;
     }
+
+    #myDIV1{
+        display: none;
+    }
+    #myDIV2{
+        display: none;
+    }
     
