@@ -2,7 +2,7 @@
 
 
     .imagen-noticias{
-        width:130px;
+        width:80px;
         height:80px;
         margin-top:10px;
         margin-left:10px;
@@ -125,7 +125,7 @@
     }
 
     aside{
-        background:#fa0;
+        background:#111114;
         width:600px;
         display:inline-block;
     }
@@ -133,6 +133,7 @@
     .text-aside{
         background:#111114;
         color:#fff;
+        border-bottom:2px solid #69696C;
         padding:15px 4px;
     }
 
