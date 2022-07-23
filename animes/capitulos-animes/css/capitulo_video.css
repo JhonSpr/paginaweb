@@ -64,7 +64,7 @@
     
     }
     
-    .active{
+    .actives{
         margin-top:auto;
         font-weight:900;
         font-size:20px;
@@ -887,11 +887,3 @@
 
 }
 
-
-
-
-.menu-tap li{
-    background:#fff;
-    display:inline-block;
-    padding:10px;
-}
