@@ -1,143 +1,154 @@
 @media (max-width:1920px){
 
-
-    .imagen-noticias{
-        width:80px;
-        height:80px;
-        margin-top:10px;
-        margin-left:10px;
-        border-radius:10px;
-    }
+    .fecha-noticias{
+    background:#fa0;
+    padding:3px;
+    border-radius:3px;
+    font-size:12px;
+    margin:-20px 0 0 10px;
+    position:fixed;
     
-    
-    .contenedor-total{
-        margin:50px 250px;
-        height:100%;
-        padding-top:100px;
-        padding-bottom:50px;
-    }
+}
 
-    .contenedor_iframe{
-        display:inline-block;
-        border:2px solid #fa0;
-        width:800px;
-        margin-top:20px;
-        height: 450px;
-        margin-left:5px;
-        margin-right:0;
-        border-radius:6px;
-    }
-    
-    .capitulo{
-        width:100%;
-        height:100%;
+.imagen-noticias{
+    width:80px;
+    height:80px;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:10px;
+}
 
-    }
 
-    .active{
-        margin-top:-200px;
-        font-weight:900;
-        font-size:20px;
-        color: #fa0;
-    }
-    /*Botones cap1*/
-    .capitulos_pag1{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-right:-2px;
-        background:#111114;
-        padding: 5px 5px 5px 8px;
-        border-radius:20px 0 0 20px;
-        
-        
-        
-    }
+.contenedor-total{
+    margin:50px 250px;
+    height:100%;
+    padding-top:100px;
+    padding-bottom:50px;
+}
 
-    
-    .siguiente{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        background:#111114;
-        padding:5px 8px 5px 5px;
-        margin-left:-2px;
-        border-radius:0 20px 20px 0;
-    }
+.contenedor_iframe{
+    display:inline-block;
+    border:2px solid #fa0;
+    width:800px;
+    margin-top:20px;
+    height: 450px;
+    margin-left:5px;
+    margin-right:0;
+    border-radius:6px;
+}
 
-    /*Botones cap Noramles*/
-    
-    .anterior{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        background:#111114;
-        padding:5px 8px 5px 5px;
-        margin-right:-4px;
-        border-radius:20px 0 0 20px;
-    }
-
-    .capitulos{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-right:-4px;
-        margin-left:-4px ;
-        background:#111114;
-        padding: 10px 10px 10px 10px;
-    }
-
-    /*Botones Ultimo cap*/
-
-    .anterior_ult{
-               display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-left:-4px ;
-        background:#111114;
-        padding: 5px 10px 5px 8px;
-        border-radius:20px 0 0 20px;
-    }
-
-    .capitulos_ult{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-left:-4px ;
-        background:#111114;
-        padding: 5px 8px 5px 8px;
-        border-radius:0 20px 20px 0;
-    }
-    
-    .contendor_botones{
-        margin-top:14px;
-        display:block;
-    }
-
-    /* Aside */
-
-    .cont-aside{
-        background:#000;
-        display:inline-block;
-        margin-left:940px;
-        
-        
-    }
-
-    aside{
-        background:#111114;
-        width:600px;
-        display:inline-block;
-    }
-
-    .text-aside{
-        background:#111114;
-        color:#fff;
-        border-bottom:2px solid #69696C;
-        padding:15px 4px;
-    }
+.capitulo{
+    width:100%;
+    height:100%;
 
 }
+
+.active{
+    margin-top:-200px;
+    font-weight:900;
+    font-size:20px;
+    color: #fa0;
+}
+/*Botones cap1*/
+.capitulos_pag1{
+    display:inline-block;
+    color:#fa0;
+    font-size:25px;
+    margin-right:-2px;
+    background:#111114;
+    padding: 5px 5px 5px 8px;
+    border-radius:20px 0 0 20px;
+    
+    
+    
+}
+
+
+.siguiente{
+    display:inline-block;
+    color:#fa0;
+    font-size:25px;
+    background:#111114;
+    padding:5px 8px 5px 5px;
+    margin-left:-2px;
+    border-radius:0 20px 20px 0;
+}
+
+/*Botones cap Noramles*/
+
+.anterior{
+    display:inline-block;
+    color:#fa0;
+    font-size:25px;
+    background:#111114;
+    padding:5px 8px 5px 5px;
+    margin-right:-4px;
+    border-radius:20px 0 0 20px;
+}
+
+.capitulos{
+    display:inline-block;
+    color:#fa0;
+    font-size:25px;
+    margin-right:-4px;
+    margin-left:-4px ;
+    background:#111114;
+    padding: 10px 10px 10px 10px;
+}
+
+/*Botones Ultimo cap*/
+
+.anterior_ult{
+           display:inline-block;
+    color:#fa0;
+    font-size:25px;
+    margin-left:-4px ;
+    background:#111114;
+    padding: 5px 10px 5px 8px;
+    border-radius:20px 0 0 20px;
+}
+
+.capitulos_ult{
+    display:inline-block;
+    color:#fa0;
+    font-size:25px;
+    margin-left:-4px ;
+    background:#111114;
+    padding: 5px 8px 5px 8px;
+    border-radius:0 20px 20px 0;
+}
+
+.contendor_botones{
+    margin-top:14px;
+    display:block;
+}
+
+/* Aside */
+
+.cont-aside{
+    background:#000;
+    display:inline-block;
+    margin-left:940px;
+    
+    
+}
+
+aside{
+    background:#111114;
+    width:600px;
+    display:inline-block;
+}
+
+.text-aside{
+    background:#111114;
+    color:#fff;
+    border-bottom:2px solid #69696C;
+    padding:15px 4px;
+}
+
+}
+
+
 
 @media (max-width:1440px){
 
