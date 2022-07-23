@@ -26,7 +26,6 @@ addEventListener('DOMContentLoaded', () => {
 // 		return false;
 // 	});
 
-
 $('.tabs li a:first').addClass('active');
 	$('.contenedor_iframe iframe').hide();
 	$('.contenedor_iframe iframe:first').show();
