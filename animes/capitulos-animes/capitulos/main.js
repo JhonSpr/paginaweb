@@ -12,39 +12,38 @@ addEventListener('DOMContentLoaded', () => {
 
 
 addEventListener('DOMContentLoaded', ()=>{
+    var x = document.getElementById("myDIV1");
+    var g = document.getElementById('myDIV2');
+    var i = document.getElementById('divPrincipal');
+    var marcado = document.getElementById('opcion1');
+    var marcado2 = document.getElementById('opcion2');
+    var marcado3 = document.getElementById('opcion3');
+    if(i.style.display === "block"){
+        marcado.classList.add('activado');
+    }
+    else{
+        marcado.classList.remove();
+    }
+    if(x.style.display === "block"){
+        marcado2.classList.add('activado');
+    }
+    else{
+        marcado2.classList.remove();
+    }
+
+    if(g.style.display === "block"){
+        marcado3.classList.add('activado');
+    }
+    else{
+        marcado3.classList.remove();
+    }
+    
+})
    
-        const activado = document.querySelector('.contenedor-list');
-        if (activado){
-          activado.addEventListener('click' , () =>{
-              const activado1 = document.querySelector('.activado1');
-              activado1.addClass('activado');
-              const activado2 = document.querySelector('.activado2');
-              activado1.addClass('activado3');
-              const activado3 = document.querySelector('.activado3');
-              activado1.addClass('activado3');
-          })
-          var i = document.getElementById('divPrincipal');
-          if (i.style.display === "block") {
-            activado1.style.background="#c47005"
-            activado2.style.background="#fa0"
-            activado3.style.background="#fa0"
-          }
-          var g = document.getElementById('myDIV2');
-          if (g.style.display === "block") {
-            activado1.style.background="fa0"
-            activado2.style.background="fa0"
-            activado3.style.background="#c47005"
-          }
+   
 
-          var x = document.getElementById('myDIV1');
-          if (x.style.display === "block") {
-            activado1.style.background="fa0"
-            activado2.style.background="#c47005"
-            activado3.style.background="#fa0"
-          }
-
-        }
-      })
+        
+     
 
 
 
