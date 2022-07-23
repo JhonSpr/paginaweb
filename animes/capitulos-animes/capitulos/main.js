@@ -19,7 +19,7 @@ $('ul.tabs li a:first').addClass('active');
 	$('ul.tabs li a').click(function(){
 		$('ul.tabs li a').removeClass('active');
 		$(this).addClass('active');
-		$('.secciones article').hide();
+		$('.contenedor_iframe iframe').hide();
 
 		var activeTab = $(this).attr('href');
 		$(activeTab).show();
