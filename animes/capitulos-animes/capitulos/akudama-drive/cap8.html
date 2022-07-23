@@ -7,9 +7,10 @@
     <link rel="icon" href="../anime-logo-square.ico">
     <script src="../main.js"></script>
     <script src="https://kit.fontawesome.com/9d2ffd2695.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/capitulo_video.css">
     <link rel="stylesheet" href="../estiloAnime.css">
-    <link rel="stylesheet" href="../../../../css/menu-barras.css">
-    <link rel="stylesheet" href="../../../../css/menu-mobile.css">
+    <link rel="stylesheet" href="../../css/menu-barras.css">
+    <link rel="stylesheet" href="../../css/menu-mobile.css">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Capitulo 8 Akudama Drive</title>
 </head>
@@ -99,10 +100,18 @@
                                 </form>
                             </div>
 
-                            <span class="btn_menu" style="font-size: 25px;">
-                                <i class="fa fa-bars" style="font-size: 30px;"></i>
-                                Menu
-                            </span>
+                            <div class="menu-bars">
+                                <span class="line one btn_menu"></span>
+                                <span class="line two btn_menu"></span>
+                                <span class="line three btn_menu"></span>
+                            </div>
+                        </div>
+                        <script>
+                            let hamMenu = document.querySelector(".contenedorMenu");
+                              hamMenu.addEventListener("click", ()=>{
+                                  hamMenu.classList.toggle("active");
+                              });
+                          </script>
                         </div>
                     </div>
 
@@ -115,31 +124,37 @@
         <section class="container-principal">
             
                 <main>
-                    <div class="title">
-                        <div class="order">
-                        <a href="#" class="active">Capitulo 8</a>
-                        </div>
-                            <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/s5rpudg0hmah.html" scrolling="no" allowfullscreen="" class="capitulo"></iframe>
-                        <div class="contendor_botones">
-                                <a href="cap7">
-                                    <i class="fa-solid fa-backward anterior"></i>
-                                    <span></span>
-                                </a>
-                                <a href="../../../akudama-drive">
-                                    <i class="fa-solid fa-align-justify capitulos"></i>
-                                    <span></span>
-                                </a>
-                       
-                        
-                                <a href="cap9" class="siguiente">
-                                    <i class="fa-solid fa-forward siguiente"></i>
-                                    <span></span>
-                                </a>
-                        </div>
-                       
-                        
+        <div class="contenedor-total">
+            <div class="title">
+                <div class="order">
+                    <h2 class="active">Akudama Drive - Episodio 8</h2>
+                </div>
+                <div class="contenedor_iframe">
+                    <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/s5rpudg0hmah.html" scrolling="no" allowfullscreen="" class="capitulo"></iframe>
+
+                </div>
+                <div class="contendor_botones">
+                        <a href="cap7" class="anterior">
+                            <i class="fa-solid fa-backward anterior"></i>
+                            <span class="text-anterior">anterior</span>
+                        </a>
+                        <a href="../../../akudama-drive">
+                            <i class="fa-solid fa-align-justify capitulos"></i>
+                            <span></span>
+                        </a>
+               
+                
+                        <a href="cap9" class="siguiente">
+                            <span class="text-siguiente">siguiente</span>
+                            <i class="fa-solid fa-forward siguiente"></i>
                             
-                    </div>
+                        </a>
+                </div>
+               
+                
+                    
+            </div>
+        </div>
                 </main>
 
         </section>
