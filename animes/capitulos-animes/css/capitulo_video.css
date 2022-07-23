@@ -109,7 +109,16 @@
     .cont-aside{
         background:#000;
         display:inline-block;
-        height:100%;
+        float: right;
+        margin-right:20px;
+        margin-top:-540px;
+        
+    }
+
+    aside{
+        background:#fa0;
+        width:450px;
+        display:inline-block;
     }
 
 }
