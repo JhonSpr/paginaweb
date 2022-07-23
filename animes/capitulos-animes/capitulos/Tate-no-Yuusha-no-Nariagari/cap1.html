@@ -201,12 +201,16 @@
                                 function myFunction() {
                                     var x = document.getElementById("myDIV1");
                                     var g = document.getElementById('myDIV2');
+                                    var i = document.getElementById('divPrincipal');
                                     if (x.style.display === "none") {
                                         x.style.display = "block";
                                         g.style.display="none";
+                                        i.style.display="none";
+
                                     } else {
                                         x.style.display = "none";
-                                        g.style.display = "block"
+                                        g.style.display = "block";
+                                        i.style.display=  "none";
                                     }
                                 }
                            
@@ -217,9 +221,11 @@
                                     if (g.style.display === "none") {
                                         x.style.display = "none";
                                         g.style.display="block";
+                                        i.style.display= "none";
                                     } else {
                                         x.style.display = "block";
-                                        g.style.display = "none"
+                                        g.style.display = "none";
+                                        i.style.display= "none";
                                     }
                                 }
                                 
@@ -228,18 +234,19 @@
 
                         <div class="opciones">
                             <li class="contenedor-list">
-                                <a onclick="myFunction()">OPCION 1</a> 
+                                <a onclick="myFunction()">OPCION 2</a> 
                             </li>
                             <li class="contenedor-list">
-                                <a onclick="myFunction2()">OPCION 2</a>
+                                <a onclick="myFunction2()">OPCION 3</a>
                                 
                             </li>
                             <li class="contenedor-list">
-                                <a onclick="myFunction2()">OPCION 2</a>
+                                <a onclick="">OPCION 4</a>
                                 
                             </li>
                         </div>
-                            <div class="contenedor_iframe">      
+                            <div class="contenedor_iframe">
+                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/3isvmgy7ztqe.html" scrolling="no" allowfullscreen="" class="capitulo" id="divPrincipal"></iframe>      
                                 <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/2dlhg80oowou.html" scrolling="no" allowfullscreen="" id="myDIV1" class="capitulo"></iframe>
                                 <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/neea68kvfnro.html" scrolling="no" allowfullscreen="" id="myDIV2" class="capitulo"></iframe>
                             </div>
