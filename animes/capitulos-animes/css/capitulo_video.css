@@ -50,7 +50,7 @@
     }
     
     .active{
-        margin-top:-200px;
+        margin-top:-700px;
         font-weight:900;
         font-size:20px;
         color: #fa0;
@@ -153,8 +153,6 @@
     }
     
     }
-
-
 @media (max-width:1440px){
 
     .capitulo{
