@@ -18,10 +18,11 @@
     }
     .active{
         margin-left:400px;
-        background:#000;
+        background:#111114;
         margin-top:10px;
         font-weight:900;
         font-size:20px;
+        color: #fa0;
     }
     /*Botones cap1*/
     .capitulos_pag1{
