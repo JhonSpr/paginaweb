@@ -26,3 +26,21 @@ addEventListener('DOMContentLoaded', () => {
 // 		return false;
 // 	});
 
+
+
+
+$('.tabs li a:first').addClass('active');
+	let esconder = ('.contenedor_iframe iframe').hide();
+    esconder.style.display="none";
+	let mostrar = ('.contenedor_iframe iframe:first').show();
+    mostrar.style.display="block";
+
+	$('ul.tabs li a').click(function(){
+		$('ul.tabs li .menu-tabs').removeClass('active');
+		$(this).addClass('active');
+		$('.contenedor_iframe iframe').hide();
+
+		var activeTab = $(this).attr('href');
+		$(activeTab).show();
+		return false;
+	});
