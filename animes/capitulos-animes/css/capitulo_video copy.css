@@ -14,11 +14,6 @@
         box-sizing: border-box;
     }
     
-    body{
-        background: #D4D4D4;
-        font-family: 'Open sans';
-    }
-    
     .wrap{
         width: 800px;
         max-width: 90%;
