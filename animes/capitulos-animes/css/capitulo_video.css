@@ -2160,9 +2160,9 @@
         .contenedor_iframe{
             display:inline-block;
             border:2px solid #111114;
-            width:90%;
+            width:95%;
             margin-top:15px;
-            height: auto;
+            height: 300;
             margin-left:0px;
             margin-right:0;
             border-radius:6px;
