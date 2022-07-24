@@ -86,20 +86,29 @@ addEventListener('DOMContentLoaded', () => {
            function pausarVideo(){
             if(i.style.display === "none"){
                 window.frames['divPrincipal'].location.reload()
-                window.frames['myDIV2'].location.reload()
-                window.frames['myDIV3'].location.reload()
              
+            }
+            else{
+                window.frames['myDIV2'].location.reload();
+                window.frames['myDIV2'].location.reload();
             }
             if (x.style.display === "none") {
                 
-                window.frames['divPrincipal'].location.reload()
+               
                 window.frames['myDIV2'].location.reload()
+                
+            }
+            else{
+                window.frames['divPrincipal'].location.reload()
                 window.frames['myDIV3'].location.reload()
             }
             if (g.style.display === "none") {
+               
+                window.frames['myDIV3'].location.reload()
+            }
+            else{
                 window.frames['divPrincipal'].location.reload()
                 window.frames['myDIV2'].location.reload()
-                window.frames['myDIV3'].location.reload()
             }
              
            }
