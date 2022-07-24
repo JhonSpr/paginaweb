@@ -1607,12 +1607,13 @@
     @media (max-width:768px){
 
         .contenedor-list{
-            padding:10px;
+            padding:15px 60px;
             margin-left:-5p;
             margin-right:-5px;
             display:inline-block;
             background:#111114;
             color:#fff;
+            width:210px;
             cursor:pointer;
             margin-top: -20px;
             margin-bottom: -0px;
