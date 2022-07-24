@@ -2092,9 +2092,13 @@
 
 @media (max-width:480px){
 
-        a:hover{
-            background-color: transparent;
+        li{
+            list-style: none;
+            animation: none;
+        }
 
+        a{
+            animation: none;
         }
 
         .contenedor-list{
