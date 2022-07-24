@@ -84,9 +84,12 @@ addEventListener('DOMContentLoaded', () => {
 
 
             function pausarVideo() {
-                $('.capitulo').each(function(){
-                    this.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', '*')
-                  });
+                var x = document.getElementById("myDIV2");
+                var g = document.getElementById('myDIV3');
+                var i = document.getElementById('divPrincipal');
+                x.stopVideo();
+                g.stopVideo();
+                i.stopVideo();
             }
 
    
