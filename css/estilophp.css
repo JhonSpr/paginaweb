@@ -140,6 +140,7 @@ main{
     }
 }
 
+
 @media(min-width:1200px){
     .wrapper-general .container-principal .container-body{
         max-width: 1170px;
@@ -911,6 +912,39 @@ img{
     }
     
     }
+ @media screen and (max-width:480px){
+        .container-principal .container-body p{
+        flex-direction:row;
+        display:inline-block;
+        margin-left:-50px;
+        margin-right:50px;
+        margin-top:30px;
+        margin-bottom:30px;
+        border:2px solid #fa0;
+        padding:15px;
+        border-radius:15px;
+        font-size:17px;
+    }
+     .sidebar{
+        display: none;
+     }
+    
+      .title{
+        padding: 50px;
+      }
+      h2{
+        color: #fa0;
+        display: block;
+        width:140%;
+        text-align:center;
+        margin-left:-115px;
+        margin-top: 50px;
+        margin-bottom:20px ;
+        background-color: #262a2e;
+    }
+    
+    }
+
 
 
        @media screen and (max-width:425px){
@@ -1043,6 +1077,36 @@ a
     
     
 }
+
+@media screen and (max-width:480px){
+
+    h2{
+        display:block;
+        width:180%;
+        margin-left:-180px;
+    }
+    .logo{
+        display:none;
+    }
+
+    .wrapper-general .container-principal .container-body main .lastEpisodios,
+    .wrapper-general .container-principal .container-body main .last-animes {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        -webkit-flex:none;
+        -ms-flex: none;
+        align-items:center;
+        flex: none;
+        padding:0px;
+        max-width: 100%;
+    }
+    
+}
+
 
 @media screen and (max-width:425px){
 
