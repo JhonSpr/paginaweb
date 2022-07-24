@@ -11,49 +11,14 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-function marks(){
-    var x = document.getElementById("myDIV1");
-    var g = document.getElementById('myDIV2');
-    var i = document.getElementById('divPrincipal');
-    var marcado = document.getElementById('opcion1');
-    var marcado2 = document.getElementById('opcion2');
-    var marcado3 = document.getElementById('opcion3');
-    if(i.style.display === "block"){
-        marcado.classList.add('activado');
-    }
-    else{
-        marcado.classList.remove();
-    }
-    if(x.style.display === "block"){
-        marcado2.classList.add('activado');
-    }
-    else{
-        marcado2.classList.remove();
-    }
-
-    if(g.style.display === "block"){
-        marcado3.classList.add('activado');
-    }
-    else{
-        marcado3.classList.remove();
-    }
-    
-
-   }
-   
-
-        
-     
-
-
 
 
 
 
    
        function myFunction() {
-               var x = document.getElementById("myDIV1");
-               var g = document.getElementById('myDIV2');
+               var x = document.getElementById("myDIV2");
+               var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
                if (i.style.display === "none") {
                    i.style.display = "block";
@@ -74,8 +39,8 @@ function marks(){
    
        
            function myFunction3() {
-               var x = document.getElementById("myDIV1");
-               var g = document.getElementById('myDIV2');
+               var x = document.getElementById("myDIV2");
+               var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
                if (x.style.display === "none") {
                    x.style.display = "block";
@@ -95,8 +60,8 @@ function marks(){
       
        
            function myFunction2() {
-               var x = document.getElementById("myDIV1");
-               var g = document.getElementById('myDIV2');
+               var x = document.getElementById("myDIV2");
+               var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
                if (g.style.display === "none") {
                    x.style.display = "none";
