@@ -418,12 +418,6 @@ header
          display:inline-block;
          width:2px;
      }
-    a:hover{
-        background: #000;
-        color: #c47005;
-        border-bottom:1px solid #fff;
-        transition: all 100ms;
-    }
 
     .login-button{
         display: none;
