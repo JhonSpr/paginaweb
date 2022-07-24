@@ -72,6 +72,7 @@ addEventListener('DOMContentLoaded', () => {
                } else {
                 x.style.display = "block";
                 g.style.display="none";
+                g.style.display="close";
                 i.style.display= "none";       
                }
            }
