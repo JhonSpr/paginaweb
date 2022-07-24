@@ -17,9 +17,9 @@ addEventListener('DOMContentLoaded', () => {
 
    
        function myFunction() {
-               var x = document.getElementById("c-opcion2");
-               var g = document.getElementById('c-opcion3');
-               var i = document.getElementById('c-opcion1');
+               var x = document.getElementById("myDIV2");
+               var g = document.getElementById('myDIV3');
+               var i = document.getElementById('myDIV1');
    
 
                if (i.style.display === "none") {
@@ -41,9 +41,9 @@ addEventListener('DOMContentLoaded', () => {
    
        
            function myFunction3() {
-               var x = document.getElementById("c-opcion2");
-               var g = document.getElementById('c-opcion3');
-               var i = document.getElementById('c-opcion1');
+               var x = document.getElementById("myDIV2");
+               var g = document.getElementById('myDIV3');
+               var i = document.getElementById('myDIV1');
 
 
                if (g.style.display === "none") {
@@ -64,9 +64,9 @@ addEventListener('DOMContentLoaded', () => {
       
        
            function myFunction2() {
-               var x = document.getElementById("c-opcion2");
-               var g = document.getElementById('c-opcion3');
-               var i = document.getElementById('c-opcion1');
+               var x = document.getElementById("myDIV2");
+               var g = document.getElementById('myDIV3');
+               var i = document.getElementById('myDIV1');
 
                if (x.style.display === "none") {
                    x.style.display = "block";
@@ -82,41 +82,6 @@ addEventListener('DOMContentLoaded', () => {
            }
 
 
-
-
-
-            
-
-            function marks(){
-            var x = document.getElementById("c-opcion2");
-            var g = document.getElementById('c-opcion3');
-            var i = document.getElementById('c-opcion1');
-            var marcado = document.getElementById('opcion1');
-            var marcado2 = document.getElementById('opcion2');
-            var marcado3 = document.getElementById('opcion3');
-            if(i.style.display === "none"){
-                marcado.classList.remove('activado');
-            }
-            else{
-                marcado.classList.add('activado');
-            }
-            if(x.style.display === "none"){
-                marcado2.classList.remove('activado');
-            }
-            else{
-                marcado2.classList.add('activado');
-            }
-            
-            if(g.style.display === "none"){
-                marcado3.classList.remove('activado');
-            }
-            else{
-                marcado3.classList.add('activado');
-            }
-            
-            
-            }
-                                    
 
    
    
