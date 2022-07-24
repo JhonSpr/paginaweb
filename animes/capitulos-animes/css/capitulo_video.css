@@ -2089,7 +2089,8 @@
         }
     }
 
-@media (max-width:480px){
+
+    @media (max-width:480px){
 
         .contenedor-list{
             padding:5px;
@@ -2159,7 +2160,7 @@
         .contenedor_iframe{
             display:inline-block;
             border:2px solid #111114;
-            width:auto;
+            width:90%;
             margin-top:15px;
             height: 200px;
             margin-left:0px;
@@ -2263,7 +2264,6 @@
             
         }
     }
-
 
 
 @media (max-width:425px){
