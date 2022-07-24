@@ -50,9 +50,6 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
-                   var i = document.getElementById('divPrincipal').contentWindow.location.reload();
-                   var g = document.getElementById('myDIV3').contentWindow.location.reload();
-                   var x = document.getElementById('myDIV2').contentWindow.location.reload();
                 
                   
    
@@ -60,9 +57,6 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
-                   var i = document.getElementById('divPrincipal').contentWindow.location.reload();
-                   var g = document.getElementById('myDIV3').contentWindow.location.reload();
-                   var x = document.getElementById('myDIV2').contentWindow.location.reload();
                    
            
                }
@@ -73,24 +67,20 @@ addEventListener('DOMContentLoaded', () => {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
-   
+                var reload = document.getElementById('divPrincipal').contentWindow.location.reload();
+                var reload3 = document.getElementById('myDIV3').contentWindow.location.reload();
+                var reload2 = document.getElementById('myDIV2').contentWindow.location.reload();
 
                if (x.style.display === "none") {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
-                   var i = document.getElementById('divPrincipal').contentWindow.location.reload();
-                   var g = document.getElementById('myDIV3').contentWindow.location.reload();
-                   var x = document.getElementById('myDIV2').contentWindow.location.reload();
                
                   
                } else {
                 x.style.display = "block";
                 g.style.display="none";
-                i.style.display= "none";
-                var i = document.getElementById('divPrincipal').contentWindow.location.reload();
-                var g = document.getElementById('myDIV3').contentWindow.location.reload();
-                var x = document.getElementById('myDIV2').contentWindow.location.reload();       
+                i.style.display= "none";       
                }
            }
 
