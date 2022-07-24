@@ -445,6 +445,30 @@
 
     /*Hovers*/
     
+    .anterior_ult:hover{
+        background: #3A3A3C;
+    }
+
+    .capitulos_ult:hover{
+        background: #3A3A3C;
+    }
+
+    .anterior:hover{
+        background: #3A3A3C;
+    }
+
+    .siguiente:hover{
+        background: #3A3A3C;
+    }
+
+    .capitulos_pag1:hover{
+        background: #3A3A3C;
+    }
+
+    .anterior_ult:hover{
+        background: #3A3A3C;
+    }
+    
 
     /**/
     
@@ -680,7 +704,36 @@
         i{
         margin:8px;
         }
-
+        .botones-borde{
+            display:inline-block;
+        }
+    
+        /*Hovers*/
+        
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior:hover{
+            background: #3A3A3C;
+        }
+    
+        .siguiente:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_pag1:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+        
     
         /**/
         
@@ -925,7 +978,35 @@
             i{
             margin:8px;
             }
-
+            .botones-borde{
+                display:inline-block;
+            }
+        
+            /*Hovers*/
+            
+            .anterior_ult:hover{
+                background: #3A3A3C;
+            }
+        
+            .capitulos_ult:hover{
+                background: #3A3A3C;
+            }
+        
+            .anterior:hover{
+                background: #3A3A3C;
+            }
+        
+            .siguiente:hover{
+                background: #3A3A3C;
+            }
+        
+            .capitulos_pag1:hover{
+                background: #3A3A3C;
+            }
+        
+            .anterior_ult:hover{
+                background: #3A3A3C;
+            }
             
         
             /**/
@@ -1172,7 +1253,35 @@
                 i{
                 margin:8px;
                 }
-         
+                .botones-borde{
+                    display:inline-block;
+                }
+            
+                /*Hovers*/
+                
+                .anterior_ult:hover{
+                    background: #3A3A3C;
+                }
+            
+                .capitulos_ult:hover{
+                    background: #3A3A3C;
+                }
+            
+                .anterior:hover{
+                    background: #3A3A3C;
+                }
+            
+                .siguiente:hover{
+                    background: #3A3A3C;
+                }
+            
+                .capitulos_pag1:hover{
+                    background: #3A3A3C;
+                }
+            
+                .anterior_ult:hover{
+                    background: #3A3A3C;
+                }
                 
             
                 /**/
@@ -1418,7 +1527,36 @@
                     i{
                     margin:8px;
                     }
-                 
+                    .botones-borde{
+                        display:inline-block;
+                    }
+                
+                    /*Hovers*/
+                    
+                    .anterior_ult:hover{
+                        background: #3A3A3C;
+                    }
+                
+                    .capitulos_ult:hover{
+                        background: #3A3A3C;
+                    }
+                
+                    .anterior:hover{
+                        background: #3A3A3C;
+                    }
+                
+                    .siguiente:hover{
+                        background: #3A3A3C;
+                    }
+                
+                    .capitulos_pag1:hover{
+                        background: #3A3A3C;
+                    }
+                
+                    .anterior_ult:hover{
+                        background: #3A3A3C;
+                    }
+                    
                 
                     /**/
                     
@@ -1588,8 +1726,8 @@
     }
     
     .contenedor_iframe{
-        display:inline-block;
-        border:2px solid #fa0;
+        display:block;
+        border:2px solid #111114;
         width:530px;
         margin-top:15px;
         height: 350px;
@@ -1601,13 +1739,13 @@
     .capitulo{
         width:100%;
         height:100%;
-        display:inline-block;
+        display:block;
     
     }
 
     /*Botones cap1*/
     .capitulos_pag1{
-        display:inline-block;
+        display:block;
         color:#fa0;
         font-size:18px;
         margin-right:-2px;
@@ -1618,7 +1756,7 @@
     
     
     .siguiente{
-        display:inline-block;
+        display:block;
         color:#fff;
         font-size:18px;
         background:#111114;
@@ -1632,7 +1770,7 @@
     /*Botones cap Noramles*/
     
     .anterior{
-        display:inline-block;
+        display:block;
         color:#fff;
         font-size:18px;
         background:#111114;
@@ -1642,7 +1780,7 @@
     }
     
     .capitulos{
-        display:inline-block;
+        display:block;
         color:#fa0;
         font-size:18px;
         margin-right:-1px;
@@ -1656,12 +1794,41 @@
     i{
     margin:8px;
     }
+    .botones-borde{
+        display:inline-block;
+    }
+
+    /*Hovers*/
+    
+    .anterior_ult:hover{
+        background: #3A3A3C;
+    }
+
+    .capitulos_ult:hover{
+        background: #3A3A3C;
+    }
+
+    .anterior:hover{
+        background: #3A3A3C;
+    }
+
+    .siguiente:hover{
+        background: #3A3A3C;
+    }
+
+    .capitulos_pag1:hover{
+        background: #3A3A3C;
+    }
+
+    .anterior_ult:hover{
+        background: #3A3A3C;
+    }
     
 
     /**/
     
     .anterior_ult{
-        display:inline-block;
+        display:block;
         color:#fff;
         font-size:25px;
         background:#111114;
@@ -1670,7 +1837,7 @@
     }
     
     .capitulos_ult{
-        display:inline-block;
+        display:block;
         color:#fa0;
         font-size:25px;
         margin-left:-4px ;
@@ -1720,7 +1887,7 @@
             padding:10px 60px;
             margin-left:-5p;
             margin-right:-5px;
-            display:inline-block;
+            display:block;
             background:#111114;
             color:#fff;
             width:210px;
@@ -1788,7 +1955,7 @@
         }
         
         .contenedor_iframe{
-            display:inline-block;
+            display:block;
             border:2px solid #111114;
             width:640px;
             margin-top:15px;
@@ -1801,13 +1968,13 @@
         .capitulo{
             width:100%;
             height:100%;
-            display:inline-block;
+            display:block;
         
         }
     
         /*Botones cap1*/
         .capitulos_pag1{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:18px;
             margin-right:-2px;
@@ -1818,7 +1985,7 @@
         
         
         .siguiente{
-            display:inline-block;
+            display:block;
             color:#fff;
             font-size:18px;
             background:#111114;
@@ -1832,7 +1999,7 @@
         /*Botones cap Noramles*/
         
         .anterior{
-            display:inline-block;
+            display:block;
             color:#fff;
             font-size:18px;
             background:#111114;
@@ -1842,7 +2009,7 @@
         }
         
         .capitulos{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:18px;
             margin-right:-1px;
@@ -1856,11 +2023,41 @@
         i{
         margin:8px;
         }
+        .botones-borde{
+            display:inline-block;
+        }
+    
+        /*Hovers*/
+        
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior:hover{
+            background: #3A3A3C;
+        }
+    
+        .siguiente:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_pag1:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+        
     
         /**/
         
         .anterior_ult{
-            display:inline-block;
+            display:block;
             color:#fff;
             font-size:25px;
             background:#111114;
@@ -1869,7 +2066,7 @@
         }
         
         .capitulos_ult{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:25px;
             margin-left:-4px ;
@@ -1895,22 +2092,11 @@
 
 @media (max-width:480px){
 
-        li{
-            list-style: none;
-            animation: none;
-            border: none;
-        }
-
-        a{
-            animation: none;
-            border:none;
-        }
-
         .contenedor-list{
             padding:5px;
             margin-left:-5p;
             margin-right:-5px;
-            display:inline-block;
+            display:block;
             background:#111114;
             color:#fff;
             width:auto;
@@ -1936,7 +2122,7 @@
             display: none;
         }
         .opciones{
-            display: inline-block;
+            display: block;
             margin:10px 0 0 0;
             height:auto;
             padding:10px 0;
@@ -1972,7 +2158,7 @@
         }
         
         .contenedor_iframe{
-            display:inline-block;
+            display:block;
             border:2px solid #111114;
             width:95%;
             margin-top:15px;
@@ -1985,13 +2171,13 @@
         .capitulo{
             width:100%;
             height:100%;
-            display:inline-block;
+            display:block;
         
         }
     
         /*Botones cap1*/
         .capitulos_pag1{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:14px;
             margin-right:-2px;
@@ -2002,7 +2188,7 @@
         
         
         .siguiente{
-            display:inline-block;
+            display:block;
             color:#fff;
             font-size:14px;
             background:#111114;
@@ -2016,7 +2202,7 @@
         /*Botones cap Noramles*/
         
         .anterior{
-            display:inline-block;
+            display:block;
             color:#fff;
             font-size:14px;
             background:#111114;
@@ -2026,7 +2212,7 @@
         }
         
         .capitulos{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:14px;
             margin-right:-1px;
@@ -2047,7 +2233,7 @@
         /**/
         
         .anterior_ult{
-            display:inline-block;
+            display:block;
             color:#fff;
             font-size:25px;
             background:#111114;
@@ -2056,7 +2242,7 @@
         }
         
         .capitulos_ult{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:25px;
             margin-left:-4px ;
@@ -2154,7 +2340,7 @@
         }
         
         .contenedor_iframe{
-            display:inline-block;
+            display:block;
             border:2px solid #111114;
             width:400px;
             margin-top:15px;
@@ -2167,13 +2353,13 @@
         .capitulo{
             width:100%;
             height:100%;
-            display:inline-block;
+            display:block;
         
         }
     
         /*Botones cap1*/
         .capitulos_pag1{
-            display:inline-block;
+            display:block;
             color:#fa0;
             font-size:18px;
             margin-right:-2px;
@@ -2222,7 +2408,36 @@
         i{
         margin:8px;
         }
-
+        .botones-borde{
+            display:inline-block;
+        }
+    
+        /*Hovers*/
+        
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior:hover{
+            background: #3A3A3C;
+        }
+    
+        .siguiente:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_pag1:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+        
     
         /**/
         
@@ -2266,7 +2481,7 @@
             padding:5px;
             margin-left:-5p;
             margin-right:-5px;
-            display:inline-block;
+            display:block;
             background:#111114;
             color:#fff;
             width:auto;
