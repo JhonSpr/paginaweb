@@ -50,6 +50,9 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
+                   var i = document.getElementById('divPrincipal').contentWindow.location.reload();
+                   var g = document.getElementById('myDIV3').contentWindow.location.reload();
+                   var x = document.getElementById('myDIV2').contentWindow.location.reload();
                 
                   
    
@@ -57,6 +60,9 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
+                   var i = document.getElementById('divPrincipal').contentWindow.location.reload();
+                   var g = document.getElementById('myDIV3').contentWindow.location.reload();
+                   var x = document.getElementById('myDIV2').contentWindow.location.reload();
                    
            
                }
@@ -73,12 +79,18 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
+                   var i = document.getElementById('divPrincipal').contentWindow.location.reload();
+                   var g = document.getElementById('myDIV3').contentWindow.location.reload();
+                   var x = document.getElementById('myDIV2').contentWindow.location.reload();
                
                   
                } else {
                 x.style.display = "block";
                 g.style.display="none";
-                i.style.display= "none";       
+                i.style.display= "none";
+                var i = document.getElementById('divPrincipal').contentWindow.location.reload();
+                var g = document.getElementById('myDIV3').contentWindow.location.reload();
+                var x = document.getElementById('myDIV2').contentWindow.location.reload();       
                }
            }
 
