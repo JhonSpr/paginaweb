@@ -85,7 +85,10 @@ addEventListener('DOMContentLoaded', () => {
 
            function pausarVideo(){
             frames[1].location.href.reload()
-            window.frames['divPrincipal'].location.href.reload() 
+            window.frames['divPrincipal'].location.href.reload()
+            window.frames['myDIV2'].location.href.reload()
+            window.frames['myDIV3'].location.href.reload()
+             
            }
 
    
