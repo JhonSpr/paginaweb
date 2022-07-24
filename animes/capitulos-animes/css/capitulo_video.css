@@ -2092,6 +2092,11 @@
 
 @media (max-width:480px){
 
+        a{
+            background: transparent;
+            
+        }
+
         .contenedor-list{
             padding:5px;
             margin-left:-5p;
