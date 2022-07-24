@@ -254,100 +254,265 @@
 
 @media (max-width:1440px){
 
-    .capitulo{
-        border:2px solid #fa0;
-        width:809px;
-        height: 500px;
-        margin-top:12px;
-        margin-left:175px;
-        margin-right:0;
-        border-radius:6px;
-    }
-    .active{
-        margin-left:180px;
-        background:#000;
-        margin-top:10px;
-        font-weight:900;
-        font-size:20px;
-    }
-    /*Botones cap1*/
-    .capitulos_pag1{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-right:-2px;
-        background:#111114;
-        padding: 5px 5px 5px 8px;
-        border-radius:20px 0 0 20px;
+     
+        .contenedor-list{
+            padding:10px;
+            margin-left:-5p;
+            margin-right:-5px;
+            display:inline-block;
+            background:#111114;
+            color:#fff;
+            cursor:pointer;
+            margin-top: -20px;
+            margin-bottom: -0px;
+           
+        }
+        
+        .contenedor-list:hover{
+         background:#111114;
+         color: #fff;
+        }
+    
+    
+        #myDIV2{
+            display: none;
+        }
+        #myDIV3{
+            display: none;
+        }
+        .opciones{
+            display: block;
+            margin:10px 0 0 0;
+            height:auto;
+            padding:10px 0;
+            margin-bottom:-20px;
+            
+        }
+    
         
         
+        .activado {
+            background-color: #111114;
+            border-top:2px solid #00A8BC;
+            
+        }
+    
+        .text-noticias:hover{
+            color: #226174;
+            
+        }
+    
+        .borde-noticias-list{
+            border-bottom:1px solid #fa0;
+            padding-bottom:15px;
+            padding-top:0; 
+           
+        }
+    
+        .aside-capitulos .noticias_animes li{
+            border:2px solid #fa0;
+        }
+    
+        .text-noticias{
+            color:#fff;
+            font-size:14px;
         
-    }
-
+        }
+        
+        
+        .fecha-noticias{
+            background:#fa0;
+            padding:3px;
+            border-radius:3px;
+            font-size:12px;
+            margin:-20px 0 0 10px;
+            position:relative;
+            
+        }
+        
+        .imagen-noticias{
+            width:80px;
+            height:80px;
+            margin-top:20px;
+            margin-left:10px;
+            margin-right:10px;
+            margin-bottom:-20px;
+            border-radius:10px;
+        }
     
-    .siguiente{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        background:#111114;
-        padding:5px 8px 5px 5px;
-        margin-left:-2px;
-        border-radius:0 20px 20px 0;
-    }
-
-    /*Botones cap Noramles*/
+        .active{
+            background:#0000;
+            color:#fff;
+            margin:120px 5px -5px 0;
+            width:800px;
+            font-size:21px;
+        }
+        
+        
+        .contenedor-total{
+            width:80%;
+            background:#000;
+            margin:10px 120px;
+            height:100%;
+           
+            
+        }
+        
+        .contenedor_iframe{
+            display:inline-block;
+            border:2px solid #fa0;
+            width:700px;
+            margin-top:15px;
+            height: 350px;
+            margin-left:0px;
+            margin-right:0;
+            border-radius:6px;
+        }
+        
+        .capitulo{
+            width:100%;
+            height:100%;
+            display:inline-block;
+        
+        }
     
-    .anterior{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        background:#111114;
-        padding:5px 8px 5px 5px;
-        margin-right:-4px;
-        border-radius:20px 0 0 20px;
-    }
-
-    .capitulos{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-right:-4px;
-        margin-left:-4px ;
-        background:#111114;
-        padding: 5px 8px 5px 8px;
-    }
-
-    /*Botones Ultimo cap*/
-
-    .anterior_ult{
-               display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-left:-4px ;
-        background:#111114;
-        padding: 5px 10px 5px 8px;
-        border-radius:20px 0 0 20px;
-    }
-
-    .capitulos_ult{
-        display:inline-block;
-        color:#fa0;
-        font-size:25px;
-        margin-left:-4px ;
-        background:#111114;
-        padding: 5px 8px 5px 8px;
-        border-radius:0 20px 20px 0;
-    }
+        /*Botones cap1*/
+        .capitulos_pag1{
+            display:inline-block;
+            color:#fa0;
+            font-size:18px;
+            margin-right:-2px;
+            background:#111114;
+            padding: 5px 5px 5px 8px;
+            border-radius:20px 0 0 20px;
+        }
+        
+        
+        .siguiente{
+            display:inline-block;
+            color:#fff;
+            font-size:18px;
+            background:#111114;
+            padding:5px 8px 5px 5px;
+            margin-left:-2px;
+            border-radius:0 20px 20px 0;
+        }
     
-    .contendor_botones{
-        margin-top:14px;
-        margin-left:180px;
-        margin-bottom:100px;
-        display:block;
-    }
-
-}
-
+    
+        
+        /*Botones cap Noramles*/
+        
+        .anterior{
+            display:inline-block;
+            color:#fff;
+            font-size:18px;
+            background:#111114;
+            padding:5px 8px 5px 5px;
+            margin-right:-4px;
+            border-radius:20px 0 0 20px;
+        }
+        
+        .capitulos{
+            display:inline-block;
+            color:#fa0;
+            font-size:18px;
+            margin-right:-1px;
+            margin-left:1px;
+            background:#111114;
+            padding: 5px 10px 5px 10px;
+        }
+        
+        /*Botones Ultimo cap*/
+    
+        i{
+        margin:8px;
+        }
+        .botones-borde{
+            display:inline-block;
+        }
+    
+        /*Hovers*/
+        
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_ult:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior:hover{
+            background: #3A3A3C;
+        }
+    
+        .siguiente:hover{
+            background: #3A3A3C;
+        }
+    
+        .capitulos_pag1:hover{
+            background: #3A3A3C;
+        }
+    
+        .anterior_ult:hover{
+            background: #3A3A3C;
+        }
+        
+    
+        /**/
+        
+        .anterior_ult{
+            display:inline-block;
+            color:#fff;
+            font-size:25px;
+            background:#111114;
+            padding: 5px 10px 5px 8px;
+            border-radius:20px 0 0 20px;
+        }
+        
+        .capitulos_ult{
+            display:inline-block;
+            color:#fa0;
+            font-size:25px;
+            margin-left:-4px ;
+            background:#111114;
+            padding: 5px 8px 5px 8px;
+            border-radius:0 20px 20px 0;
+        }
+        
+        .contendor_botones{
+            margin-top:3px;
+            display:block;
+        }
+        
+        /* Aside */
+        
+        .cont-aside{
+            background:#000;      
+            
+        }
+    
+    
+     
+        aside{
+         
+            margin-top:-30px;
+            margin-right:-105px;
+            background:#111114;
+            width:500px;
+            height:auto;
+            display:inline-block;
+        }
+        
+        .text-aside{
+            background:#c1c1c1c1;
+            color:#fff;
+            font-size:30px;
+            border-bottom:2px solid #69696C;
+            padding:15px 20px;
+        }
+        
+        }
+    
 
 
 @media (max-width:1366px){
