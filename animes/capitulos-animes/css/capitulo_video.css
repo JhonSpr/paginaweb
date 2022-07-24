@@ -1799,31 +1799,7 @@
     }
 
     /*Hovers*/
-    
-    .anterior_ult:hover{
-        background: #3A3A3C;
-    }
 
-    .capitulos_ult:hover{
-        background: #3A3A3C;
-    }
-
-    .anterior:hover{
-        background: #3A3A3C;
-    }
-
-    .siguiente:hover{
-        background: #3A3A3C;
-    }
-
-    .capitulos_pag1:hover{
-        background: #3A3A3C;
-    }
-
-    .anterior_ult:hover{
-        background: #3A3A3C;
-    }
-    
 
     /**/
     
@@ -2235,7 +2211,7 @@
         .anterior_ult{
             display:block;
             color:#fff;
-            font-size:25px;
+            font-size:14px;
             background:#111114;
             padding: 5px 10px 5px 8px;
             border-radius:20px 0 0 20px;
@@ -2244,7 +2220,7 @@
         .capitulos_ult{
             display:block;
             color:#fa0;
-            font-size:25px;
+            font-size:14px;
             margin-left:-4px ;
             background:#111114;
             padding: 5px 8px 5px 8px;
