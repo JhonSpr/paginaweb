@@ -63,11 +63,7 @@ addEventListener('DOMContentLoaded', () => {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
-
-               var iframe = document.getElementById("myDIV2");
-               var elmnt = iframe.contentWindow.document.getElementsByTagName("H1")[0];
-               elmnt.style.display = "none";
-
+               document.getElementById('myDIV2').contentWindow.location.reload();
                if (x.style.display === "none") {
                    x.style.display = "block";
                    g.style.display="none";
