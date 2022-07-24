@@ -28,6 +28,8 @@
     
     .activado {
         background-color: #c47006;
+        border-top:2px solid #69696C;
+        
     }
 
     .text-noticias:hover{
