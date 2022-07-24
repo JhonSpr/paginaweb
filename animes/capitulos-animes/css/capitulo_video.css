@@ -860,7 +860,7 @@
 
     .borde-noticias-list{
         border-bottom:1px solid #fa0;
-        padding-bottom:15px;
+        padding-bottom:auto;
         padding-top:0; 
        
     }
@@ -872,6 +872,8 @@
     .text-noticias{
         color:#fff;
         font-size:14px;
+        
+        margin:15px;
     
     }
     
@@ -879,10 +881,10 @@
     .fecha-noticias{
         background:#fa0;
         padding:3px;
+        color:#000;
         border-radius:3px;
         font-size:12px;
         margin:-20px 0 0 10px;
-        position:relative;
         
     }
     
@@ -1053,9 +1055,9 @@
     aside{
      
         margin-top:-30px;
-        margin-right:30px;
+        margin-right:20px;
         background:#111114;
-        width:332px;
+        width:450px;
         height:auto;
         display:inline-block;
     }
@@ -1069,7 +1071,6 @@
     }
     
     }
-
 
 @media (max-width:768px){
 
