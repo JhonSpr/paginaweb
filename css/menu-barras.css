@@ -3,7 +3,7 @@
 
 .contenedorMenu{
     position: relative;
-    margin:10px 0 -29px;
+    margin:0 0 -29px;
     left: 0;
     transform: translate(-50%, -50%);
     height: 40px;
@@ -77,12 +77,31 @@
     cursor: pointer;
     transition: all 0.4s linear;
     overflow: hidden;
+        
     }
 }
 
+
+@media (max-width:480px){
+    .contenedorMenu{
+    display:block;
+    position: relative;
+    margin:0 0 0 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: auto;
+    background-color:  #c40;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    
+    }
+}
 
 @media (min-width:2560px){
     .contenedorMenu{
         display:none;
     }
 }
+
