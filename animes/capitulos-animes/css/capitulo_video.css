@@ -2090,7 +2090,7 @@
     }
 
 
-    @media (max-width:480px){
+@media (max-width:480px){
 
         .contenedor-list{
             padding:5px;
@@ -2162,7 +2162,7 @@
             border:2px solid #111114;
             width:90%;
             margin-top:15px;
-            height: 200px;
+            height: auto;
             margin-left:0px;
             margin-right:0;
             border-radius:6px;
