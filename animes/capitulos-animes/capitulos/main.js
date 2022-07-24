@@ -44,18 +44,14 @@ addEventListener('DOMContentLoaded', () => {
                var i = document.getElementById('divPrincipal');
                if (g.style.display === "none") {
                    x.style.display = "none";
-                   x.pauseVideo();
                    i.style.display="none";
-                   i.pauseVideo();
                    g.style.display="block";
                 
                   
    
                } else {
                    x.style.display = "none";
-                   x.pauseVideo();
                    i.style.display="none";
-                   i.pauseVideo();
                    g.style.display="block";
                    
            
@@ -76,7 +72,6 @@ addEventListener('DOMContentLoaded', () => {
                } else {
                 x.style.display = "block";
                 g.style.display="none";
-                g.pauseVideo();
                 i.style.display= "none";       
                }
            }
