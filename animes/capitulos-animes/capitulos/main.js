@@ -84,9 +84,17 @@ addEventListener('DOMContentLoaded', () => {
 
 
            function pausarVideo(){
-            window.frames['divPrincipal'].location.href.reload()
-            window.frames['myDIV2'].location.href.reload()
-            window.frames['myDIV3'].location.href.reload()
+            if(i.style.display === "none"){
+                window.frames['divPrincipal'].location.href.reload()
+            }
+            if (x.style.display === "none") {
+                
+                window.frames['myDIV2'].location.href.reload()
+                
+            }
+            if (g.style.display === "none") {
+                window.frames['myDIV3'].location.href.reload()
+            }
              
            }
 
