@@ -202,6 +202,48 @@
     /* Aside */
     
      /* Aside */
+
+     .text-noticias:hover{
+        color: #226174;
+        
+    }
+
+    .borde-noticias-list{
+        border-bottom:1px solid #fa0;
+        padding-bottom:15px;
+        padding-top:0; 
+       
+    }
+
+    .aside-capitulos .noticias_animes li{
+        border:2px solid #fa0;
+    }
+
+    .text-noticias{
+        color:#fff;
+    }
+    
+    
+    .fecha-noticias{
+        background:#fa0;
+        padding:3px;
+        border-radius:3px;
+        font-size:12px;
+        margin:-20px 0 0 10px;
+        position:relative;
+        
+    }
+    
+    .imagen-noticias{
+        width:80px;
+        height:80px;
+        margin-top:20px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-bottom:-20px;
+        border-radius:10px;
+    }
+
     
      .cont-aside{
         background:#000;
