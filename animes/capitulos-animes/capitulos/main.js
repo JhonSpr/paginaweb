@@ -83,14 +83,6 @@ addEventListener('DOMContentLoaded', () => {
 
 
 
-            function pausarVideo() {
-                var x = document.getElementById("c-opcion2");
-                var g = document.getElementById('c-opcion3');
-                var i = document.getElementById('c-opcion1');
-                x.stopVideo();
-                g.stopVideo();
-                i.stopVideo();
-            }
 
 
             
