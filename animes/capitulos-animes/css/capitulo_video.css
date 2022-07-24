@@ -2092,9 +2092,9 @@
 
 @media (max-width:480px){
 
-        a{
-            background: transparent;
-            
+        a:hover{
+            background-color: transparent;
+
         }
 
         .contenedor-list{
