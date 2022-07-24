@@ -306,7 +306,7 @@
     }
 
     .aside-capitulos .noticias_animes li{
-        border:2px solid #fa0;
+        border:2px solid #111114;
     }
 
     .text-noticias{
@@ -353,7 +353,7 @@
     
     .contenedor_iframe{
         display:inline-block;
-        border:2px solid #fa0;
+        border:2px solid #111114;
         width:800px;
         margin-top:15px;
         height: 450px;
