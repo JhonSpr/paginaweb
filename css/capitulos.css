@@ -812,6 +812,7 @@ img{
 
 .menu_items{
     display:block;
+    width: auto;
 }
 .order{
     display:none;
