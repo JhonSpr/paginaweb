@@ -79,10 +79,10 @@
     }
 
     .active{
-        background:#ca4;
-        margin:20px 5px 0 0;
-        padding:1px;
-        width: auto;
+        background:#0000;
+        color:#fff;
+        margin:50px 5px 0 0;
+        width:800px;
     }
     
     
