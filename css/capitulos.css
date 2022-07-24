@@ -791,3 +791,32 @@ img{
 }
 
 /* Precuelas Y Secuelas */
+
+@media (min-width:480px){
+    .menu_items{
+        display:block;
+    }
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+}
+
+.menu_items a:hover, a.active{
+    background: #ff7c00;
+    color: #fff;
+    transition: .3s;
+
+}
+
+.menu_items{
+    display:block;
+}
+.order{
+    display:none;
+}
+
+.btn_menu{
+    display: block;
+}
