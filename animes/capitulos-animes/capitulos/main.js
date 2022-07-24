@@ -20,6 +20,7 @@ addEventListener('DOMContentLoaded', () => {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
+
                if (i.style.display === "none") {
                    i.style.display = "block";
                    x.style.display="none";
@@ -42,7 +43,7 @@ addEventListener('DOMContentLoaded', () => {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
-               document.getElementById('myDIV3').contentWindow.location.reload();
+               var i = document.getElementById('myDIV3').contentWindow.location.reload();
 
                if (g.style.display === "none") {
                    x.style.display = "none";
@@ -65,7 +66,7 @@ addEventListener('DOMContentLoaded', () => {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
-               document.getElementById('myDIV2').contentWindow.location.reload();
+               var i = document.getElementById('myDIV2').contentWindow.location.reload();
                if (x.style.display === "none") {
                    x.style.display = "block";
                    g.style.display="none";
