@@ -15,7 +15,9 @@
      background:#111114;
      color: #fff;
     }
-    #myDIV1
+    #myDIV1{
+        display: none;
+    }
 
     #myDIV2{
         display: none;
