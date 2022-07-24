@@ -17,9 +17,9 @@ addEventListener('DOMContentLoaded', () => {
 
    
        function myFunction() {
-               var x = document.getElementById("myDIV2");
-               var g = document.getElementById('myDIV3');
-               var i = document.getElementById('divPrincipal');
+               var x = document.getElementById("c-opcion2");
+               var g = document.getElementById('c-opcion3');
+               var i = document.getElementById('c-opcion1');
    
 
                if (i.style.display === "none") {
@@ -41,9 +41,9 @@ addEventListener('DOMContentLoaded', () => {
    
        
            function myFunction3() {
-               var x = document.getElementById("myDIV2");
-               var g = document.getElementById('myDIV3');
-               var i = document.getElementById('divPrincipal');
+               var x = document.getElementById("c-opcion2");
+               var g = document.getElementById('c-opcion3');
+               var i = document.getElementById('c-opcion1');
 
 
                if (g.style.display === "none") {
@@ -64,9 +64,9 @@ addEventListener('DOMContentLoaded', () => {
       
        
            function myFunction2() {
-               var x = document.getElementById("myDIV2");
-               var g = document.getElementById('myDIV3');
-               var i = document.getElementById('divPrincipal');
+               var x = document.getElementById("c-opcion2");
+               var g = document.getElementById('c-opcion3');
+               var i = document.getElementById('c-opcion1');
 
                if (x.style.display === "none") {
                    x.style.display = "block";
@@ -84,9 +84,9 @@ addEventListener('DOMContentLoaded', () => {
 
 
             function pausarVideo() {
-                var x = document.getElementById("myDIV2");
-                var g = document.getElementById('myDIV3');
-                var i = document.getElementById('divPrincipal');
+                var x = document.getElementById("c-opcion2");
+                var g = document.getElementById('c-opcion3');
+                var i = document.getElementById('c-opcion1');
                 x.stopVideo();
                 g.stopVideo();
                 i.stopVideo();

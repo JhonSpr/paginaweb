@@ -194,58 +194,59 @@
 
 
 
-                        <div class="opciones">
+                      
+                    <div class="opciones">
 
 
-                            <script>
+                        <script>
 
 function marks(){
-    var x = document.getElementById("myDIV2");
-    var g = document.getElementById('myDIV3');
-    var i = document.getElementById('divPrincipal');
-    var marcado = document.getElementById('opcion1');
-    var marcado2 = document.getElementById('opcion2');
-    var marcado3 = document.getElementById('opcion3');
-    if(i.style.display === "none"){
-        marcado.classList.remove('activado');
-    }
-    else{
-        marcado.classList.add('activado');
-    }
-    if(x.style.display === "none"){
-        marcado2.classList.remove('activado');
-    }
-    else{
-        marcado2.classList.add('activado');
-    }
+var x = document.getElementById("c-opcion2");
+var g = document.getElementById('c-opcion3');
+var i = document.getElementById('c-opcion1');
+var marcado = document.getElementById('opcion1');
+var marcado2 = document.getElementById('opcion2');
+var marcado3 = document.getElementById('opcion3');
+if(i.style.display === "none"){
+    marcado.classList.remove('activado');
+}
+else{
+    marcado.classList.add('activado');
+}
+if(x.style.display === "none"){
+    marcado2.classList.remove('activado');
+}
+else{
+    marcado2.classList.add('activado');
+}
 
-    if(g.style.display === "none"){
-        marcado3.classList.remove('activado');
-    }
-    else{
-        marcado3.classList.add('activado');
-    }
-    
+if(g.style.display === "none"){
+    marcado3.classList.remove('activado');
+}
+else{
+    marcado3.classList.add('activado');
+}
 
-   }
-                            </script>
 
-                            <li class="activado contenedor-list" onclick="myFunction(),marks(),pausarVideo()"  id="opcion1" >
-                                <span>OPCION 1</span> 
-                            </li>
-                            <li class="contenedor-list" onclick="myFunction2(),marks(),pausarVideo()" id="opcion2">
-                                <span>OPCION 2</span>
-                                
-                            </li>
-                            <li class="contenedor-list" onclick="myFunction3(), marks(),pausarVideo()" id="opcion3">
-                                <span>OPCION 3</span>
-                                
-                            </li>
-                        </div>
+}
+                        </script>
+
+                        <li class="activado contenedor-list" onclick="myFunction(),marks(),pausarVideo()"  id="opcion1" >
+                            <span>OPCION 1</span> 
+                        </li>
+                        <li class="contenedor-list" onclick="myFunction2(),marks(),pausarVideo()" id="opcion2">
+                            <span>OPCION 2</span>
+                            
+                        </li>
+                        <li class="contenedor-list" onclick="myFunction3(), marks(),pausarVideo()" id="opcion3">
+                            <span>OPCION 3</span>
+                            
+                        </li>
+                    </div>
                             <div class="contenedor_iframe">
-                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/3isvmgy7ztqe.html" scrolling="no" allowfullscreen="" class="capitulo" id="divPrincipal"></iframe>      
-                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/2dlhg80oowou.html" scrolling="no" allowfullscreen="" id="myDIV2" class="capitulo"></iframe>
-                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/neea68kvfnro.html" scrolling="no" allowfullscreen="" id="myDIV3" class="capitulo"></iframe>
+                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/3isvmgy7ztqe.html" scrolling="no" allowfullscreen="" class="capitulo" id="c-opcion1"></iframe>      
+                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/2dlhg80oowou.html" scrolling="no" allowfullscreen="" id="c-opcion2" class="capitulo"></iframe>
+                                <iframe width="560" height="315" frameborder="0" src="https://sbfull.com/e/neea68kvfnro.html" scrolling="no" allowfullscreen="" id="c-opcion3" class="capitulo"></iframe>
                             </div>
                         
 
