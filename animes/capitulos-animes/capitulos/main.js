@@ -50,9 +50,9 @@ addEventListener('DOMContentLoaded', () => {
                   
    
                } else {
-                   x.style.display = "block";
+                   x.style.display = "none";
                    i.style.display="none";
-                   g.style.display="none";
+                   g.style.display="block";
                    
            
                }
@@ -70,8 +70,8 @@ addEventListener('DOMContentLoaded', () => {
                
                   
                } else {
-                x.style.display = "none";
-                g.style.display="block";
+                x.style.display = "block";
+                g.style.display="none";
                 i.style.display= "none";       
                }
            }
