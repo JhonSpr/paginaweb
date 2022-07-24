@@ -67,9 +67,6 @@ addEventListener('DOMContentLoaded', () => {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
                var i = document.getElementById('divPrincipal');
-                var reload = document.getElementById('divPrincipal').contentWindow.location.reload();
-                var reload3 = document.getElementById('myDIV3').contentWindow.location.reload();
-                var reload2 = document.getElementById('myDIV2').contentWindow.location.reload();
 
                if (x.style.display === "none") {
                    x.style.display = "block";
@@ -84,6 +81,12 @@ addEventListener('DOMContentLoaded', () => {
                }
            }
 
+
+
+           function pausarVideo(){
+            frames[1].location.href.reload()
+            window.frames['divPrincipal'].location.href.reload() 
+           }
 
    
    
