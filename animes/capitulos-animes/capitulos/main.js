@@ -92,6 +92,40 @@ addEventListener('DOMContentLoaded', () => {
                 i.stopVideo();
             }
 
+
+            
+
+            function marks(){
+            var x = document.getElementById("c-opcion2");
+            var g = document.getElementById('c-opcion3');
+            var i = document.getElementById('c-opcion1');
+            var marcado = document.getElementById('opcion1');
+            var marcado2 = document.getElementById('opcion2');
+            var marcado3 = document.getElementById('opcion3');
+            if(i.style.display === "none"){
+                marcado.classList.remove('activado');
+            }
+            else{
+                marcado.classList.add('activado');
+            }
+            if(x.style.display === "none"){
+                marcado2.classList.remove('activado');
+            }
+            else{
+                marcado2.classList.add('activado');
+            }
+            
+            if(g.style.display === "none"){
+                marcado3.classList.remove('activado');
+            }
+            else{
+                marcado3.classList.add('activado');
+            }
+            
+            
+            }
+                                    
+
    
    
    
