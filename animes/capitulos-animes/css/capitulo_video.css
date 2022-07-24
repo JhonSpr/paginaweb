@@ -2095,10 +2095,12 @@
         li{
             list-style: none;
             animation: none;
+            border: none;
         }
 
         a{
             animation: none;
+            border:none;
         }
 
         .contenedor-list{
