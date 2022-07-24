@@ -192,15 +192,44 @@
 
 
 
-                        <script>
-
-                          
-                                
-                                
-                                </script>
 
                         <div class="opciones">
-                            <li class="activado1 contenedor-list" onclick="myFunction()" id="opcion1" >
+
+
+                            <script>
+
+function marks(){
+    var x = document.getElementById("myDIV1");
+    var g = document.getElementById('myDIV2');
+    var i = document.getElementById('divPrincipal');
+    var marcado = document.getElementById('opcion1');
+    var marcado2 = document.getElementById('opcion2');
+    var marcado3 = document.getElementById('opcion3');
+    if(i.style.display === "block"){
+        marcado.classList.add('activado');
+    }
+    else{
+        marcado.classList.remove();
+    }
+    if(x.style.display === "block"){
+        marcado2.classList.add('activado');
+    }
+    else{
+        marcado2.classList.remove();
+    }
+
+    if(g.style.display === "block"){
+        marcado3.classList.add('activado');
+    }
+    else{
+        marcado3.classList.remove();
+    }
+    
+
+   }
+                            </script>
+
+                            <li class="activado1 contenedor-list" onclick="myFunction()" marks() id="opcion1" >
                                 <span>OPCION 1</span> 
                             </li>
                             <li class="activado2 contenedor-list" onclick="myFunction2()" id="opcion2">

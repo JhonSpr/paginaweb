@@ -11,7 +11,7 @@ addEventListener('DOMContentLoaded', () => {
 })
 
 
-addEventListener('DOMContentLoaded', ()=>{
+function marks(){
     var x = document.getElementById("myDIV1");
     var g = document.getElementById('myDIV2');
     var i = document.getElementById('divPrincipal');
@@ -38,8 +38,8 @@ addEventListener('DOMContentLoaded', ()=>{
         marcado3.classList.remove();
     }
     
-})
-   
+
+   }
    
 
         
