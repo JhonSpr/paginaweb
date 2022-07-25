@@ -256,9 +256,10 @@
 
 
 
+
 @media (max-width:1920px){
     body{
-        background: #111114;
+        background: #111114 !important;
     }
 
     
@@ -353,13 +354,14 @@
         margin:10px 250px;
         height:100%;
         width:80%;
+        background:#111114;
        
         
     }
     
     .contenedor_iframe{
         display:inline-block;
-        background: transparent;
+        background: #111114;
         border:2px solid #111114;
         width:1002px;
         margin-top:15px;
@@ -492,7 +494,6 @@
     }
     
     }
-
 
 @media (max-width:1440px){
 
