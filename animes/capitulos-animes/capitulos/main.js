@@ -38,7 +38,6 @@ addEventListener('DOMContentLoaded', () => {
            
                }
                var iframeID = $('iframe').attr('id');
-                alert(iframeID);
                 $('#' + iframeID).attr('src', function (i, val) { return val; });
            }
    
@@ -63,7 +62,7 @@ addEventListener('DOMContentLoaded', () => {
                 i.style.display= "none";       
                }
                var iframeID = $('iframe').attr('id');
-                alert(iframeID);
+               
                 $('#' + iframeID).attr('src', function (i, val) { return val; });
            }
 
@@ -91,7 +90,6 @@ addEventListener('DOMContentLoaded', () => {
             }
 
             var iframeID = $('iframe').attr('id');
-  alert(iframeID);
 $('#' + iframeID).attr('src', function (i, val) { return val; });
         }
 
