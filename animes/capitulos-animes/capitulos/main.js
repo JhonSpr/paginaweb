@@ -97,9 +97,9 @@ addEventListener('DOMContentLoaded', () => {
            var marcado2 = document.getElementById('opcion2');
            var marcado3 = document.getElementById('opcion3');
            if(i.style.display === "none"){
-            document.getElementById('myDIV1').setAttribute('src','')
-            document.getElementById('myDIV2').setAttribute('src','') 
-            document.getElementById('myDIV3').setAttribute('src','')             
+            document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
+            document.getElementById('myDIV2').setAttribute('iframe','myDIV2') 
+            document.getElementById('myDIV3').setAttribute('iframe','myDIV3')           
             marcado.classList.remove('activado');
            }
            else{
