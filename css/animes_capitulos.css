@@ -439,7 +439,7 @@ p{
     overflow-x: auto;
     transition: 300ms;
     max-height: 600px;  
-    background: #000;
+    background: #111114;
     width: 769px;
     margin-right:10px;
 }
