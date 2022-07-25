@@ -53,13 +53,13 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
-                   document.querySelector('iframe').setAttribute('src','')
+                   document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
 
                 
                   
    
                } else {
-                document.querySelector('iframe').setAttribute('src','')
+                document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
