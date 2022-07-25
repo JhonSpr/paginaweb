@@ -131,4 +131,4 @@ addEventListener('DOMContentLoaded', () => {
           }        
    
           
-          document.getElementsByName("fecha-noticias").textContent="New Text";
+          document.getElementsByClassName("fecha-noticias").textContent="New Text";
