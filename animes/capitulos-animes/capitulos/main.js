@@ -97,7 +97,7 @@ addEventListener('DOMContentLoaded', () => {
            var marcado2 = document.getElementById('opcion2');
            var marcado3 = document.getElementById('opcion3');
            if(i.style.display === "none"){ 
-            document.getElementById('myDIV1').setAttribute('id','nada')       
+            document.getElementById('myDIV1').setAttribute('src','nada')       
             marcado.classList.remove('activado');
            }
            else{
@@ -107,7 +107,7 @@ addEventListener('DOMContentLoaded', () => {
             marcado.classList.add('activado');
            }
            if(x.style.display === "none"){
-            document.getElementById('myDIV2').setAttribute('id','nada')
+            document.getElementById('myDIV2').setAttribute('src','nada')
             marcado2.classList.remove('activado');
            }
            else{
