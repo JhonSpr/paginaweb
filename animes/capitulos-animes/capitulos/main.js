@@ -132,9 +132,9 @@ addEventListener('DOMContentLoaded', () => {
    
           function like(){
             
-
-            like.addEventListener('click', ()=>{
             like = document.getElementById('like');
+            like.addEventListener('click', ()=>{
+           
             icono = document.getElementsByClassName('.fa-thumbs-up');
                 
             if(like){
