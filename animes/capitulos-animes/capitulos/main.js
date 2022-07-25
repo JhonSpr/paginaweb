@@ -55,13 +55,12 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
-                   document.querySelector('iframe').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
 
                 
                   
    
                } else {
-                document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
+                
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
@@ -80,12 +79,12 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
-                   document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
+                  
 
                
                   
                } else {
-                document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
+                
                 x.style.display = "block";
                 g.style.display="none";
                 i.style.display= "none";       
