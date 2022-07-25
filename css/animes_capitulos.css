@@ -17,7 +17,6 @@
     color: #fff;
 }
 .img-bottom-finalizado{
-    margin: 5px 0 0 10px;
     display: inline-block;
     color: #fff;
 }
@@ -93,6 +92,22 @@
 /* Media Query*/
 
 @media screen and (max-width:1920px){
+
+.img-bottom-emision{
+    display: inline-block;
+    margin: -5px 0 0 15px;
+    padding:10px;
+    width:250px;
+    background:#26CA12;
+    text-align:center;
+    border:2px #fff solid;
+    border-radius:5px;
+    color: #fff;
+    }
+.img-bottom-finalizado{
+    display: inline-block;
+    color: #fff;
+    }
 
     .contenedor_descripcion{
         margin-left:-60px;
@@ -189,6 +204,7 @@
     }
     
     }
+    
     
 
 
