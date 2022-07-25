@@ -103,9 +103,9 @@ addEventListener('DOMContentLoaded', () => {
             marcado.classList.remove('activado');
            }
            else{
-            document.getElementById('myDIV1').setAttribute('src','')
-            document.getElementById('myDIV2').setAttribute('src','') 
-            document.getElementById('myDIV3').setAttribute('src','')    
+            document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
+            document.getElementById('myDIV2').setAttribute('iframe','myDIV2') 
+            document.getElementById('myDIV3').setAttribute('iframe','myDIV3') 
             marcado.classList.add('activado');
            }
            if(x.style.display === "none"){
