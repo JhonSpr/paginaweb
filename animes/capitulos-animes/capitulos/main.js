@@ -26,7 +26,7 @@ addEventListener('DOMContentLoaded', () => {
                    i.style.display = "block";
                    x.style.display="none";
                    g.style.display="none";
-                   document.querySelector('iframe').setAttribute('src','')
+                   document.querySelector('iframe').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
 
                   
                    
