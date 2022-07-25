@@ -115,7 +115,6 @@ addEventListener('DOMContentLoaded', () => {
            
            if(g.style.display === "none"){
             document.querySelector('iframe').setAttribute('src','')
-
             marcado3.classList.remove('activado');
            }
            else{
