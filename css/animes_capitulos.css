@@ -454,6 +454,9 @@ aside{
 body{
     background: #111114;
 }
+.anime-temp{
+    margin: 0;
+}
 }
 
 @media screen and (max-width:480px){
