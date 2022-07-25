@@ -72,7 +72,7 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
-                   document.querySelector('myDIV1').setAttribute('src','')
+                   document.querySelector('iframe').setAttribute('src','')
 
                
                   
