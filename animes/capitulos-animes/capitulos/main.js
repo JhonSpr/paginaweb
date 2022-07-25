@@ -116,7 +116,7 @@ addEventListener('DOMContentLoaded', () => {
            }
            else{
             document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
             document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
                marcado2.classList.add('activado');
            }
