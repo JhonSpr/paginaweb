@@ -130,3 +130,4 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
    
+          document.querySelector('#op1').innerHTML="JW PLAYER";
