@@ -403,12 +403,25 @@ body{
 
 @media screen and (max-width:768px){
 
+    .img-bottom-emision{
+        display: inline-block;
+        margin: -10px 0 0 15px;
+        padding:10px;
+        width:260px;
+        background:#26CA12;
+        text-align:center;
+        border-radius:5px;
+        color: #fff;
+        }
+    .img-bottom-finalizado{
+        display: inline-block;
+        color: #fff;
+        }
+    
+
 
 p{
-    color:#fff;
-    margin-top:25px;
-    margin-bottom:25px;
-   
+    color:#fff;  
     
 }
 
@@ -419,6 +432,7 @@ p{
     border-top:1px solid #fa0;
     margin-left:-67px;
     border-bottom:1px solid #fa0;
+    border-left:0;
     
 }
 .text-top{
