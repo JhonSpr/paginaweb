@@ -76,7 +76,7 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
-                   document.querySelector('iframe').setAttribute('src','')
+                   document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
 
                
                   
