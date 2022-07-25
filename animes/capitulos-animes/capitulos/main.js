@@ -103,24 +103,34 @@ addEventListener('DOMContentLoaded', () => {
             marcado.classList.remove('activado');
            }
            else{
-            document.querySelector('iframe').setAttribute('src','')       
+            document.getElementById('myDIV1').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('src','') 
+            document.getElementById('myDIV3').setAttribute('src','')    
             marcado.classList.add('activado');
            }
            if(x.style.display === "none"){
-            document.querySelector('iframe').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('src','') 
+            document.getElementById('myDIV3').setAttribute('src','')
             marcado2.classList.remove('activado');
            }
            else{
-            document.querySelector('iframe').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('src','') 
+            document.getElementById('myDIV3').setAttribute('src','')
             marcado2.classList.add('activado');
            }
            
            if(g.style.display === "none"){
-            document.querySelector('iframe').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('src','') 
+            document.getElementById('myDIV3').setAttribute('src','')
             marcado3.classList.remove('activado');
            }
            else{
-            document.querySelector('iframe').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('src','') 
+            document.getElementById('myDIV3').setAttribute('src','')
             marcado3.classList.add('activado');
            }
            
