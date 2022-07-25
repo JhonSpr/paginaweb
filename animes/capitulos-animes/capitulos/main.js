@@ -37,6 +37,9 @@ addEventListener('DOMContentLoaded', () => {
                    g.style.display="none";
            
                }
+               var iframeID = $('iframe').attr('id');
+                alert(iframeID);
+                $('#' + iframeID).attr('src', function (i, val) { return val; });
            }
    
    
@@ -117,6 +120,7 @@ addEventListener('DOMContentLoaded', () => {
             marcado3.classList.remove('activado');
            }
            else{
+
             marcado3.classList.add('activado');
            }
            
