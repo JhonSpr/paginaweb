@@ -517,7 +517,8 @@ body{
 }
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
+    
 
 
     p{
@@ -614,6 +615,12 @@ body{
 
 
 @media (max-width:320px){
+        .img-bottom-emision{
+            display:none;
+        }
+        .img-bottom-finalizado{
+            display:none;
+        }
         .fa-circle-chevron-right{
             display:none;
         }
@@ -708,4 +715,12 @@ body{
             display:none;
         }
         }
-    
+
+@media (max-width:490px){
+      .img-bottom-emision{
+            display:none;
+        }
+        .img-bottom-finalizado{
+            display:none;
+        }
+}
