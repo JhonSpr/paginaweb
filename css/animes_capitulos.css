@@ -12,6 +12,7 @@
 }
 
 .img-bottom-emision{
+    display: inline-block;
     color: #fff;
 }
 .img-bottom-finalizado{
