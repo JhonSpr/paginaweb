@@ -109,7 +109,7 @@ addEventListener('DOMContentLoaded', () => {
             marcado.classList.add('activado');
            }
            if(x.style.display === "none"){
-            document.getElementById('myDIV1').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
             document.getElementById('myDIV2').setAttribute('src','') 
             document.getElementById('myDIV3').setAttribute('src','')
             marcado2.classList.remove('activado');
