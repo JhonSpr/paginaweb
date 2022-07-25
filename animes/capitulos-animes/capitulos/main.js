@@ -97,41 +97,30 @@ addEventListener('DOMContentLoaded', () => {
            var marcado2 = document.getElementById('opcion2');
            var marcado3 = document.getElementById('opcion3');
            if(i.style.display === "none"){
-            document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
-            document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
-               marcado.classList.remove('activado');
+            document.querySelector('iframe').setAttribute('src','')              
+            marcado.classList.remove('activado');
            }
            else{
-            document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
-            document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
-               marcado.classList.add('activado');
+            document.querySelector('iframe').setAttribute('src','')       
+            marcado.classList.add('activado');
            }
            if(x.style.display === "none"){
-            document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
-            document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
-               marcado2.classList.remove('activado');
+            document.querySelector('iframe').setAttribute('src','')
+            marcado2.classList.remove('activado');
            }
            else{
-            document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
-            document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
-               marcado2.classList.add('activado');
+            document.querySelector('iframe').setAttribute('src','')
+            marcado2.classList.add('activado');
            }
            
            if(g.style.display === "none"){
-            document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
-            document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
-               marcado3.classList.remove('activado');
+            document.querySelector('iframe').setAttribute('src','')
+
+            marcado3.classList.remove('activado');
            }
            else{
-            document.getElementById('myDIV1').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
-            document.getElementById('myDIV2').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
-            document.getElementById('myDIV3').setAttribute('src','https://sbfull.com/e/neea68kvfnro.html')
-               marcado3.classList.add('activado');
+            document.querySelector('iframe').setAttribute('src','')
+            marcado3.classList.add('activado');
            }
            
            
