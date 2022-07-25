@@ -131,6 +131,4 @@ addEventListener('DOMContentLoaded', () => {
           }        
    
           
-          document.querySelector(".fecha-noticias").textContent="newtext";
-
-        
+     
