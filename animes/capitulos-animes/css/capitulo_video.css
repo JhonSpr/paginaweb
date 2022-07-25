@@ -255,6 +255,7 @@
 
 
 
+
 @media (max-width:1920px){
 
     
@@ -293,12 +294,7 @@
         border-top:2px solid #69696C;
         
     }
-
-    .text-noticias:hover{
-        color: #226174;
-        
-    }
-
+    
     .borde-noticias-list{
         border-bottom:1px solid #c1c1c1;
         padding-bottom:15px;
@@ -324,6 +320,11 @@
         margin:-20px 0 0 10px;
         position:relative;
         
+    }
+
+    .img-recomendados{
+        width:200px;
+        margin:5px 10px 5px 10px;
     }
     
     .imagen-noticias{
@@ -474,7 +475,7 @@
         margin-top:-30px;
         margin-right:-105px;
         background:#111114;
-        width:500px;
+        width:450px;
         height:auto;
         display:inline-block;
     }
@@ -487,6 +488,8 @@
     }
     
     }
+
+
 @media (max-width:1440px){
 
      
