@@ -124,6 +124,10 @@ addEventListener('DOMContentLoaded', () => {
            
            }
 
-                                   
+           function reloadFrame(){
+            document.getElementById('myDIV1').src = document.getElementById('myDIV1').src;
+            document.getElementById('myDIV2').src = document.getElementById('myDIV2').src;
+            document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
+          }        
    
    
