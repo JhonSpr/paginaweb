@@ -130,7 +130,3 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
    
-          
-          document.getElementById("op1").innerHTML="OPCION20";
-
-       
