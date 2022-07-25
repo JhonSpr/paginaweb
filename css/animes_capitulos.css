@@ -547,3 +547,101 @@ aside{
         background:#111114;
     }
     }
+
+
+@media (max-width:320px){
+        .fa-circle-chevron-right{
+            display:none;
+        }
+        .anime-temp{
+            font-size:13px;
+        }
+        
+        p{
+            color:#fff;
+            font-size:13px;
+            margin:10px 30px 10px 0px;
+           
+            
+        }
+        
+        .contenedor_descripcion p img{
+            width:120px;
+            height:150px;
+            margin:10px 10px 20px 90px;
+        }
+        
+        
+        .contenedor_descripcion{
+            width:auto; 
+            border:0;
+        }
+        .text-top{
+            padding:15px 0 10px 0;
+            display:block;
+            height:auto;
+            background:#111114;
+            margin-bottom:-2px;
+            margin-left:-80px;
+            border-radius:0px 10px 0 0;
+        }
+        
+        .list-top{
+            color:#fff;
+            font-size:16px;
+            margin-left:15px;
+        }
+        
+        .contenedor_capitulos li:first-child {
+            border-top:none;
+        }
+        
+        .contenedor_capitulos li a strong {
+            margin: auto;
+            font-size: 10px;
+            font-weight: 0;
+            color: #fff;
+            margin: 10px 15px 10px 0;
+        }
+        
+        .contenedor_capitulos li a span {
+            color: #fff;
+            font-size: 14px;
+            
+        }
+        
+        .contenedor_capitulos li a span img {
+          display:none;
+        }
+        
+        .contenedor_capitulos li a i {
+            color: #c1c1c1;
+            margin: 5px;
+        }
+        
+        
+        .contenedor_capitulos li a {
+            display:block;
+            padding:15px;
+        }
+        
+        .contenedor_capitulos {
+            overflow: scroll;
+            overflow-x: auto;
+            transition: 300ms;
+            max-height: 600px;  
+            background:#111114;
+            width:333px;
+            margin-right:10px;
+        }
+        
+        .contenedor_capitulos li {
+            border:1px solid #111114;
+            background:#111114;
+        }
+        
+        aside{
+            display:none;
+        }
+        }
+    
