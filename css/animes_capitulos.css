@@ -111,7 +111,7 @@
         padding:15px 0 10px 0;
         display:block;
         height:auto;
-        background:#000;
+        background:transparent;
         margin-bottom:-2px;
         margin-left:-75px;
         border-radius:0px 10px 0 0;
@@ -169,6 +169,7 @@
         overflow: scroll;
         overflow-x: auto;
         transition: 300ms;
+        background-color: transparent;
         max-height: 600px;  
         width: auto;
         margin-left:-80px;
