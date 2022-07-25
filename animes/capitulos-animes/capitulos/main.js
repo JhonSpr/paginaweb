@@ -41,30 +41,6 @@ addEventListener('DOMContentLoaded', () => {
    
    
        
-           function myFunction3() {
-               var x = document.getElementById("myDIV2");
-               var g = document.getElementById('myDIV3');
-               var i = document.getElementById('myDIV1');
-
-
-               if (g.style.display === "none") {
-                   x.style.display = "none";
-                   i.style.display="none";
-                   g.style.display="block";
-
-                
-                  
-   
-               } else {
-                   x.style.display = "none";
-                   i.style.display="none";
-                   g.style.display="block";
-                   
-           
-               }
-           }
-      
-       
            function myFunction2() {
                var x = document.getElementById("myDIV2");
                var g = document.getElementById('myDIV3');
@@ -85,6 +61,29 @@ addEventListener('DOMContentLoaded', () => {
                }
            }
 
+
+           function myFunction3() {
+            var x = document.getElementById("myDIV2");
+            var g = document.getElementById('myDIV3');
+            var i = document.getElementById('myDIV1');
+
+
+            if (g.style.display === "none") {
+                x.style.display = "none";
+                i.style.display="none";
+                g.style.display="block";
+
+             
+               
+
+            } else {
+                x.style.display = "none";
+                i.style.display="none";
+                g.style.display="block";
+                
+        
+            }
+        }
 
 
    
