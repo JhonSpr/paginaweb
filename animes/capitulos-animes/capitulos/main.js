@@ -37,8 +37,6 @@ addEventListener('DOMContentLoaded', () => {
                    g.style.display="none";
            
                }
-               var iframeID = $('iframe').attr('id');
-                $('#' + iframeID).attr('src', function (i, val) { return val; });
            }
    
    
@@ -61,9 +59,6 @@ addEventListener('DOMContentLoaded', () => {
                 g.style.display="none";
                 i.style.display= "none";       
                }
-               var iframeID = $('iframe').attr('id');
-               
-                $('#' + iframeID).attr('src', function (i, val) { return val; });
            }
 
 
@@ -88,9 +83,6 @@ addEventListener('DOMContentLoaded', () => {
                 
         
             }
-
-            var iframeID = $('iframe').attr('id');
-$('#' + iframeID).attr('src', function (i, val) { return val; });
         }
 
 
@@ -125,7 +117,7 @@ $('#' + iframeID).attr('src', function (i, val) { return val; });
             marcado3.classList.remove('activado');
            }
            else{
-
+            
             marcado3.classList.add('activado');
            }
            
