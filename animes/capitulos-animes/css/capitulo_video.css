@@ -257,6 +257,9 @@
 
 
 @media (max-width:1920px){
+    body{
+        background-color: #111114;
+    }
 
     
     .contenedor-list{
@@ -356,6 +359,7 @@
     
     .contenedor_iframe{
         display:inline-block;
+        background: transparent;
         border:2px solid #111114;
         width:1002px;
         margin-top:15px;
