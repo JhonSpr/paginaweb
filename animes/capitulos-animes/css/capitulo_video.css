@@ -257,6 +257,7 @@
 
 
 
+
 @media (max-width:1920px){
     body{
         background: #111114 !important;
@@ -266,7 +267,7 @@
     .contenedor-list{
         padding:10px;
         display:inline-block;
-        background:#111114;
+        background:#7C7E7C;
         cursor:pointer;
         margin-top: 5px;
         margin-bottom: -10px;
@@ -287,7 +288,7 @@
     }
     .opciones{
         display: block;
-        margin:10px 0 0 120px;
+        margin:10px 0 -15px 0px;
         
     }
 
@@ -344,7 +345,7 @@
     .active{
         background:#0000;
         color:#fff;
-        margin:120px 5px 0 120px;
+        margin:120px 5px 0 0px;
         width:800px;
         font-size:20px;
     }
@@ -366,7 +367,7 @@
         width:1002px;
         margin-top:15px;
         height: 556px;
-        margin-left:120px;
+        margin-left:0px;
         margin-right:0;
         border-radius:6px;
     }
@@ -461,7 +462,7 @@
     .contendor_botones{
         margin-top:14px;
         display:block;
-        margin-left:120px;
+        margin-left:0px;
     }
     
     /* Aside */
