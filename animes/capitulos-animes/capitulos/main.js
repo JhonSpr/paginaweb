@@ -103,19 +103,13 @@ addEventListener('DOMContentLoaded', () => {
            else{
            
             marcado.classList.add('activado');
-            x.classList.add('nada');
-            g.classList.add('nada');
-            i.classList.remove('nada');
            }
            if(x.style.display === "none"){
           
             marcado2.classList.remove('activado');
            }
            else{
-            i.classList.add('nada');
-            g.classList.add('nada');
             marcado2.classList.add('activado');
-            x.classList.remove('nada');
            }
            
            if(g.style.display === "none"){
@@ -123,10 +117,7 @@ addEventListener('DOMContentLoaded', () => {
             marcado3.classList.remove('activado');
            }
            else{
-            i.classList.add('nada');
-            x.classList.add('nada')
             marcado3.classList.add('activado');
-            g.classList.remove('nada');
            }
            
            
