@@ -134,6 +134,8 @@ addEventListener('DOMContentLoaded', () => {
             like = document.getElementById('like');
             icono = document.getElementsByClassName('.fa-thumbs-up');
 
+            like.addEventListener('click', ()=>{
+                
             if(like){
                 icono.classList.add('likeado')
             }
@@ -142,5 +144,8 @@ addEventListener('DOMContentLoaded', () => {
                     icono.classList.remove('likeado')
                 
             }
-          }
+        
+
+            })  }
+
      
