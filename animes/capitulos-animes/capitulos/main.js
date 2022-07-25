@@ -33,6 +33,7 @@ addEventListener('DOMContentLoaded', () => {
                  
    
                } else {
+                document.querySelector('iframe').setAttribute('src','https://cdn.jwplayer.com/players/S2g6nHXQ-KlDvFrjn.html')
                    i.style.display = "block";
                    x.style.display="none";
                    g.style.display="none";
@@ -58,6 +59,7 @@ addEventListener('DOMContentLoaded', () => {
                   
    
                } else {
+                document.querySelector('iframe').setAttribute('src','')
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
@@ -81,6 +83,7 @@ addEventListener('DOMContentLoaded', () => {
                
                   
                } else {
+                document.querySelector('iframe').setAttribute('src','https://sbfull.com/e/2dlhg80oowou.html')
                 x.style.display = "block";
                 g.style.display="none";
                 i.style.display= "none";       
