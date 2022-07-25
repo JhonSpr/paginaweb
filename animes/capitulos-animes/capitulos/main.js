@@ -131,4 +131,6 @@ addEventListener('DOMContentLoaded', () => {
           }        
    
           
-          
+          Myspan = document.querySelector("fecha-noticias");
+          Mytxt = document.createTextNode("23-2-422");
+          Myspan.appendChild(Mytxt);
