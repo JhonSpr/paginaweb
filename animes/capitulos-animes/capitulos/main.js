@@ -131,4 +131,6 @@ addEventListener('DOMContentLoaded', () => {
           }        
    
           
-         
+          document.getElementById("op1").innerHTML="OPCION20";
+
+       
