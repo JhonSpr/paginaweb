@@ -110,27 +110,27 @@ addEventListener('DOMContentLoaded', () => {
            }
            if(x.style.display === "none"){
             document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
-            document.getElementById('myDIV2').setAttribute('src','') 
-            document.getElementById('myDIV3').setAttribute('src','')
+            document.getElementById('myDIV2').setAttribute('iframe','myDIV2') 
+            document.getElementById('myDIV3').setAttribute('iframe','myDIV3')
             marcado2.classList.remove('activado');
            }
            else{
-            document.getElementById('myDIV1').setAttribute('src','')
-            document.getElementById('myDIV2').setAttribute('src','') 
-            document.getElementById('myDIV3').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
+            document.getElementById('myDIV2').setAttribute('iframe','myDIV2') 
+            document.getElementById('myDIV3').setAttribute('iframe','myDIV3')
             marcado2.classList.add('activado');
            }
            
            if(g.style.display === "none"){
-            document.getElementById('myDIV1').setAttribute('src','')
-            document.getElementById('myDIV2').setAttribute('src','') 
-            document.getElementById('myDIV3').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
+            document.getElementById('myDIV2').setAttribute('iframe','myDIV2') 
+            document.getElementById('myDIV3').setAttribute('iframe','myDIV3')
             marcado3.classList.remove('activado');
            }
            else{
-            document.getElementById('myDIV1').setAttribute('src','')
-            document.getElementById('myDIV2').setAttribute('src','') 
-            document.getElementById('myDIV3').setAttribute('src','')
+            document.getElementById('myDIV1').setAttribute('iframe','myDiv1')
+            document.getElementById('myDIV2').setAttribute('iframe','myDIV2') 
+            document.getElementById('myDIV3').setAttribute('iframe','myDIV3')
             marcado3.classList.add('activado');
            }
            
