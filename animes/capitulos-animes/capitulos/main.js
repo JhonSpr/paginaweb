@@ -72,7 +72,8 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
-                   i.reset();
+                   document.querySelector('myDIV1').setAttribute('src','')
+
                
                   
                } else {
