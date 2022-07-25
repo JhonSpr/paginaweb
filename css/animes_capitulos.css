@@ -451,6 +451,9 @@ p{
 aside{
     display:none;
 }
+body{
+    background: #111114;
+}
 }
 
 @media screen and (max-width:480px){
