@@ -130,5 +130,17 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
    
-          
+          function like(){
+            like = document.getElementById('like');
+            icono = document.getElementsByClassName('.fa-thumbs-up');
+
+            if(like){
+                icono.classList.add('likeado')
+            }
+            else{
+                
+                    icono.classList.remove('likeado')
+                
+            }
+          }
      

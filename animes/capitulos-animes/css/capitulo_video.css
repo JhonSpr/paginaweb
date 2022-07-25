@@ -2,6 +2,10 @@
     display:none;
 }
 
+.likeado{
+    color: #FF3636;
+}
+
 @media (max-width:2340px){
 
     .contenedor-list{
