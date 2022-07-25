@@ -131,4 +131,4 @@ addEventListener('DOMContentLoaded', () => {
           }        
    
           
-          document.getElementsByClassName(".op1").textContent="JW Player";
+          document.getElementById("op1").textContent="New Text";
