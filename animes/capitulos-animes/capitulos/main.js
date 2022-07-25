@@ -33,7 +33,9 @@ addEventListener('DOMContentLoaded', () => {
                  
    
                } else {
-                document.querySelector('iframe').setAttribute('src','')
+                document.getElementById('myDIV1').setAttribute('src','')
+                document.getElementById('myDIV2').setAttribute('src','')
+                document.getElementById('myDIV3').setAttribute('src','')
                    i.style.display = "block";
                    x.style.display="none";
                    g.style.display="none";
