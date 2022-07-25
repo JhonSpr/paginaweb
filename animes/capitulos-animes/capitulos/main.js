@@ -60,7 +60,9 @@ addEventListener('DOMContentLoaded', () => {
                   
    
                } else {
-                
+                document.getElementById('myDIV1').setAttribute('src','')
+                document.getElementById('myDIV2').setAttribute('src','')
+                document.getElementById('myDIV3').setAttribute('src','')
                    x.style.display = "none";
                    i.style.display="none";
                    g.style.display="block";
@@ -84,7 +86,10 @@ addEventListener('DOMContentLoaded', () => {
                
                   
                } else {
-                
+
+                document.getElementById('myDIV1').setAttribute('src','')
+                document.getElementById('myDIV2').setAttribute('src','')
+                document.getElementById('myDIV3').setAttribute('src','')
                 x.style.display = "block";
                 g.style.display="none";
                 i.style.display= "none";       
