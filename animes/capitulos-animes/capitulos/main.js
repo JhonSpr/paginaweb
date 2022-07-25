@@ -72,6 +72,7 @@ addEventListener('DOMContentLoaded', () => {
                    x.style.display = "block";
                    g.style.display="none";
                    i.style.display= "none";
+                   i.reset();
                
                   
                } else {
