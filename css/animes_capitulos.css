@@ -286,7 +286,7 @@ p{
     padding:15px 0 10px 0;
     display:block;
     height:auto;
-    background:#000;
+    background:transparent;
     margin-bottom:-2px;
     margin-left:-80px;
     border-radius:0px 10px 0 0;
@@ -346,12 +346,15 @@ p{
     overflow-x: auto;
     transition: 300ms;
     max-height: 600px;  
-    background: #000;
+    background: transparent;
     width: auto;
     margin-left:-78px;
 }
 .contenedor_capitulos li {
     border-top:2px solid #111114;
+}
+body{
+    background: #111114;
 }
 
 
