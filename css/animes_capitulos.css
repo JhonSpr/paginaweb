@@ -11,6 +11,10 @@
 
 }
 
+.img-bottom{
+    color: #fff;
+}
+
 /*Scroll*/
 
 .contenedor_capitulos::-webkit-scrollbar-track {
