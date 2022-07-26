@@ -134,14 +134,14 @@ addEventListener('DOMContentLoaded', () => {
             like = document.querySelector('.fa-thumbs-up');
              if (btnLike) {
                  btnLike.addEventListener('click', () =>{
-                    like.classList.add('likeado')
-                    btnLike.classList.add('likeadoBtn')
+                     like.style.color="#000";
+                     btnLike.style.background="#000";
                  });
  
              }
              else{
-                like.classList.remove('likeado')
-                btnLike.classList.remove('likeadoBtn')
+                btnLike.style.color="#000";
+                 like.style.color="#FF3636";
              }
  
              
