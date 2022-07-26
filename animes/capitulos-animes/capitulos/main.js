@@ -140,7 +140,7 @@ addEventListener('DOMContentLoaded', () => {
  
              }
              else{
-                btnLike.style.color="#000":
+                btnLike.style.color="#000";
                  like.style.color="#FF3636";
              }
  
