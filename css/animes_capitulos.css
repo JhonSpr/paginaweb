@@ -93,6 +93,9 @@
 
 /* Media Query*/
 @media screen and (max-width:1920px){
+    .menu-responsive2{
+        display:none;
+    }
 
    
     .cont-secuelas{
@@ -757,5 +760,8 @@ body{
         }
         .img-bottom-finalizado{
             display:none;
+        }
+        .menu-responsive2{
+            display:block;
         }
 }
