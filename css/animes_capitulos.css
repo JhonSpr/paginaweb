@@ -553,6 +553,10 @@ body{
 }
 
 @media screen and (max-width:600px){
+    li{
+        background: none !important;
+    }
+
     .cont-secuelas{
         margin-left:0;
     }
