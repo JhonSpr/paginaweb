@@ -134,7 +134,7 @@ addEventListener('DOMContentLoaded', () => {
             like = document.querySelector('.like');
             like.addEventListener('click',()=>{
                 
-                    like.classList.add('likeado');
+                    like.classList.add('likeado.active');
                     like.classList.remove('like')
                 }
         )
