@@ -131,13 +131,19 @@ addEventListener('DOMContentLoaded', () => {
           }        
    
          function like(){
-            const like = document.querySelector('like');
-            if (like) {
-                like.addEventListener('click' , () =>{
-                    const likeado = document.querySelector('.fa-thumbs-up')
-                    likeado.classList.add('likeado')
-                })
+           btnLike = document.querySelector('like');
+           like = document.querySelector('.fa-thumbs-up');
+            if (btnLike) {
+                btnLike.addEventListener('click', () =>{
+                    like.style.color="#FF3636";
+                });
+
             }
+            else{
+                like.style.color="#fff";
+            }
+
+            
         
         }
   
