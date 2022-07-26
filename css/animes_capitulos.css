@@ -556,6 +556,29 @@ body{
 }
 
 @media screen and (max-width:600px){
+    .cont-secuelas{
+        margin-left:0;
+    }
+
+    .Descripcion-text{
+        color:#c47006;
+        margin-left:10px;
+        margin-top:0px;
+    }
+    .informacion{
+    margin:0;
+    }
+    aside{
+        display:none;
+    }
+
+    .img-bottom-emision{
+     display:none;
+        }
+    .img-bottom-finalizado{
+       display:none;
+        
+        }
     
 
 
@@ -568,13 +591,13 @@ body{
     }
     
     .contenedor_descripcion p img{
-        width:120px;
-        height:150px;
+        display:none;
     }
     
     
     .contenedor_descripcion{
         width:auto;  
+        border-top:none;
     }
     .text-top{
         padding:15px 0 10px 0;
@@ -582,6 +605,7 @@ body{
         height:auto;
         background:#111114;
         margin-bottom:-2px;
+        margin-top:0;
         margin-left:-80px;
         border-radius:0px 10px 0 0;
     }
@@ -650,7 +674,6 @@ body{
         background:#111114;
     }
     }
-
 
 @media (max-width:320px){
         .img-bottom-emision{
