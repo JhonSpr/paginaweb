@@ -93,6 +93,9 @@
 /* Media Query*/
 
 @media screen and (max-width:1920px){
+    aside{
+        display:none;
+    }
 
     .img-bottom-emision{
         display: inline-block;
