@@ -4,7 +4,7 @@ let products = {
         productName: "Regular White T-Shirt",
         category: "Topwear",
         price: "30",
-        image: "white-tshirt.jpg",
+        image: "86-2nd-season.jpg",
       },
       {
         productName: "Beige Short Skirt",
