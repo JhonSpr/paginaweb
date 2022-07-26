@@ -130,23 +130,17 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
    
-          function like(){
-            
-            like = document.getElementById('like');
-            like.addEventListener('click', ()=>{
-           
-            icono = document.getElementsByClassName('.fa-thumbs-up');
-                
-            if(like){
-                icono.classList.add('likeado')
-            }
-            else{
-                
-            icono.classList.remove('likeado')
-                
+         function like(){
+            const like = document.querySelector('like');
+            if (like) {
+                like.addEventListener('click' , () =>{
+                    const likeado = document.querySelector('.fa-thumbs-up')
+                    likeado.classList.add('likeado')
+                })
             }
         
-
-            })  }
-
+        }
+  
+         
+    
      
