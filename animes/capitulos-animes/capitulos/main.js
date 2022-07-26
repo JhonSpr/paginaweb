@@ -129,22 +129,19 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV2').src = document.getElementById('myDIV2').src;
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
+
+
           function like(){
-            btnLike = document.querySelector('like');
-            like = document.querySelector('.fa-thumbs-up');
-             if (btnLike) {
-                 btnLike.addEventListener('click', () =>{
-                     like.style.color="#FF3636";
-                     btnLike.style.background="#c47005";
-                 });
- 
+            unlike = document.getElementById('like');
+            meGusta = document.getElementById('gusta');
+             if (unlike.style.background === "111114", meGusta.style.color === "#fff") {
+                unlike.style.background="#c47005";
+                meGusta.style.color="#FF3636"
              }
              else{
-                btnLike.style.color="#000";
-                 like.style.color="#FF3636";
+                unlike.style.background="#111114"
+                meGusta.style.color="#fff"
              }
- 
-             
          
          }
    
