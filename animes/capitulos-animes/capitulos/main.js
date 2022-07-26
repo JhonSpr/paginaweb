@@ -133,9 +133,14 @@ addEventListener('DOMContentLoaded', () => {
 
           function like(){
             unlike = document.getElementById('like');
-            if(like.style.background === '#111114')
-            unlike.style.color = "#fff";
+            if(like.style.background === '#111114'){
+                unlike.style.color = "#fff";
             unlike.style.background="#fa0"
+            }else{
+            unlike.style.color = "#fff";
+            unlike.style.background="#111114"
+            }
+            
          
          }
    
