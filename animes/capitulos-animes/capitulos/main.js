@@ -129,24 +129,23 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV2').src = document.getElementById('myDIV2').src;
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
+          function like(){
+            btnLike = document.querySelector('like');
+            like = document.querySelector('.fa-thumbs-up');
+             if (btnLike) {
+                 btnLike.addEventListener('click', () =>{
+                     like.style.color="#000";
+                 });
+ 
+             }
+             else{
+                 like.style.color="#FF3636";
+             }
+ 
+             
+         
+         }
    
-         function like(){
-           btnLike = document.querySelector('like');
-           like = document.querySelector('.fa-thumbs-up');
-            if (btnLike) {
-                btnLike.addEventListener('click', () =>{
-                    like.style.color="#FF3636";
-                });
-
-            }
-            else{
-                like.style.color="#fff";
-            }
-
-            
-        
-        }
-  
          
     
      
