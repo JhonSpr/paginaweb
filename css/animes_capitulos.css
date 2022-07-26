@@ -91,8 +91,8 @@
 
 
 /* Media Query*/
-
 @media screen and (max-width:1920px){
+
     .Descripcion-text{
         color:#c46004;
         margin-left:440px;
@@ -153,7 +153,7 @@
             margin-right:20px;
             border: 2px solid #c76310;
             margin-left:150px;
-            margin-bottom:-16px;
+            margin-bottom:-250px;
         }
         .text-top{
             padding:15px 0 10px 0;
@@ -229,7 +229,7 @@
         }
         
         }
-          
+            
 
 
 @media screen and (max-width:1440px){
