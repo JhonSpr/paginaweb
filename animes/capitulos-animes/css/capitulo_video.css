@@ -2147,7 +2147,9 @@
             
         }
     
-        
+        header{
+            background: #ca4700;
+        }
         
         .activado {
             background-color: #fa0;
