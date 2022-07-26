@@ -1,91 +1,140 @@
-$(document).ready(function () {
-    var id = -1;
-    $("#search-form #q").keyup(function (e) {
-        var keyword = $(this).val();
-        //var keyword_replace = $('#q_search_replace').val();
-        var keyword_replace = '';
-        if (keyword_replace != keyword) {
-            preload(keyword, id);
-            $('#q_search_replace').val('');
-            //$("#key_pres").val('');
-        }
+let products = {
+    data: [
+      {
+        productName: "Regular White T-Shirt",
+        category: "Topwear",
+        price: "30",
+        image: "white-tshirt.jpg",
+      },
+      {
+        productName: "Beige Short Skirt",
+        category: "Bottomwear",
+        price: "49",
+        image: "short-skirt.jpg",
+      },
+      {
+        productName: "Sporty SmartWatch",
+        category: "Watch",
+        price: "99",
+        image: "sporty-smartwatch.jpg",
+      },
+      {
+        productName: "Basic Knitted Top",
+        category: "Topwear",
+        price: "29",
+        image: "knitted-top.jpg",
+      },
+      {
+        productName: "Black Leather Jacket",
+        category: "Jacket",
+        price: "129",
+        image: "black-leather-jacket.jpg",
+      },
+      {
+        productName: "Stylish Pink Trousers",
+        category: "Bottomwear",
+        price: "89",
+        image: "pink-trousers.jpg",
+      },
+      {
+        productName: "Brown Men's Jacket",
+        category: "Jacket",
+        price: "189",
+        image: "brown-jacket.jpg",
+      },
+      {
+        productName: "Comfy Gray Pants",
+        category: "Bottomwear",
+        price: "49",
+        image: "comfy-gray-pants.jpg",
+      },
+    ],
+  };
+  
+  for (let i of products.data) {
+    //Create Card
+    let card = document.createElement("div");
+    //Card should have category and should stay hidden initially
+    card.classList.add("card", i.category, "hide");
+    //image div
+    let imgContainer = document.createElement("div");
+    imgContainer.classList.add("image-container");
+    //img tag
+    let image = document.createElement("img");
+    image.setAttribute("src", i.image);
+    imgContainer.appendChild(image);
+    card.appendChild(imgContainer);
+    //container
+    let container = document.createElement("div");
+    container.classList.add("container");
+    //product name
+    let name = document.createElement("h5");
+    name.classList.add("product-name");
+    name.innerText = i.productName.toUpperCase();
+    container.appendChild(name);
+    //price
+    let price = document.createElement("h6");
+    price.innerText = "$" + i.price;
+    container.appendChild(price);
+  
+    card.appendChild(container);
+    document.getElementById("products").appendChild(card);
+  }
+  
+  //parameter passed from button (Parameter same as category)
+  function filterProduct(value) {
+    //Button class code
+    let buttons = document.querySelectorAll(".button-value");
+    buttons.forEach((button) => {
+      //check if value equals innerText
+      if (value.toUpperCase() == button.innerText.toUpperCase()) {
+        button.classList.add("active");
+      } else {
+        button.classList.remove("active");
+      }
     });
-    $("#search-form #q").focus(function (e) {
-        var keyword = $(this).val();
-        preload(keyword, id);
-    });
-    $("#search-form #q").blur(function () {
-        if ($("#header_search_autocomplete").is(':hover') === true) {
+  
+    //select all cards
+    let elements = document.querySelectorAll(".card");
+    //loop through all cards
+    elements.forEach((element) => {
+      //display all cards on 'all' button click
+      if (value == "all") {
+        element.classList.remove("hide");
+      } else {
+        //Check if element contains category class
+        if (element.classList.contains(value)) {
+          //display element based on category
+          element.classList.remove("hide");
         } else {
-            var keyword = '';
-            preload(keyword, id);
+          //hide other elements
+          element.classList.add("hide");
         }
+      }
     });
-    $("#search-form #q").keydown(function (e) {
-        var keyword = $(this).val();
-        var key_pres = '';
-        if (e.keyCode == 13) {
-            e.preventDefault();
-            if (key_pres != '') {
-                ///var alias = $('#link_alias').val();
-                //window.location.href = 'http://gogoanime.se/info/' + alias;
-            } else {
-                //window.location.href = 'https://gogoanime.se/search.html?keyword=' + keyword;
-            }
-        }
-        if ($('#header_search_autocomplete_body:visible').length > 0) {
-            var items = $('#header_search_autocomplete_body').children();
-            var nextElement = null;
-            var current_index = -1;
-            var link_alias = '';
-            event_id = $("#key_pres").val();
-            if (event_id != '') {
-                if (event_id.substring(0, 'header_search_autocomplete_item_'.length) == 'header_search_autocomplete_item_') {
-                    current_index = parseInt(event_id.replace('header_search_autocomplete_item_', ''));
-                    $('#header_search_autocomplete_body div').removeClass('focused');
-                }
-            }
-            if (e.keyCode == 38) {
-                e.preventDefault();
-                current_index = Math.max(0, current_index - 1);
-                nextElement = $('#header_search_autocomplete_item_' + current_index);
-            } else if (e.keyCode == 40) {
-                e.preventDefault();
-                current_index = Math.min(items.length - 1, current_index + 1);
-                nextElement = $('#header_search_autocomplete_item_' + current_index);
-            }
-            if (nextElement) {
-                nextElement.stop(true, true);
-                $('#header_search_autocomplete_item_' + current_index).focus();
-                $('#header_search_autocomplete_item_' + current_index).stop(true, true).addClass('focused');
-                $("#key_pres").val('header_search_autocomplete_item_' + current_index);
-                var link_alias = $('#header_search_autocomplete_item_' + current_index + ' a').attr('rel');
-                //$("#link_alias").val(link_alias);
-                $("#q_search_replace").val(keyword);
-                id = current_index;
-            }
-        }
+  }
+  
+  //Search button click
+  document.getElementById("search").addEventListener("click", () => {
+    //initializations
+    let searchInput = document.getElementById("search-input").value;
+    let elements = document.querySelectorAll(".product-name");
+    let cards = document.querySelectorAll(".card");
+  
+    //loop through all elements
+    elements.forEach((element, index) => {
+      //check if text includes the search value
+      if (element.innerText.includes(searchInput.toUpperCase())) {
+        //display matching card
+        cards[index].classList.remove("hide");
+      } else {
+        //hide others
+        cards[index].classList.add("hide");
+      }
     });
-});
-function preload(keyword, id) {
-    $.ajax({
-        type: "get",
-        url: base_url + "search.html",
-        //dataType: 'json',
-        data: {q: keyword, id: id},
-        success: function (data, response) {
-            $("#header_search_autocomplete").html(data);
-        }
-    });
-}
-function do_search() {
-    var keyword = $("#search-form #q").val();
-    keyword = keyword.replace(/\s+/g, '-');
-    if(keyword.length > 2) {
-        window.location.href = base_url + 'browse?q=' + keyword;
-    }else{
-        //$("#search-form #q").focus();
-    }
-    
-    return false;
-}
+  });
+  
+  //Initially display all products
+  window.onload = () => {
+    filterProduct("all");
+  };
