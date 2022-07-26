@@ -130,17 +130,7 @@ addEventListener('DOMContentLoaded', () => {
             document.getElementById('myDIV3').src = document.getElementById('myDIV3').src;
           }        
 
-          function like(){
-            like = document.querySelector('.like');
-            like.addEventListener('click',()=>{
-                
-                    like.classList.add('active');
-                    like.classList.remove('like')
-                }
-        )
-          }
-
-            
+   
           
           
    
