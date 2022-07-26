@@ -140,15 +140,6 @@ addEventListener('DOMContentLoaded', () => {
         )
           }
 
-          function unlike(){
-            like = document.querySelector('.like');
-            like.addEventListener('click',()=>{
-                
-                    like.classList.remove('likeado');
-                    like.classList.add('like')
-                }
-        )
-          }
             
           
           
