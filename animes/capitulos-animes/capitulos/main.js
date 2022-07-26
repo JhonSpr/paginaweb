@@ -133,7 +133,7 @@ addEventListener('DOMContentLoaded', () => {
 
           function like(){
           
-            unlike.addEventListener('click',()=>{
+                unlike.addEventListener('click',()=>{
                 unlike = document.getElementById('like');
                 if(like.style.background === '#111114'){
                     unlike.style.color = "#fff";
