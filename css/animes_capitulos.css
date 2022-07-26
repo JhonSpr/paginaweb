@@ -91,7 +91,13 @@
 
 
 /* Media Query*/
+/* Media Query*/
 @media screen and (max-width:1920px){
+
+   
+    .cont-secuelas{
+        margin-left:430px;
+    }
 
     .Descripcion-text{
         color:#c46004;
@@ -107,9 +113,9 @@
 
     .img-bottom-emision{
         display: inline-block;
-        margin: -10px 0 0 167px;
+        margin:35px 0 0 97px;
         padding:10px;
-        width:260px;
+        width:265px;
         background:#26CA12;
         text-align:center;
         border-radius:5px;
@@ -117,7 +123,7 @@
         }
     .img-bottom-finalizado{
         display: inline-block;
-        margin-left:135px;
+        margin:35px 0 0 97px;
         padding:10px;
         width:265px;
         background:#D52727;
@@ -128,9 +134,9 @@
         }
     
         .contenedor_descripcion{
-           border:2px solid #cc13;
+           font-weight:700;
             width:1600px;
-            margin-left:90px;
+            margin-left:60px;
            
         }
     
@@ -156,19 +162,21 @@
             margin-bottom:-250px;
         }
         .text-top{
-            padding:15px 0 10px 0;
+            padding:15px 0 0 0;
             display:block;
             height:auto;
             background:transparent;
-            margin-bottom:-2px;
+            margin-bottom:px;
+            margin-top:150px;
             margin-left:-75px;
             border-radius:0px 10px 0 0;
         }
         
         .list-top{
             color:#fff;
-            font-size:20px;
-            margin-left:15px;
+            font-size:25px;
+            margin-left:286px;
+            
         }
         
         .contenedor_capitulos li:hover {
@@ -210,7 +218,8 @@
         
         .contenedor_capitulos li a {
             display:block;
-            padding:15px;
+            padding:12px;
+            border:1px solid #c1c1a111;
         }
         
         .contenedor_capitulos {
@@ -219,8 +228,8 @@
             transition: 300ms;
             background-color: transparent;
             max-height: 600px;  
-            width: auto;
-            margin-left:-80px;
+            width: 1400px;
+            margin-left:200px;
         }
         
         body{
@@ -230,6 +239,8 @@
         
         }
             
+
+      
 
 
 @media screen and (max-width:1440px){
