@@ -1,9 +1,16 @@
 .nada{
     display:none;
 }
+.btn{
+    background: #000;
+}
 
 .likeado{
     color: #FF3636;
+}
+
+.likeadoBtn{
+    background: #c47005;
 }
 
 @media (max-width:2340px){
