@@ -134,7 +134,7 @@ addEventListener('DOMContentLoaded', () => {
           function like(){
           
             icono = document.getElementById('gusta')   
-            likeado = document.getElementById('like');
+            likeado = document.getElementById('gusta');
             if(icono.style.color === "#fff"){
                 likeado.classList.add('likeado');
             }else{
