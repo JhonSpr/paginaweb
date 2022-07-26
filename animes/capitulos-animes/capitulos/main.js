@@ -141,7 +141,8 @@ addEventListener('DOMContentLoaded', () => {
             }
             
          })
-
+         function unlike(){
+            
          addEventListener('DOMContentLoaded',()=>{
             like = document.querySelector('.fa-thumbs-up');
             if(like){
@@ -151,6 +152,7 @@ addEventListener('DOMContentLoaded', () => {
                 })
             }
          })
+         }
           
    
          
