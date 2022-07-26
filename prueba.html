@@ -13,6 +13,14 @@
         <button class="btn btn-info mb-2" id="boton">Buscar</button>
 
     </div>
-    
+        <script>
+            const formulario = document.querySelector('#formulario');
+            const boton = document.querySelector('#boton');
+            const filtrar = ()=>{
+                console.log(formulario.value);
+            }
+
+            boton.addEventListener('click', filtrar)
+        </script>
 </body>
 </html>
