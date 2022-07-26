@@ -136,6 +136,7 @@
             float:left;
             position:relative;
             margin-right:10px;
+            border: 2px solid #c76310;
         }
         .text-top{
             padding:15px 0 10px 0;
