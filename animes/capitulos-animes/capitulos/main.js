@@ -138,13 +138,18 @@ addEventListener('DOMContentLoaded', () => {
                     const like = document.querySelector('.fa-thumbs-up');
                     like.classList.add('likeado');
                 })
-            }else{
+            }
+            
+         })
+
+         addEventListener('DOMContentLoaded',()=>{
+            likear = document.getElementById('gusta');
+            if(likear){
                 likear.addEventListener('click',()=>{
                     const like = document.querySelector('.fa-thumbs-up');
                     like.classList.remove('likeado');
                 })
             }
-            
          })
           
    
