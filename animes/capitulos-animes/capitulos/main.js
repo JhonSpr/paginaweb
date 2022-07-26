@@ -134,7 +134,7 @@ addEventListener('DOMContentLoaded', () => {
             like = document.querySelector('.fa-thumbs-up');
              if (btnLike) {
                  btnLike.addEventListener('click', () =>{
-                     like.style.color="#ff3636";
+                     like.style.color="#FF3636";
                      btnLike.style.background="#c47005";
                  });
  
