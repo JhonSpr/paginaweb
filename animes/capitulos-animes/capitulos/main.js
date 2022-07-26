@@ -145,7 +145,7 @@ addEventListener('DOMContentLoaded', () => {
          addEventListener('DOMContentLoaded',()=>{
             likear = document.getElementById('gusta');
             if(likear){
-                likear.addEventListener('click',()=>{
+                like.addEventListener('click',()=>{
                     const like = document.querySelector('.fa-thumbs-up');
                     like.classList.remove('likeado');
                 })
