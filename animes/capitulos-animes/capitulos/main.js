@@ -135,7 +135,7 @@ addEventListener('DOMContentLoaded', () => {
              if (btnLike) {
                  btnLike.addEventListener('click', () =>{
                      like.style.color="#000";
-                     btnLike.style.background="#000";
+                     btnLike.style.background="#c47005";
                  });
  
              }
