@@ -133,17 +133,14 @@ addEventListener('DOMContentLoaded', () => {
 
           function like(){
           
-                unlike.addEventListener('click',()=>{
-                unlike = document.getElementById('like');
-                if(like.style.background === '#111114'){
-                    unlike.style.color = "#fff";
-                unlike.style.background="#fa0"
-                }else{
-                unlike.style.color = "#fff";
-                unlike.style.background="#111114"
-                }
-            })
-            
+            icono = document.getElementById('gusta')   
+            likeado = document.getElementById('like');
+            if(icono.style.color === "#fff"){
+                likeado.classList.add('likeado');
+            }else{
+                likeado.classList.remove('likeado');
+            }
+
          
          }
    
