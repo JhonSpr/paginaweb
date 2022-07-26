@@ -135,7 +135,7 @@ addEventListener('DOMContentLoaded', () => {
           
             icono = document.getElementById('gusta')   
             likeado = document.getElementById('gusta');
-            if(icono.style.color === "#fff"){
+            if(icono){
                 likeado.classList.add('likeado');
             }else{
                 likeado.classList.remove('likeado');
